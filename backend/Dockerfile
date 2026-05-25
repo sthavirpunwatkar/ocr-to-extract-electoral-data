@@ -9,7 +9,8 @@ RUN apt-get update && apt-get install -y \
     && rm -rf /var/lib/apt/lists/*
 
 COPY requirements.txt .
-# Use a cache mount to speed up pip downloads and wheel creation
+# Install torch separately to handle the massive wheels efficiently
+RUN pip install --no-cache-dir torch torchvision --index-url https://download.pytorch.org/whl/cu118
 RUN --mount=type=cache,target=/root/.cache/pip \
     pip wheel --wheel-dir /app/wheels -r requirements.txt --default-timeout=1000
 
@@ -17,7 +18,7 @@ FROM python:3.10-slim
 
 WORKDIR /app
 
-# Install system dependencies for OCR and ML libraries
+# Install system dependencies for OCR (OpenCV, docTR, pdf2image)
 RUN apt-get update && apt-get install -y \
     libpq-dev \
     libgl1 \
@@ -29,7 +30,8 @@ RUN apt-get update && apt-get install -y \
 COPY --from=builder /app/wheels /wheels
 COPY --from=builder /app/requirements.txt .
 
-# Use a cache mount for the final installation as well
+# Install from wheels
+RUN pip install --no-cache-dir torch torchvision --index-url https://download.pytorch.org/whl/cu118
 RUN --mount=type=cache,target=/root/.cache/pip \
     pip install --no-index --find-links=/wheels /wheels/*
 
@@ -38,6 +40,7 @@ COPY . .
 ENV PYTHONPATH=/app
 ENV HOME=/app
 ENV PYTHONUNBUFFERED=1
+ENV DOCTR_CACHE_DIR=/app/.cache/doctr
 
 # Create a non-root user
 RUN addgroup --system appgroup && adduser --system --ingroup appgroup --home /app appuser

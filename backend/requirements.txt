@@ -17,9 +17,9 @@ prometheus-client
 PyYAML==6.0.2
 pydantic
 numpy==1.26.4
-paddleocr==2.8.1
-paddlepaddle-gpu==2.6.2
-easyocr
+python-doctr[pytorch]
+torch
+torchvision
 opencv-python-headless==4.9.0.80
 pdf2image
 pillow
