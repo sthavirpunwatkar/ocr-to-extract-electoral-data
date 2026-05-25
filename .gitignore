@@ -50,3 +50,7 @@ benchmarks/data/extracted/*.json
 
 # Docker
 .docker_cache/
+
+# Gemini CLI Configuration (Local Only)
+.gemini/
+GEMINI.md
