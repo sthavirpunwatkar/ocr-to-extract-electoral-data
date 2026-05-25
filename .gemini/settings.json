@@ -1,0 +1,28 @@
+{
+  "permissions": {
+    "allow": [
+      "python backend/app/api/main.py",
+      "npm run dev",
+      "git push origin master"
+    ],
+    "deny": [
+      "Read(.env)",
+      "git push --force"
+    ]
+  },
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "*.py",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "ruff check"
+          }
+        ]
+      }
+    ]
+  },
+  "model": "claude-3-5-sonnet",
+  "autoMemoryEnabled": true
+}
