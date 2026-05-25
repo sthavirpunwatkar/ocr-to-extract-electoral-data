@@ -1,0 +1,24 @@
+name: campaign_app
+description: A new Flutter project for campaign management.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.19.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^0.13.5
+  sqflite: ^2.2.8
+  path: ^1.8.2
+  path_provider: ^2.0.15
+  provider: ^6.0.5
+  geolocator: ^9.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.1
+
+flutter:
+  uses-material-design: true

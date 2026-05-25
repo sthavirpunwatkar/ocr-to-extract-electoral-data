@@ -1,0 +1,216 @@
+{
+    "sample_1.json": {
+        "booth_accuracy": {
+            "booth_name": {
+                "match": true,
+                "cer": 0.0,
+                "expected": "Primary School Building, South Wing",
+                "actual": "Primary School Building, South Wing"
+            },
+            "booth_no": {
+                "match": true,
+                "cer": 0.0,
+                "expected": "45",
+                "actual": "45"
+            },
+            "ac_name": {
+                "match": true,
+                "cer": 0.0,
+                "expected": "Lucknow Central",
+                "actual": "Lucknow Central"
+            },
+            "ac_no": {
+                "match": true,
+                "cer": 0.0,
+                "expected": "174",
+                "actual": "174"
+            }
+        },
+        "record_accuracy": {
+            "total_expected": 2,
+            "total_extracted": 2,
+            "fully_correct": 1,
+            "accuracy_rate": 0.5
+        },
+        "overall_avg_cer": 0.05,
+        "details": [
+            {
+                "epic": "ABC1234567",
+                "fields": {
+                    "name": {
+                        "match": true,
+                        "cer": 0.0,
+                        "expected": "RAHUL SHARMA",
+                        "actual": "RAHUL SHARMA"
+                    },
+                    "relation_name": {
+                        "match": true,
+                        "cer": 0.0,
+                        "expected": "OM PRAKASH SHARMA",
+                        "actual": "OM PRAKASH SHARMA"
+                    },
+                    "house_no": {
+                        "match": true,
+                        "cer": 0.0,
+                        "expected": "12/A",
+                        "actual": "12/A"
+                    },
+                    "age": {
+                        "match": true,
+                        "cer": 0.0,
+                        "expected": "28",
+                        "actual": "28"
+                    },
+                    "gender": {
+                        "match": true,
+                        "cer": 0.0,
+                        "expected": "MALE",
+                        "actual": "MALE"
+                    }
+                }
+            },
+            {
+                "epic": "XYZ9876543",
+                "fields": {
+                    "name": {
+                        "match": true,
+                        "cer": 0.0,
+                        "expected": "ANJALI SINGH",
+                        "actual": "ANJALI SINGH"
+                    },
+                    "relation_name": {
+                        "match": true,
+                        "cer": 0.0,
+                        "expected": "VIJAY SINGH",
+                        "actual": "VIJAY SINGH"
+                    },
+                    "house_no": {
+                        "match": true,
+                        "cer": 0.0,
+                        "expected": "45",
+                        "actual": "45"
+                    },
+                    "age": {
+                        "match": false,
+                        "cer": 0.5,
+                        "expected": "32",
+                        "actual": "33"
+                    },
+                    "gender": {
+                        "match": true,
+                        "cer": 0.0,
+                        "expected": "FEMALE",
+                        "actual": "FEMALE"
+                    }
+                }
+            }
+        ]
+    },
+    "sample_2.json": {
+        "booth_accuracy": {
+            "booth_name": {
+                "match": true,
+                "cer": 0.0,
+                "expected": "Government Inter College, Room No 1",
+                "actual": "Government Inter College, Room No 1"
+            },
+            "booth_no": {
+                "match": true,
+                "cer": 0.0,
+                "expected": "12",
+                "actual": "12"
+            },
+            "ac_name": {
+                "match": true,
+                "cer": 0.0,
+                "expected": "Varanasi Cantt",
+                "actual": "Varanasi Cantt"
+            },
+            "ac_no": {
+                "match": true,
+                "cer": 0.0,
+                "expected": "390",
+                "actual": "390"
+            }
+        },
+        "record_accuracy": {
+            "total_expected": 2,
+            "total_extracted": 2,
+            "fully_correct": 1,
+            "accuracy_rate": 0.5
+        },
+        "overall_avg_cer": 0.02222222222222222,
+        "details": [
+            {
+                "epic": "UP/01/001/000123",
+                "fields": {
+                    "name": {
+                        "match": false,
+                        "cer": 0.1111111111111111,
+                        "expected": "\u0930\u093e\u092e \u0915\u0941\u092e\u093e\u0930",
+                        "actual": "\u0930\u093e\u092e \u0915\u0941\u092e \u0930"
+                    },
+                    "relation_name": {
+                        "match": false,
+                        "cer": 0.1111111111111111,
+                        "expected": "\u0936\u094d\u092f\u093e\u092e \u0932\u093e\u0932",
+                        "actual": "\u0936\u094d\u092f\u093e\u092e \u0932 \u0932"
+                    },
+                    "house_no": {
+                        "match": true,
+                        "cer": 0.0,
+                        "expected": "101",
+                        "actual": "101"
+                    },
+                    "age": {
+                        "match": true,
+                        "cer": 0.0,
+                        "expected": "45",
+                        "actual": "45"
+                    },
+                    "gender": {
+                        "match": true,
+                        "cer": 0.0,
+                        "expected": "MALE",
+                        "actual": "MALE"
+                    }
+                }
+            },
+            {
+                "epic": "IKJ5566778",
+                "fields": {
+                    "name": {
+                        "match": true,
+                        "cer": 0.0,
+                        "expected": "SITA DEVI",
+                        "actual": "SITA DEVI"
+                    },
+                    "relation_name": {
+                        "match": true,
+                        "cer": 0.0,
+                        "expected": "RAM KUMAR",
+                        "actual": "RAM KUMAR"
+                    },
+                    "house_no": {
+                        "match": true,
+                        "cer": 0.0,
+                        "expected": "101",
+                        "actual": "101"
+                    },
+                    "age": {
+                        "match": true,
+                        "cer": 0.0,
+                        "expected": "40",
+                        "actual": "40"
+                    },
+                    "gender": {
+                        "match": true,
+                        "cer": 0.0,
+                        "expected": "FEMALE",
+                        "actual": "FEMALE"
+                    }
+                }
+            }
+        ]
+    }
+}
