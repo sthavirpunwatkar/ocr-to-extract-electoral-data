@@ -2,7 +2,7 @@
 name: code-reviewer
 description: Reviews code for bugs, security issues, and OCR accuracy regressions.
 tools: read_file, glob, grep_search, run_shell_command
-model: sonnet
+model: gemini-2.5-pro
 memory: project
 ---
 
