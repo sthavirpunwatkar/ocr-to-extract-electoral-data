@@ -35,6 +35,7 @@ ENV/
 # Project Specific Large Files/Caches
 .env
 backend/.cache/
+backend/wheels/
 backend/.EasyOCR/
 backend/.paddleocr/
 backend/.paddlex/

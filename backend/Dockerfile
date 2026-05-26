@@ -9,10 +9,15 @@ RUN apt-get update && apt-get install -y \
     && rm -rf /var/lib/apt/lists/*
 
 COPY requirements.txt .
-# Install torch separately to handle the massive wheels efficiently
-RUN pip install --no-cache-dir torch torchvision --index-url https://download.pytorch.org/whl/cu118
+
+# Use the official PyTorch CUDA index to get the correct GPU-optimized binaries
+# This resolves the hash mismatch issue seen with the standard PyPI index
 RUN --mount=type=cache,target=/root/.cache/pip \
-    pip wheel --wheel-dir /app/wheels -r requirements.txt --default-timeout=1000
+    pip wheel --wheel-dir /app/wheels \
+    -r requirements.txt \
+    --index-url https://download.pytorch.org/whl/cu121 \
+    --extra-index-url https://pypi.org/simple \
+    --default-timeout=1000
 
 FROM python:3.10-slim
 
@@ -30,10 +35,10 @@ RUN apt-get update && apt-get install -y \
 COPY --from=builder /app/wheels /wheels
 COPY --from=builder /app/requirements.txt .
 
-# Install from wheels
-RUN pip install --no-cache-dir torch torchvision --index-url https://download.pytorch.org/whl/cu118
-RUN --mount=type=cache,target=/root/.cache/pip \
-    pip install --no-index --find-links=/wheels /wheels/*
+# Install from wheels using the CUDA index for any missing dependencies
+RUN pip install --no-cache-dir \
+    --no-index --find-links=/wheels /wheels/* \
+    && rm -rf /wheels
 
 COPY . .
 

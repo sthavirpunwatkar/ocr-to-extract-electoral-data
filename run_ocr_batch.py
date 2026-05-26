@@ -1,7 +1,7 @@
 import os
 import json
 import logging
-from backend.app.worker.ocr.pipeline import pipeline
+from app.worker.ocr.pipeline import pipeline
 
 # Configure logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')

@@ -127,8 +127,12 @@ async def search(
     current_user: User = Depends(get_current_active_user)
 ):
     try:
-        results = search_voters(q, limit)
-        return {"results": results, "user": current_user.username}
+        search_result = search_voters(q, limit)
+        return {
+            "results": search_result["results"],
+            "transliterated": search_result["transliterated"],
+            "user": current_user.username
+        }
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
 

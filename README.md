@@ -29,6 +29,36 @@ This project is a comprehensive system designed to extract, process, and serve e
 - **Storage:** MinIO (S3-compatible).
 - **OCR:** docTR (Hugging Face / PyTorch).
 
+## GPU Acceleration & Performance
+
+The backend is optimized for **NVIDIA GPU** acceleration using CUDA 12.1. This provides a 10x-20x speedup in OCR inference, essential for processing dense voter lists.
+
+### Requirements
+- Host machine with NVIDIA GPU and drivers.
+- **nvidia-container-toolkit** installed on the host.
+
+### Setup & Run
+```powershell
+docker-compose up --build -d
+```
+
+## Marathi (Devanagari) OCR Support
+
+The system uses a specialized Devanagari recognition model for Marathi voter lists.
+
+### Manual Model Integration
+To support Marathi-only documents, you must manually download the model weights:
+1. Download `crnn_vgg16_bn_hindi.pt` from [IIT Bombay Indic-docTR](https://github.com/iitb-research-code/indic-doctr/releases/tag/model2).
+2. Create the directory: `backend/.cache/doctr/models/`.
+3. Place the file there and rename it to `devanagari_reco.pt`.
+4. Restart the worker: `docker-compose restart worker`.
+
+### Verification
+Check the logs to confirm the model is loaded correctly:
+```powershell
+docker-compose logs -f worker
+```
+
 ## Getting Started
 
 Refer to the `README.md` in each subdirectory for specific setup and deployment instructions.
