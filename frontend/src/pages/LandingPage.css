@@ -1,0 +1,143 @@
+.landing-page {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  min-height: 100vh;
+  background: var(--bg);
+}
+
+.campaign-hero {
+  background: var(--accent);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  text-align: center;
+}
+
+.symbol-placeholder {
+  width: 120px;
+  height: 120px;
+  background: white;
+  color: var(--accent);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 0.8rem;
+  margin-bottom: 30px;
+  border: 4px solid var(--accent-secondary);
+}
+
+.candidate-image-placeholder {
+  width: 250px;
+  height: 300px;
+  background: rgba(255, 255, 255, 0.1);
+  border: 2px dashed rgba(255, 255, 255, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  border-radius: 12px;
+}
+
+.candidate-profile h1 {
+  color: white;
+  margin: 10px 0;
+  font-size: 2.5rem;
+}
+
+.candidate-profile p {
+  font-size: 1.2rem;
+  opacity: 0.9;
+  margin-bottom: 20px;
+}
+
+.constituency-tag {
+  display: inline-block;
+  background: var(--accent-secondary);
+  color: white;
+  padding: 6px 16px;
+  border-radius: 20px;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.login-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+
+.login-card {
+  width: 100%;
+  max-width: 400px;
+  padding: 40px;
+  background: white;
+  border-radius: 16px;
+  box-shadow: var(--shadow);
+  border: 1px solid var(--border);
+}
+
+.login-card h2 {
+  text-align: left;
+  margin-bottom: 30px;
+  color: var(--text-h);
+}
+
+.login-card .form-group {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.login-card label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+
+.login-card input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+
+.login-btn {
+  width: 100%;
+  padding: 14px;
+  background: var(--accent);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.login-btn:hover {
+  background: #1e3a8a;
+}
+
+.login-footer {
+  margin-top: 24px;
+  font-size: 0.85rem;
+  color: var(--text);
+  opacity: 0.8;
+}
+
+@media (max-width: 900px) {
+  .landing-page {
+    grid-template-columns: 1fr;
+  }
+  .campaign-hero {
+    padding: 60px 20px;
+  }
+}

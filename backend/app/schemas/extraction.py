@@ -8,6 +8,8 @@ class VoterBase(BaseModel):
     structured_data: Dict[str, Any]
     confidence: float
     status: Optional[str] = "Pending"
+    sentiment: Optional[str] = None
+    notes: Optional[str] = None
     version: Optional[int] = 1
     latitude: Optional[float] = None
     longitude: Optional[float] = None
@@ -15,6 +17,8 @@ class VoterBase(BaseModel):
 class VoterSyncUpdate(BaseModel):
     id: int
     status: str
+    sentiment: Optional[str] = None
+    notes: Optional[str] = None
     version: int
     latitude: Optional[float] = None
     longitude: Optional[float] = None
@@ -29,6 +33,8 @@ class VoterResponse(VoterBase):
     id: int
     job_id: str
     status: str
+    sentiment: Optional[str] = None
+    notes: Optional[str] = None
     version: int
     latitude: Optional[float] = None
     longitude: Optional[float] = None

@@ -53,6 +53,8 @@ class Voter(Base):
     confidence = Column(Float)
     image_url = Column(String, nullable=True) # Path to the snippet in MinIO
     status = Column(String, default="Pending") # Visited, Confirmed, etc.
+    sentiment = Column(String, nullable=True) # Supportive, Neutral, Opposed
+    notes = Column(String, nullable=True)
     version = Column(Integer, default=1)
     device_id = Column(String, nullable=True)
     latitude = Column(Float, nullable=True)

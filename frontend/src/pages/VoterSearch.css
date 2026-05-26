@@ -1,0 +1,248 @@
+.voter-search-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background: var(--bg);
+}
+
+.app-header {
+  background: white;
+  border-bottom: 1px solid var(--border);
+  padding: 12px 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.app-brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.app-brand .logo {
+  background: var(--accent);
+  color: white;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+.app-brand h1 {
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+.constituency-info {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.constituency-info label {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--text);
+}
+
+.constituency-info select {
+  padding: 6px 12px;
+  border-radius: 6px;
+  border: 1px solid var(--border);
+  background: #f3f4f6;
+  font-weight: 500;
+}
+
+.user-profile {
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.search-main {
+  flex: 1;
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.search-section {
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.search-section h2 {
+  font-size: 2rem;
+  margin-bottom: 12px;
+}
+
+.search-section p {
+  color: var(--text);
+  margin-bottom: 32px;
+}
+
+.search-bar {
+  display: flex;
+  gap: 12px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.search-bar input {
+  flex: 1;
+  padding: 16px 20px;
+  border: 2px solid var(--border);
+  border-radius: 12px;
+  font-size: 1.1rem;
+  transition: border-color 0.2s;
+}
+
+.search-bar input:focus {
+  border-color: var(--accent);
+  outline: none;
+}
+
+.search-bar button {
+  padding: 0 32px;
+  background: var(--accent);
+  color: white;
+  border: none;
+  border-radius: 12px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.results-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+  padding-bottom: 12px;
+  border-bottom: 2px solid var(--border);
+}
+
+.results-header h3 {
+  margin: 0;
+}
+
+.results-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.voter-search-card {
+  background: white;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  text-align: left;
+}
+
+.voter-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 16px;
+}
+
+.voter-header h4 {
+  margin: 0;
+  font-size: 1.1rem;
+  color: var(--text-h);
+}
+
+.status-pill {
+  padding: 4px 10px;
+  border-radius: 4px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.status-pill.pending { background: #fef3c7; color: #92400e; }
+.status-pill.visited { background: #d1fae5; color: #065f46; }
+.status-pill.not_home { background: #e0f2fe; color: #075985; }
+.status-pill.refused { background: #fee2e2; color: #991b1b; }
+.status-pill.shifted { background: #f3e8ff; color: #6b21a8; }
+.status-pill.deceased { background: #374151; color: white; }
+
+.voter-details {
+  margin-bottom: 20px;
+}
+
+.detail-row {
+  display: flex;
+  margin-bottom: 6px;
+  font-size: 0.9rem;
+}
+
+.detail-row .label {
+  width: 80px;
+  color: var(--text);
+  font-weight: 500;
+}
+
+.detail-row .value {
+  flex: 1;
+  color: var(--text-h);
+  font-weight: 600;
+}
+
+.card-actions {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+.card-actions button {
+  padding: 10px;
+  border-radius: 8px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.btn-primary { background: var(--accent); color: white; border: none; }
+.btn-secondary { background: white; color: var(--text-h); border: 1px solid var(--border); }
+
+.transliteration-hint {
+  margin-top: 16px;
+  color: var(--text);
+  font-size: 0.95rem;
+}
+
+.transliteration-hint strong {
+  color: var(--accent);
+  background: #f0f9ff;
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+
+.search-error {
+  margin-top: 16px;
+  color: #dc2626;
+  background: #fef2f2;
+  padding: 10px;
+  border-radius: 8px;
+  display: inline-block;
+}
+
+.no-results {
+  grid-column: 1 / -1;
+  text-align: center;
+  padding: 60px 20px;
+  color: var(--text);
+  font-size: 1.1rem;
+  background: white;
+  border-radius: 12px;
+  border: 1px dashed var(--border);
+}

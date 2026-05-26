@@ -2,6 +2,7 @@ import os
 import logging
 from typing import List, Any
 import torch
+from doctr.io import DocumentFile
 from doctr.models import ocr_predictor, from_hub, crnn_vgg16_bn
 from .base import OCREngine, OCRResult
 
@@ -93,10 +94,14 @@ class DocTREngine(OCREngine):
         logger.info(f"docTR extracting text from input")
         
         # docTR expects list of images (numpy arrays) or paths
-        # If input_data is already a list (e.g. from DocumentFile.from_pdf), use it directly
-        # If it's a string (path), wrap it in a list
+        # If input_data is a string path, check if it's a PDF
         if isinstance(input_data, str):
-            result = self.model([input_data])
+            if input_data.lower().endswith('.pdf'):
+                doc = DocumentFile.from_pdf(input_data)
+                # docTR can process multiple pages at once
+                result = self.model(doc)
+            else:
+                result = self.model([input_data])
         else:
             result = self.model(input_data)
         

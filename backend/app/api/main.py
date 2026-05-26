@@ -162,6 +162,8 @@ async def sync_voters(
         
         if update.version > voter.version or (update.version == voter.version and client_updated_at > voter.updated_at):
             voter.status = update.status
+            voter.sentiment = update.sentiment
+            voter.notes = update.notes
             voter.version = update.version + 1
             voter.latitude = update.latitude
             voter.longitude = update.longitude
