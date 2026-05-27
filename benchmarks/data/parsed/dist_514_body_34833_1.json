@@ -1,0 +1,29 @@
+{
+  "booth_info": {},
+  "records": [
+    {
+      "epic": "",
+      "name": "",
+      "relation_name": "बाबाज्ञाजेज",
+      "house_no": "44ए0यए",
+      "age": "483",
+      "gender": "लिंग"
+    },
+    {
+      "epic": "",
+      "name": "गागरज्ञताजः",
+      "relation_name": "शोब",
+      "house_no": "",
+      "age": "45",
+      "gender": "लिंग"
+    },
+    {
+      "epic": "",
+      "name": "गागरश्ञताज",
+      "relation_name": "वंजग",
+      "house_no": "गणाएरडीईीथणडर्ई",
+      "age": "148",
+      "gender": "धी"
+    }
+  ]
+}

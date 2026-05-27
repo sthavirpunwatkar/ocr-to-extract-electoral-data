@@ -1,0 +1,29 @@
+{
+  "booth_info": {},
+  "records": [
+    {
+      "epic": "",
+      "name": "ाईड",
+      "relation_name": "गाएंजेज",
+      "house_no": "",
+      "age": "45",
+      "gender": "थी"
+    },
+    {
+      "epic": "",
+      "name": "नष",
+      "relation_name": "गब्ोषा",
+      "house_no": "",
+      "age": "51",
+      "gender": "बीं"
+    },
+    {
+      "epic": "",
+      "name": "नाव",
+      "relation_name": "वछिलांचे",
+      "house_no": "",
+      "age": "41",
+      "gender": "धी"
+    }
+  ]
+}

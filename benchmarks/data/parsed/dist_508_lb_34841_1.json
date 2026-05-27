@@ -1,0 +1,29 @@
+{
+  "booth_info": {},
+  "records": [
+    {
+      "epic": "",
+      "name": "",
+      "relation_name": "गोगंवाः",
+      "house_no": "ांठ",
+      "age": "48",
+      "gender": "लिंग"
+    },
+    {
+      "epic": "",
+      "name": "नाव",
+      "relation_name": "ग्णात्रिवे",
+      "house_no": "",
+      "age": "45",
+      "gender": "बीं"
+    },
+    {
+      "epic": "",
+      "name": "नाव",
+      "relation_name": "छेपेग",
+      "house_no": "रंगए0",
+      "age": "44",
+      "gender": "ता"
+    }
+  ]
+}

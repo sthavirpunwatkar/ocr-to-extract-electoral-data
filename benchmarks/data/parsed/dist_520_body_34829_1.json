@@ -1,0 +1,29 @@
+{
+  "booth_info": {},
+  "records": [
+    {
+      "epic": "",
+      "name": "",
+      "relation_name": "गोठव",
+      "house_no": "माएपटराडर",
+      "age": "48",
+      "gender": "लिंग"
+    },
+    {
+      "epic": "",
+      "name": "नष",
+      "relation_name": "पित्राए",
+      "house_no": "मी-गपवएव्णिय",
+      "age": "38",
+      "gender": "बीं"
+    },
+    {
+      "epic": "",
+      "name": "गन्ताष्षाणाता",
+      "relation_name": "श्ावंव",
+      "house_no": "",
+      "age": "371",
+      "gender": "लिंग"
+    }
+  ]
+}

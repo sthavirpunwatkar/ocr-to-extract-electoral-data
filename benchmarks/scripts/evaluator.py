@@ -80,7 +80,7 @@ def evaluate_file(ground_truth_path: str, extracted_path: str) -> Dict[str, Any]
         gt_rec = gt_by_epic.get(epic, {})
         ex_rec = ex_by_epic.get(epic, {})
         
-        field_eval = evaluate_fields(gt_rec, ex_rec, ["name", "relation_name", "house_no", "age", "gender"])
+        field_eval = evaluate_fields(gt_rec, ex_rec, ["epic", "name", "relation_name", "house_no", "age", "gender"])
         record_results.append({
             "epic": epic,
             "fields": field_eval

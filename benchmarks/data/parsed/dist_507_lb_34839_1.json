@@ -1,0 +1,29 @@
+{
+  "booth_info": {},
+  "records": [
+    {
+      "epic": "",
+      "name": "",
+      "relation_name": "गम्वावे",
+      "house_no": "",
+      "age": "15",
+      "gender": "लिंग"
+    },
+    {
+      "epic": "",
+      "name": "नष",
+      "relation_name": "तंतपिपरें",
+      "house_no": "",
+      "age": "38",
+      "gender": "लिंग"
+    },
+    {
+      "epic": "",
+      "name": "नाव",
+      "relation_name": "बांपेवाए",
+      "house_no": "ताब",
+      "age": "148",
+      "gender": "लिंग"
+    }
+  ]
+}

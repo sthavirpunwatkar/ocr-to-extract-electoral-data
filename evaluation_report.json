@@ -1,213 +1,561 @@
 {
-    "sample_1.json": {
+    "dist_502_body_34835_1.json": {
         "booth_accuracy": {
             "booth_name": {
                 "match": true,
                 "cer": 0.0,
-                "expected": "Primary School Building, South Wing",
-                "actual": "Primary School Building, South Wing"
+                "expected": "",
+                "actual": ""
             },
             "booth_no": {
-                "match": true,
-                "cer": 0.0,
-                "expected": "45",
-                "actual": "45"
+                "match": false,
+                "cer": 1.0,
+                "expected": "14",
+                "actual": ""
             },
             "ac_name": {
                 "match": true,
                 "cer": 0.0,
-                "expected": "Lucknow Central",
-                "actual": "Lucknow Central"
+                "expected": "",
+                "actual": ""
             },
             "ac_no": {
                 "match": true,
                 "cer": 0.0,
-                "expected": "174",
-                "actual": "174"
+                "expected": "",
+                "actual": ""
             }
         },
         "record_accuracy": {
-            "total_expected": 2,
-            "total_extracted": 2,
-            "fully_correct": 1,
-            "accuracy_rate": 0.5
+            "total_expected": 1,
+            "total_extracted": 3,
+            "fully_correct": 0,
+            "accuracy_rate": 0.0
         },
-        "overall_avg_cer": 0.05,
+        "overall_avg_cer": 0.75,
         "details": [
             {
-                "epic": "ABC1234567",
+                "epic": "HBZ1094572",
                 "fields": {
+                    "epic": {
+                        "match": false,
+                        "cer": 1.0,
+                        "expected": "",
+                        "actual": "HBZ1094572"
+                    },
                     "name": {
                         "match": true,
                         "cer": 0.0,
-                        "expected": "RAHUL SHARMA",
-                        "actual": "RAHUL SHARMA"
+                        "expected": "",
+                        "actual": ""
                     },
                     "relation_name": {
-                        "match": true,
-                        "cer": 0.0,
-                        "expected": "OM PRAKASH SHARMA",
-                        "actual": "OM PRAKASH SHARMA"
+                        "match": false,
+                        "cer": 1.0,
+                        "expected": "",
+                        "actual": "\u0917\u0947\u0903"
                     },
                     "house_no": {
                         "match": true,
                         "cer": 0.0,
-                        "expected": "12/A",
-                        "actual": "12/A"
+                        "expected": "",
+                        "actual": ""
                     },
                     "age": {
-                        "match": true,
-                        "cer": 0.0,
-                        "expected": "28",
-                        "actual": "28"
+                        "match": false,
+                        "cer": 1.0,
+                        "expected": "",
+                        "actual": "35"
                     },
                     "gender": {
-                        "match": true,
-                        "cer": 0.0,
-                        "expected": "MALE",
-                        "actual": "MALE"
+                        "match": false,
+                        "cer": 1.0,
+                        "expected": "",
+                        "actual": "\u0925\u0940"
                     }
                 }
             },
             {
-                "epic": "XYZ9876543",
+                "epic": "UUG6068936",
                 "fields": {
+                    "epic": {
+                        "match": false,
+                        "cer": 1.0,
+                        "expected": "UUG6068936",
+                        "actual": ""
+                    },
                     "name": {
                         "match": true,
                         "cer": 0.0,
-                        "expected": "ANJALI SINGH",
-                        "actual": "ANJALI SINGH"
+                        "expected": "",
+                        "actual": ""
                     },
                     "relation_name": {
                         "match": true,
                         "cer": 0.0,
-                        "expected": "VIJAY SINGH",
-                        "actual": "VIJAY SINGH"
+                        "expected": "",
+                        "actual": ""
                     },
                     "house_no": {
-                        "match": true,
-                        "cer": 0.0,
-                        "expected": "45",
-                        "actual": "45"
+                        "match": false,
+                        "cer": 1.0,
+                        "expected": "308",
+                        "actual": ""
                     },
                     "age": {
                         "match": false,
-                        "cer": 0.5,
-                        "expected": "32",
-                        "actual": "33"
+                        "cer": 1.0,
+                        "expected": "24",
+                        "actual": ""
                     },
                     "gender": {
                         "match": true,
                         "cer": 0.0,
-                        "expected": "FEMALE",
-                        "actual": "FEMALE"
+                        "expected": "",
+                        "actual": ""
+                    }
+                }
+            },
+            {
+                "epic": "HBZ1598648",
+                "fields": {
+                    "epic": {
+                        "match": false,
+                        "cer": 1.0,
+                        "expected": "",
+                        "actual": "HBZ1598648"
+                    },
+                    "name": {
+                        "match": false,
+                        "cer": 1.0,
+                        "expected": "",
+                        "actual": "\u090f\u091c\u0941"
+                    },
+                    "relation_name": {
+                        "match": false,
+                        "cer": 1.0,
+                        "expected": "",
+                        "actual": "\u0935\u091b\u093f\u0932\u093e\u0902\u091a\u0947"
+                    },
+                    "house_no": {
+                        "match": false,
+                        "cer": 1.0,
+                        "expected": "",
+                        "actual": "\u0936\u090f\u090f\u0936\u0940\u0923\u093f\u0923"
+                    },
+                    "age": {
+                        "match": false,
+                        "cer": 1.0,
+                        "expected": "",
+                        "actual": "35"
+                    },
+                    "gender": {
+                        "match": false,
+                        "cer": 1.0,
+                        "expected": "",
+                        "actual": "\u092c\u0940\u0902"
+                    }
+                }
+            },
+            {
+                "epic": "HBZ1401702",
+                "fields": {
+                    "epic": {
+                        "match": false,
+                        "cer": 1.0,
+                        "expected": "",
+                        "actual": "HBZ1401702"
+                    },
+                    "name": {
+                        "match": false,
+                        "cer": 1.0,
+                        "expected": "",
+                        "actual": "\u0928\u093e\u0935"
+                    },
+                    "relation_name": {
+                        "match": false,
+                        "cer": 1.0,
+                        "expected": "",
+                        "actual": "\u0917\u094d\u0940\u091c\u093c\u092c\u093e\u0928"
+                    },
+                    "house_no": {
+                        "match": true,
+                        "cer": 0.0,
+                        "expected": "",
+                        "actual": ""
+                    },
+                    "age": {
+                        "match": false,
+                        "cer": 1.0,
+                        "expected": "",
+                        "actual": "35"
+                    },
+                    "gender": {
+                        "match": false,
+                        "cer": 1.0,
+                        "expected": "",
+                        "actual": "\u0932\u093f\u0902\u0917"
                     }
                 }
             }
         ]
     },
-    "sample_2.json": {
+    "dist_504_body_34837_1.json": {
         "booth_accuracy": {
             "booth_name": {
                 "match": true,
                 "cer": 0.0,
-                "expected": "Government Inter College, Room No 1",
-                "actual": "Government Inter College, Room No 1"
+                "expected": "",
+                "actual": ""
             },
             "booth_no": {
-                "match": true,
-                "cer": 0.0,
-                "expected": "12",
-                "actual": "12"
+                "match": false,
+                "cer": 1.0,
+                "expected": "16",
+                "actual": ""
             },
             "ac_name": {
                 "match": true,
                 "cer": 0.0,
-                "expected": "Varanasi Cantt",
-                "actual": "Varanasi Cantt"
+                "expected": "",
+                "actual": ""
             },
             "ac_no": {
                 "match": true,
                 "cer": 0.0,
-                "expected": "390",
-                "actual": "390"
+                "expected": "",
+                "actual": ""
             }
         },
         "record_accuracy": {
-            "total_expected": 2,
-            "total_extracted": 2,
-            "fully_correct": 1,
-            "accuracy_rate": 0.5
+            "total_expected": 1,
+            "total_extracted": 3,
+            "fully_correct": 0,
+            "accuracy_rate": 0.0
         },
-        "overall_avg_cer": 0.02222222222222222,
+        "overall_avg_cer": 0.8055555555555556,
         "details": [
             {
-                "epic": "UP/01/001/000123",
+                "epic": "SPL6841597",
                 "fields": {
+                    "epic": {
+                        "match": false,
+                        "cer": 1.0,
+                        "expected": "",
+                        "actual": "SPL6841597"
+                    },
                     "name": {
                         "match": false,
-                        "cer": 0.1111111111111111,
-                        "expected": "\u0930\u093e\u092e \u0915\u0941\u092e\u093e\u0930",
-                        "actual": "\u0930\u093e\u092e \u0915\u0941\u092e \u0930"
+                        "cer": 1.0,
+                        "expected": "",
+                        "actual": "\u0928\u093e\u0935"
                     },
                     "relation_name": {
                         "match": false,
-                        "cer": 0.1111111111111111,
-                        "expected": "\u0936\u094d\u092f\u093e\u092e \u0932\u093e\u0932",
-                        "actual": "\u0936\u094d\u092f\u093e\u092e \u0932 \u0932"
+                        "cer": 1.0,
+                        "expected": "",
+                        "actual": "\u0935\u091b\u093f\u0932\u093e\u0902\u091a\u0947"
                     },
                     "house_no": {
                         "match": true,
                         "cer": 0.0,
-                        "expected": "101",
-                        "actual": "101"
+                        "expected": "",
+                        "actual": ""
                     },
                     "age": {
-                        "match": true,
-                        "cer": 0.0,
-                        "expected": "45",
-                        "actual": "45"
+                        "match": false,
+                        "cer": 1.0,
+                        "expected": "",
+                        "actual": "46"
                     },
                     "gender": {
-                        "match": true,
-                        "cer": 0.0,
-                        "expected": "MALE",
-                        "actual": "MALE"
+                        "match": false,
+                        "cer": 1.0,
+                        "expected": "",
+                        "actual": "\u0927\u0940"
                     }
                 }
             },
             {
-                "epic": "IKJ5566778",
+                "epic": "FVG0939595",
                 "fields": {
+                    "epic": {
+                        "match": false,
+                        "cer": 1.0,
+                        "expected": "",
+                        "actual": "FVG0939595"
+                    },
+                    "name": {
+                        "match": false,
+                        "cer": 1.0,
+                        "expected": "",
+                        "actual": "\u0917\u0941\u0917\u0940\u091c"
+                    },
+                    "relation_name": {
+                        "match": false,
+                        "cer": 1.0,
+                        "expected": "",
+                        "actual": "\u0924\u093f\u0926\u093e\u091c\u093e\u0924"
+                    },
+                    "house_no": {
+                        "match": false,
+                        "cer": 1.0,
+                        "expected": "",
+                        "actual": "\u090f80\u090f\u090f\u0924\u093f5"
+                    },
+                    "age": {
+                        "match": false,
+                        "cer": 1.0,
+                        "expected": "",
+                        "actual": "46"
+                    },
+                    "gender": {
+                        "match": false,
+                        "cer": 1.0,
+                        "expected": "",
+                        "actual": "\u092c\u0940\u0902"
+                    }
+                }
+            },
+            {
+                "epic": "SPL6840904",
+                "fields": {
+                    "epic": {
+                        "match": true,
+                        "cer": 0.0,
+                        "expected": "SPL6840904",
+                        "actual": "SPL6840904"
+                    },
                     "name": {
                         "match": true,
                         "cer": 0.0,
-                        "expected": "SITA DEVI",
-                        "actual": "SITA DEVI"
+                        "expected": "",
+                        "actual": ""
+                    },
+                    "relation_name": {
+                        "match": false,
+                        "cer": 1.0,
+                        "expected": "",
+                        "actual": "\u090f\u094d\u0947\u0917\u0903"
+                    },
+                    "house_no": {
+                        "match": false,
+                        "cer": 1.0,
+                        "expected": "",
+                        "actual": "\u09238"
+                    },
+                    "age": {
+                        "match": false,
+                        "cer": 0.5,
+                        "expected": "26",
+                        "actual": "46"
+                    },
+                    "gender": {
+                        "match": false,
+                        "cer": 1.0,
+                        "expected": "",
+                        "actual": "\u0925\u0940"
+                    }
+                }
+            }
+        ]
+    },
+    "dist_505_body_34836_1.json": {
+        "booth_accuracy": {
+            "booth_name": {
+                "match": true,
+                "cer": 0.0,
+                "expected": "",
+                "actual": ""
+            },
+            "booth_no": {
+                "match": false,
+                "cer": 1.0,
+                "expected": "10",
+                "actual": ""
+            },
+            "ac_name": {
+                "match": true,
+                "cer": 0.0,
+                "expected": "",
+                "actual": ""
+            },
+            "ac_no": {
+                "match": true,
+                "cer": 0.0,
+                "expected": "",
+                "actual": ""
+            }
+        },
+        "record_accuracy": {
+            "total_expected": 1,
+            "total_extracted": 3,
+            "fully_correct": 0,
+            "accuracy_rate": 0.0
+        },
+        "overall_avg_cer": 0.7083333333333334,
+        "details": [
+            {
+                "epic": "URC5401328",
+                "fields": {
+                    "epic": {
+                        "match": false,
+                        "cer": 1.0,
+                        "expected": "URC5401328",
+                        "actual": ""
+                    },
+                    "name": {
+                        "match": true,
+                        "cer": 0.0,
+                        "expected": "",
+                        "actual": ""
                     },
                     "relation_name": {
                         "match": true,
                         "cer": 0.0,
-                        "expected": "RAM KUMAR",
-                        "actual": "RAM KUMAR"
+                        "expected": "",
+                        "actual": ""
                     },
                     "house_no": {
                         "match": true,
                         "cer": 0.0,
-                        "expected": "101",
-                        "actual": "101"
+                        "expected": "",
+                        "actual": ""
                     },
                     "age": {
-                        "match": true,
-                        "cer": 0.0,
-                        "expected": "40",
-                        "actual": "40"
+                        "match": false,
+                        "cer": 1.0,
+                        "expected": "35",
+                        "actual": ""
                     },
                     "gender": {
                         "match": true,
                         "cer": 0.0,
-                        "expected": "FEMALE",
-                        "actual": "FEMALE"
+                        "expected": "",
+                        "actual": ""
+                    }
+                }
+            },
+            {
+                "epic": "FHF1104694",
+                "fields": {
+                    "epic": {
+                        "match": false,
+                        "cer": 1.0,
+                        "expected": "",
+                        "actual": "FHF1104694"
+                    },
+                    "name": {
+                        "match": false,
+                        "cer": 1.0,
+                        "expected": "",
+                        "actual": "\u0928\u0937"
+                    },
+                    "relation_name": {
+                        "match": false,
+                        "cer": 1.0,
+                        "expected": "",
+                        "actual": "\u0917\u092c\u094d\u094b\u0937\u093e"
+                    },
+                    "house_no": {
+                        "match": true,
+                        "cer": 0.0,
+                        "expected": "",
+                        "actual": ""
+                    },
+                    "age": {
+                        "match": false,
+                        "cer": 1.0,
+                        "expected": "",
+                        "actual": "50"
+                    },
+                    "gender": {
+                        "match": false,
+                        "cer": 1.0,
+                        "expected": "",
+                        "actual": "\u092c\u0940\u0902"
+                    }
+                }
+            },
+            {
+                "epic": "URC8120693",
+                "fields": {
+                    "epic": {
+                        "match": false,
+                        "cer": 1.0,
+                        "expected": "",
+                        "actual": "URC8120693"
+                    },
+                    "name": {
+                        "match": false,
+                        "cer": 1.0,
+                        "expected": "",
+                        "actual": "\u093e\u0908\u0921"
+                    },
+                    "relation_name": {
+                        "match": false,
+                        "cer": 1.0,
+                        "expected": "",
+                        "actual": "\u0917\u093e\u090f\u0902\u091c\u0947\u091c"
+                    },
+                    "house_no": {
+                        "match": true,
+                        "cer": 0.0,
+                        "expected": "",
+                        "actual": ""
+                    },
+                    "age": {
+                        "match": false,
+                        "cer": 1.0,
+                        "expected": "",
+                        "actual": "45"
+                    },
+                    "gender": {
+                        "match": false,
+                        "cer": 1.0,
+                        "expected": "",
+                        "actual": "\u0925\u0940"
+                    }
+                }
+            },
+            {
+                "epic": "URC7651904",
+                "fields": {
+                    "epic": {
+                        "match": false,
+                        "cer": 1.0,
+                        "expected": "",
+                        "actual": "URC7651904"
+                    },
+                    "name": {
+                        "match": false,
+                        "cer": 1.0,
+                        "expected": "",
+                        "actual": "\u0928\u093e\u0935"
+                    },
+                    "relation_name": {
+                        "match": false,
+                        "cer": 1.0,
+                        "expected": "",
+                        "actual": "\u0935\u091b\u093f\u0932\u093e\u0902\u091a\u0947"
+                    },
+                    "house_no": {
+                        "match": true,
+                        "cer": 0.0,
+                        "expected": "",
+                        "actual": ""
+                    },
+                    "age": {
+                        "match": false,
+                        "cer": 1.0,
+                        "expected": "",
+                        "actual": "50"
+                    },
+                    "gender": {
+                        "match": false,
+                        "cer": 1.0,
+                        "expected": "",
+                        "actual": "\u0927\u0940"
                     }
                 }
             }

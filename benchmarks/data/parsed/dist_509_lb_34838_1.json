@@ -1,0 +1,29 @@
+{
+  "booth_info": {},
+  "records": [
+    {
+      "epic": "",
+      "name": "",
+      "relation_name": "पिज्ञाज्ञ",
+      "house_no": "",
+      "age": "45",
+      "gender": "थी"
+    },
+    {
+      "epic": "",
+      "name": "नाव",
+      "relation_name": "पेवाषषञाज",
+      "house_no": "",
+      "age": "38",
+      "gender": "लिंग"
+    },
+    {
+      "epic": "",
+      "name": "गुजितयज",
+      "relation_name": "वछिलांचे",
+      "house_no": "",
+      "age": "488",
+      "gender": "लिंग"
+    }
+  ]
+}

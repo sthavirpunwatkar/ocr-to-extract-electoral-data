@@ -1,0 +1,29 @@
+{
+  "booth_info": {},
+  "records": [
+    {
+      "epic": "SPL6840904",
+      "name": "",
+      "relation_name": "ए्ेगः",
+      "house_no": "ण8",
+      "age": "46",
+      "gender": "थी"
+    },
+    {
+      "epic": "FVG0939595",
+      "name": "गुगीज",
+      "relation_name": "तिदाजात",
+      "house_no": "ए80एएति5",
+      "age": "46",
+      "gender": "बीं"
+    },
+    {
+      "epic": "SPL6841597",
+      "name": "नाव",
+      "relation_name": "वछिलांचे",
+      "house_no": "",
+      "age": "46",
+      "gender": "धी"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "booth_info": {},
+  "records": [
+    {
+      "epic": "HBZ1094572",
+      "name": "",
+      "relation_name": "गेः",
+      "house_no": "",
+      "age": "35",
+      "gender": "थी"
+    },
+    {
+      "epic": "HBZ1598648",
+      "name": "एजु",
+      "relation_name": "वछिलांचे",
+      "house_no": "शएएशीणिण",
+      "age": "35",
+      "gender": "बीं"
+    },
+    {
+      "epic": "HBZ1401702",
+      "name": "नाव",
+      "relation_name": "ग्ीज़बान",
+      "house_no": "",
+      "age": "35",
+      "gender": "लिंग"
+    }
+  ]
+}

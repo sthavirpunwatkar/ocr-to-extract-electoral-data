@@ -1,0 +1,599 @@
+{
+  "communities": {
+    "0": [
+      "evaluation_report_json",
+      "ocr_evaluation_report_ac_name_actual",
+      "ocr_evaluation_report_ac_name_cer",
+      "ocr_evaluation_report_ac_name_expected",
+      "ocr_evaluation_report_ac_name_match",
+      "ocr_evaluation_report_ac_no_actual",
+      "ocr_evaluation_report_ac_no_cer",
+      "ocr_evaluation_report_ac_no_expected",
+      "ocr_evaluation_report_ac_no_match",
+      "ocr_evaluation_report_booth_accuracy_ac_name",
+      "ocr_evaluation_report_booth_accuracy_ac_no",
+      "ocr_evaluation_report_booth_accuracy_booth_name",
+      "ocr_evaluation_report_booth_accuracy_booth_no",
+      "ocr_evaluation_report_booth_name_actual",
+      "ocr_evaluation_report_booth_name_cer",
+      "ocr_evaluation_report_booth_name_expected",
+      "ocr_evaluation_report_booth_name_match",
+      "ocr_evaluation_report_booth_no_actual",
+      "ocr_evaluation_report_booth_no_cer",
+      "ocr_evaluation_report_booth_no_expected",
+      "ocr_evaluation_report_booth_no_match",
+      "ocr_evaluation_report_record_accuracy_accuracy_rate",
+      "ocr_evaluation_report_record_accuracy_fully_correct",
+      "ocr_evaluation_report_record_accuracy_total_expected",
+      "ocr_evaluation_report_record_accuracy_total_extracted",
+      "ocr_evaluation_report_sample_1_json",
+      "ocr_evaluation_report_sample_1_json_booth_accuracy",
+      "ocr_evaluation_report_sample_1_json_details",
+      "ocr_evaluation_report_sample_1_json_overall_avg_cer",
+      "ocr_evaluation_report_sample_1_json_record_accuracy",
+      "ocr_evaluation_report_sample_2_json",
+      "ocr_evaluation_report_sample_2_json_booth_accuracy",
+      "ocr_evaluation_report_sample_2_json_details",
+      "ocr_evaluation_report_sample_2_json_overall_avg_cer",
+      "ocr_evaluation_report_sample_2_json_record_accuracy"
+    ],
+    "1": [
+      "api_main_startup_event",
+      "backend_app_core_audit_py",
+      "backend_app_core_search_py",
+      "backend_app_db_models_py",
+      "backend_app_db_session_py",
+      "backend_app_worker_tasks_py",
+      "base",
+      "core_audit_log_action",
+      "core_audit_rationale_14",
+      "core_auth_get_password_hash",
+      "core_search_create_index",
+      "core_search_index_voter",
+      "core_search_rationale_11",
+      "core_search_rationale_32",
+      "db_models_auditlog",
+      "db_models_extractionjob",
+      "db_models_jobstatus",
+      "db_models_user",
+      "db_models_voter",
+      "db_session_get_db",
+      "debug_db_py",
+      "ocr_debug_db_check_db",
+      "ocr_reset_jobs_reset_jobs",
+      "reset_jobs_py",
+      "worker_tasks_process_document"
+    ],
+    "2": [
+      "backend_app_core_extractor_py",
+      "backend_app_core_templates_py",
+      "backend_app_schemas_extraction_py",
+      "basemodel",
+      "core_extractor_extract_fields",
+      "core_extractor_fieldextractor",
+      "core_extractor_fieldextractor_clean_text",
+      "core_extractor_fieldextractor_extract",
+      "core_extractor_fieldextractor_init",
+      "core_templates_fieldconfig",
+      "core_templates_templateconfig",
+      "core_templates_templateengine",
+      "core_templates_templateengine_get_template",
+      "core_templates_templateengine_init",
+      "core_templates_templateengine_list_templates",
+      "core_templates_templateengine_load_templates",
+      "schemas_extraction_config",
+      "schemas_extraction_extractionjobbase",
+      "schemas_extraction_extractionjobresponse",
+      "schemas_extraction_voterbase",
+      "schemas_extraction_votercreate",
+      "schemas_extraction_voterresponse",
+      "schemas_extraction_votersyncupdate"
+    ],
+    "3": [
+      "7345e848bc_input_android_target_ndk_api",
+      "7345e848bc_input_assets",
+      "7345e848bc_input_c_compiler_ar",
+      "7345e848bc_input_c_compiler_cc",
+      "7345e848bc_input_c_compiler_ld",
+      "7345e848bc_input_code_assets_android",
+      "7345e848bc_input_code_assets_c_compiler",
+      "7345e848bc_input_code_assets_link_mode_preference",
+      "7345e848bc_input_code_assets_target_architecture",
+      "7345e848bc_input_code_assets_target_os",
+      "7345e848bc_input_config",
+      "7345e848bc_input_config_build_asset_types",
+      "7345e848bc_input_config_extensions",
+      "7345e848bc_input_config_linking_enabled",
+      "7345e848bc_input_extensions_code_assets",
+      "7345e848bc_input_out_dir_shared",
+      "7345e848bc_input_out_file",
+      "7345e848bc_input_package_name",
+      "7345e848bc_input_package_root",
+      "7345e848bc_input_user_defines",
+      "mobile_app_dart_tool_hooks_runner_objective_c_7345e848bc_input_json"
+    ],
+    "4": [
+      "api_main_list_voters",
+      "api_main_root",
+      "api_main_search",
+      "api_main_sync_voters",
+      "api_main_upload_document",
+      "backend_app_api_main_py",
+      "benchmarks_scripts_evaluator_py",
+      "core_search_rationale_43",
+      "core_search_search_voters",
+      "db_models_userrole",
+      "ocr_run_ocr_batch_main",
+      "run_ocr_batch_py",
+      "scripts_evaluator_calculate_cer",
+      "scripts_evaluator_evaluate_fields",
+      "scripts_evaluator_evaluate_file",
+      "scripts_evaluator_main",
+      "scripts_evaluator_rationale_34",
+      "scripts_evaluator_rationale_7",
+      "str"
+    ],
+    "5": [
+      "abc",
+      "backend_app_worker_ocr_base_py",
+      "backend_app_worker_ocr_doctr_engine_py",
+      "backend_app_worker_ocr_pipeline_py",
+      "ocr_base_extract_text",
+      "ocr_base_get_name",
+      "ocr_base_ocrengine",
+      "ocr_base_ocrresult",
+      "ocr_doctr_engine_doctrengine",
+      "ocr_doctr_engine_doctrengine_extract_text",
+      "ocr_doctr_engine_doctrengine_get_name",
+      "ocr_doctr_engine_doctrengine_init",
+      "ocr_pipeline_engine",
+      "ocr_pipeline_ocrpipeline",
+      "ocr_pipeline_ocrpipeline_init",
+      "ocr_pipeline_ocrpipeline_process"
+    ],
+    "6": [
+      "scraper_config_base_url",
+      "scraper_config_delay",
+      "scraper_config_districts",
+      "scraper_config_districts_502",
+      "scraper_config_districts_504",
+      "scraper_config_districts_505",
+      "scraper_config_districts_507",
+      "scraper_config_districts_508",
+      "scraper_config_districts_509",
+      "scraper_config_districts_514",
+      "scraper_config_districts_516",
+      "scraper_config_districts_520",
+      "scraper_config_districts_526",
+      "scraper_config_json",
+      "scraper_config_output_dir"
+    ],
+    "7": [
+      "d_project_2026_ocr_mobile_app_dart_tool_flutter_build_dart_plugin_registrant_dart_pluginregistrant",
+      "d_project_2026_ocr_mobile_app_dart_tool_flutter_build_dart_plugin_registrant_dart_register",
+      "dart_io",
+      "mobile_app_dart_tool_flutter_build_dart_plugin_registrant_dart",
+      "package_geolocator_android_geolocator_android_dart",
+      "package_geolocator_apple_geolocator_apple_dart",
+      "package_path_provider_android_path_provider_android_dart",
+      "package_path_provider_foundation_path_provider_foundation_dart",
+      "package_path_provider_linux_path_provider_linux_dart",
+      "package_path_provider_windows_path_provider_windows_dart",
+      "package_sqflite_android_sqflite_android_dart",
+      "package_sqflite_darwin_sqflite_darwin_dart"
+    ],
+    "8": [
+      "mobile_app_web_manifest_json",
+      "web_manifest_background_color",
+      "web_manifest_description",
+      "web_manifest_display",
+      "web_manifest_icons",
+      "web_manifest_name",
+      "web_manifest_orientation",
+      "web_manifest_prefer_related_applications",
+      "web_manifest_short_name",
+      "web_manifest_start_url",
+      "web_manifest_theme_color"
+    ],
+    "9": [
+      "337ce265dc_input_assets",
+      "337ce265dc_input_config",
+      "337ce265dc_input_config_build_asset_types",
+      "337ce265dc_input_config_linking_enabled",
+      "337ce265dc_input_out_dir_shared",
+      "337ce265dc_input_out_file",
+      "337ce265dc_input_package_name",
+      "337ce265dc_input_package_root",
+      "337ce265dc_input_user_defines",
+      "mobile_app_dart_tool_hooks_runner_objective_c_337ce265dc_input_json"
+    ],
+    "10": [
+      "dart_tool_package_config_configversion",
+      "dart_tool_package_config_flutterroot",
+      "dart_tool_package_config_flutterversion",
+      "dart_tool_package_config_generator",
+      "dart_tool_package_config_generatorversion",
+      "dart_tool_package_config_packages",
+      "dart_tool_package_config_pubcache",
+      "mobile_app_dart_tool_package_config_json"
+    ],
+    "11": [
+      "api_main_login_for_access_token",
+      "backend_app_core_auth_py",
+      "core_auth_create_access_token",
+      "core_auth_get_current_active_user",
+      "core_auth_get_current_user",
+      "core_auth_require_role",
+      "core_auth_verify_password"
+    ],
+    "12": [
+      "34a8251cb3bd348f2a67bb95d8f918ae_dart_build_result_build_end",
+      "34a8251cb3bd348f2a67bb95d8f918ae_dart_build_result_build_start",
+      "34a8251cb3bd348f2a67bb95d8f918ae_dart_build_result_code_assets",
+      "34a8251cb3bd348f2a67bb95d8f918ae_dart_build_result_data_assets",
+      "34a8251cb3bd348f2a67bb95d8f918ae_dart_build_result_dependencies",
+      "mobile_app_dart_tool_flutter_build_34a8251cb3bd348f2a67bb95d8f918ae_dart_build_result_json"
+    ],
+    "13": [
+      "scraper_main_py",
+      "scraper_main_voterscraper",
+      "scraper_main_voterscraper_download_pdf",
+      "scraper_main_voterscraper_get_initial_token",
+      "scraper_main_voterscraper_init",
+      "scraper_main_voterscraper_run"
+    ],
+    "14": [
+      "admin_dashboard_check_password",
+      "admin_dashboard_get_auth_headers",
+      "admin_dashboard_get_db",
+      "admin_dashboard_rationale_16",
+      "backend_app_admin_dashboard_py"
+    ],
+    "15": [
+      "d_project_2026_ocr_mobile_app_test_widget_test_dart_main",
+      "mobile_app_test_widget_test_dart",
+      "package_campaign_app_main_dart",
+      "package_flutter_material_dart",
+      "package_flutter_test_flutter_test_dart"
+    ],
+    "16": [
+      "337ce265dc_output_assets_for_linking",
+      "337ce265dc_output_status",
+      "337ce265dc_output_timestamp",
+      "mobile_app_dart_tool_hooks_runner_objective_c_337ce265dc_output_json"
+    ],
+    "17": [
+      "7345e848bc_output_assets_for_linking",
+      "7345e848bc_output_status",
+      "7345e848bc_output_timestamp",
+      "mobile_app_dart_tool_hooks_runner_objective_c_7345e848bc_output_json"
+    ],
+    "18": [
+      "d_project_2026_ocr_mobile_app_dart_tool_dartpad_web_plugin_registrant_dart_registerplugins",
+      "mobile_app_dart_tool_dartpad_web_plugin_registrant_dart",
+      "package_flutter_web_plugins_flutter_web_plugins_dart",
+      "package_geolocator_web_geolocator_web_dart"
+    ],
+    "19": [
+      "dart_tool_package_graph_configversion",
+      "dart_tool_package_graph_packages",
+      "dart_tool_package_graph_roots",
+      "mobile_app_dart_tool_package_graph_json"
+    ],
+    "20": [
+      "ocr_upload_benchmarks_get_token",
+      "ocr_upload_benchmarks_main",
+      "ocr_upload_benchmarks_upload_file",
+      "upload_benchmarks_py"
+    ],
+    "21": [
+      "7345e848bc_dependencies_dependencies_hash_file_environment",
+      "7345e848bc_dependencies_dependencies_hash_file_file_system",
+      "mobile_app_dart_tool_hooks_runner_objective_c_7345e848bc_dependencies_dependencies_hash_file_json"
+    ],
+    "22": [
+      "7345e848bc_hook_dependencies_hash_file_environment",
+      "7345e848bc_hook_dependencies_hash_file_file_system",
+      "mobile_app_dart_tool_hooks_runner_objective_c_7345e848bc_hook_dependencies_hash_file_json"
+    ],
+    "23": [
+      "extension_discovery_vs_code_entries",
+      "extension_discovery_vs_code_version",
+      "mobile_app_dart_tool_extension_discovery_vs_code_json"
+    ],
+    "24": [
+      "34a8251cb3bd348f2a67bb95d8f918ae_native_assets_format_version",
+      "34a8251cb3bd348f2a67bb95d8f918ae_native_assets_native_assets",
+      "mobile_app_dart_tool_flutter_build_34a8251cb3bd348f2a67bb95d8f918ae_native_assets_json"
+    ],
+    "25": [
+      "337ce265dc_dependencies_dependencies_hash_file_environment",
+      "337ce265dc_dependencies_dependencies_hash_file_file_system",
+      "mobile_app_dart_tool_hooks_runner_objective_c_337ce265dc_dependencies_dependencies_hash_file_json"
+    ],
+    "26": [
+      "337ce265dc_hook_dependencies_hash_file_environment",
+      "337ce265dc_hook_dependencies_hash_file_file_system",
+      "mobile_app_dart_tool_hooks_runner_objective_c_337ce265dc_hook_dependencies_hash_file_json"
+    ],
+    "27": [
+      "mobile_app_android_app_src_main_java_io_flutter_plugins_generatedpluginregistrant_java",
+      "plugins_generatedpluginregistrant_generatedpluginregistrant",
+      "plugins_generatedpluginregistrant_generatedpluginregistrant_registerwith"
+    ],
+    "28": [
+      "campaign_app_mainactivity_mainactivity",
+      "mobile_app_android_app_src_main_kotlin_com_example_campaign_app_mainactivity_kt"
+    ],
+    "29": [
+      "migrate_db_py",
+      "ocr_migrate_db_migrate"
+    ],
+    "30": [
+      "ocr_verify_templates_test_template_loading",
+      "verify_templates_py"
+    ],
+    "31": [
+      "scripts_batch_upload_main",
+      "scripts_batch_upload_py"
+    ],
+    "32": [
+      "scripts_full_reset_full_reset",
+      "scripts_full_reset_py"
+    ],
+    "33": [
+      "backend_scripts_upload_file_py",
+      "scripts_upload_file_upload_file"
+    ],
+    "34": [
+      "graphify_ast_step_py"
+    ],
+    "35": [
+      "test_timezone_py"
+    ],
+    "36": [
+      "backend_celery_app_py"
+    ],
+    "37": [
+      "backend_app_init_py"
+    ],
+    "38": [
+      "backend_app_api_init_py"
+    ],
+    "39": [
+      "backend_app_core_init_py"
+    ],
+    "40": [
+      "backend_app_db_init_py"
+    ],
+    "41": [
+      "backend_app_schemas_init_py"
+    ],
+    "42": [
+      "backend_app_worker_init_py"
+    ],
+    "43": [
+      "ocr_base_rationale_14"
+    ],
+    "44": [
+      "ocr_base_rationale_19"
+    ],
+    "45": [
+      "backend_app_worker_ocr_init_py"
+    ],
+    "46": [
+      "mobile_app_dart_tool_flutter_build_34a8251cb3bd348f2a67bb95d8f918ae_outputs_json"
+    ],
+    "47": [
+      "mobile_app_android_build_gradle_kts"
+    ],
+    "48": [
+      "mobile_app_android_settings_gradle_kts"
+    ],
+    "49": [
+      "mobile_app_android_app_build_gradle_kts"
+    ],
+    "50": [
+      "scripts_upload_all_ps1"
+    ]
+  },
+  "cohesion": {
+    "0": 0.07058823529411765,
+    "1": 0.12666666666666668,
+    "2": 0.13043478260869565,
+    "3": 0.09523809523809523,
+    "4": 0.1286549707602339,
+    "5": 0.225,
+    "6": 0.13333333333333333,
+    "7": 0.16666666666666666,
+    "8": 0.18181818181818182,
+    "9": 0.2,
+    "10": 0.25,
+    "11": 0.3333333333333333,
+    "12": 0.3333333333333333,
+    "13": 0.4666666666666667,
+    "14": 0.4,
+    "15": 0.4,
+    "16": 0.5,
+    "17": 0.5,
+    "18": 0.5,
+    "19": 0.5,
+    "20": 0.8333333333333334,
+    "21": 0.6666666666666666,
+    "22": 0.6666666666666666,
+    "23": 0.6666666666666666,
+    "24": 0.6666666666666666,
+    "25": 0.6666666666666666,
+    "26": 0.6666666666666666,
+    "27": 0.6666666666666666,
+    "28": 1.0,
+    "29": 1.0,
+    "30": 1.0,
+    "31": 1.0,
+    "32": 1.0,
+    "33": 1.0,
+    "34": 1.0,
+    "35": 1.0,
+    "36": 1.0,
+    "37": 1.0,
+    "38": 1.0,
+    "39": 1.0,
+    "40": 1.0,
+    "41": 1.0,
+    "42": 1.0,
+    "43": 1.0,
+    "44": 1.0,
+    "45": 1.0,
+    "46": 1.0,
+    "47": 1.0,
+    "48": 1.0,
+    "49": 1.0,
+    "50": 1.0
+  },
+  "gods": [
+    {
+      "id": "scraper_config_districts",
+      "label": "districts",
+      "degree": 11
+    },
+    {
+      "id": "ocr_doctr_engine_doctrengine",
+      "label": "DocTREngine",
+      "degree": 9
+    },
+    {
+      "id": "ocr_base_ocrresult",
+      "label": "OCRResult",
+      "degree": 8
+    },
+    {
+      "id": "core_extractor_fieldextractor",
+      "label": "FieldExtractor",
+      "degree": 7
+    },
+    {
+      "id": "ocr_evaluation_report_booth_accuracy_booth_name",
+      "label": "booth_name",
+      "degree": 6
+    },
+    {
+      "id": "ocr_evaluation_report_booth_accuracy_booth_no",
+      "label": "booth_no",
+      "degree": 6
+    },
+    {
+      "id": "ocr_evaluation_report_booth_accuracy_ac_name",
+      "label": "ac_name",
+      "degree": 6
+    },
+    {
+      "id": "ocr_evaluation_report_booth_accuracy_ac_no",
+      "label": "ac_no",
+      "degree": 6
+    },
+    {
+      "id": "db_models_extractionjob",
+      "label": "ExtractionJob",
+      "degree": 6
+    },
+    {
+      "id": "worker_tasks_process_document",
+      "label": "process_document()",
+      "degree": 6
+    }
+  ],
+  "surprises": [
+    {
+      "source": "FieldExtractor",
+      "target": "OCRResult",
+      "source_files": [
+        "backend/app/core/extractor.py",
+        "backend/app/worker/ocr/base.py"
+      ],
+      "confidence": "INFERRED",
+      "relation": "uses",
+      "why": "inferred connection - not explicitly stated in source; bridges separate communities"
+    },
+    {
+      "source": "startup_event()",
+      "target": "User",
+      "source_files": [
+        "backend/app/api/main.py",
+        "backend/app/db/models.py"
+      ],
+      "confidence": "INFERRED",
+      "relation": "calls",
+      "why": "inferred connection - not explicitly stated in source"
+    },
+    {
+      "source": "startup_event()",
+      "target": "get_password_hash()",
+      "source_files": [
+        "backend/app/api/main.py",
+        "backend/app/core/auth.py"
+      ],
+      "confidence": "INFERRED",
+      "relation": "calls",
+      "why": "inferred connection - not explicitly stated in source"
+    },
+    {
+      "source": "startup_event()",
+      "target": "create_index()",
+      "source_files": [
+        "backend/app/api/main.py",
+        "backend/app/core/search.py"
+      ],
+      "confidence": "INFERRED",
+      "relation": "calls",
+      "why": "inferred connection - not explicitly stated in source"
+    },
+    {
+      "source": "login_for_access_token()",
+      "target": "verify_password()",
+      "source_files": [
+        "backend/app/api/main.py",
+        "backend/app/core/auth.py"
+      ],
+      "confidence": "INFERRED",
+      "relation": "calls",
+      "why": "inferred connection - not explicitly stated in source"
+    }
+  ],
+  "questions": [
+    {
+      "type": "bridge_node",
+      "question": "Why does `process_document()` connect `Community 1` to `Community 2`, `Community 4`?",
+      "why": "High betweenness centrality (0.019) - this node is a cross-community bridge."
+    },
+    {
+      "type": "bridge_node",
+      "question": "Why does `startup_event()` connect `Community 1` to `Community 4`?",
+      "why": "High betweenness centrality (0.014) - this node is a cross-community bridge."
+    },
+    {
+      "type": "bridge_node",
+      "question": "Why does `OCRResult` connect `Community 5` to `Community 2`?",
+      "why": "High betweenness centrality (0.012) - this node is a cross-community bridge."
+    },
+    {
+      "type": "verify_inferred",
+      "question": "Are the 3 inferred relationships involving `DocTREngine` (e.g. with `OCREngine` and `OCRResult`) actually correct?",
+      "why": "`DocTREngine` has 3 INFERRED edges - model-reasoned connections that need verification."
+    },
+    {
+      "type": "verify_inferred",
+      "question": "Are the 3 inferred relationships involving `OCRResult` (e.g. with `FieldExtractor` and `DocTREngine`) actually correct?",
+      "why": "`OCRResult` has 3 INFERRED edges - model-reasoned connections that need verification."
+    },
+    {
+      "type": "verify_inferred",
+      "question": "Are the 2 inferred relationships involving `FieldExtractor` (e.g. with `OCRResult` and `TemplateConfig`) actually correct?",
+      "why": "`FieldExtractor` has 2 INFERRED edges - model-reasoned connections that need verification."
+    },
+    {
+      "type": "isolated_nodes",
+      "question": "What connects `match`, `cer`, `expected` to the rest of the system?",
+      "why": "128 weakly-connected nodes found - possible documentation gaps or missing edges."
+    }
+  ]
+}

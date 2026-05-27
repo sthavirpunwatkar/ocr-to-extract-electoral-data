@@ -1,0 +1,5800 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "debug_db.py",
+      "file_type": "code",
+      "source_file": "debug_db.py",
+      "source_location": "L1",
+      "id": "debug_db_py",
+      "community": 1,
+      "norm_label": "debug_db.py"
+    },
+    {
+      "label": "check_db()",
+      "file_type": "code",
+      "source_file": "debug_db.py",
+      "source_location": "L4",
+      "id": "ocr_debug_db_check_db",
+      "community": 1,
+      "norm_label": "check_db()"
+    },
+    {
+      "label": "evaluation_report.json",
+      "file_type": "code",
+      "source_file": "evaluation_report.json",
+      "source_location": "L1",
+      "id": "evaluation_report_json",
+      "community": 0,
+      "norm_label": "evaluation_report.json"
+    },
+    {
+      "label": "sample_1.json",
+      "file_type": "code",
+      "source_file": "evaluation_report.json",
+      "source_location": "L2",
+      "id": "ocr_evaluation_report_sample_1_json",
+      "community": 0,
+      "norm_label": "sample_1.json"
+    },
+    {
+      "label": "booth_accuracy",
+      "file_type": "code",
+      "source_file": "evaluation_report.json",
+      "source_location": "L3",
+      "id": "ocr_evaluation_report_sample_1_json_booth_accuracy",
+      "community": 0,
+      "norm_label": "booth_accuracy"
+    },
+    {
+      "label": "booth_name",
+      "file_type": "code",
+      "source_file": "evaluation_report.json",
+      "source_location": "L4",
+      "id": "ocr_evaluation_report_booth_accuracy_booth_name",
+      "community": 0,
+      "norm_label": "booth_name"
+    },
+    {
+      "label": "match",
+      "file_type": "code",
+      "source_file": "evaluation_report.json",
+      "source_location": "L5",
+      "id": "ocr_evaluation_report_booth_name_match",
+      "community": 0,
+      "norm_label": "match"
+    },
+    {
+      "label": "cer",
+      "file_type": "code",
+      "source_file": "evaluation_report.json",
+      "source_location": "L6",
+      "id": "ocr_evaluation_report_booth_name_cer",
+      "community": 0,
+      "norm_label": "cer"
+    },
+    {
+      "label": "expected",
+      "file_type": "code",
+      "source_file": "evaluation_report.json",
+      "source_location": "L7",
+      "id": "ocr_evaluation_report_booth_name_expected",
+      "community": 0,
+      "norm_label": "expected"
+    },
+    {
+      "label": "actual",
+      "file_type": "code",
+      "source_file": "evaluation_report.json",
+      "source_location": "L8",
+      "id": "ocr_evaluation_report_booth_name_actual",
+      "community": 0,
+      "norm_label": "actual"
+    },
+    {
+      "label": "booth_no",
+      "file_type": "code",
+      "source_file": "evaluation_report.json",
+      "source_location": "L10",
+      "id": "ocr_evaluation_report_booth_accuracy_booth_no",
+      "community": 0,
+      "norm_label": "booth_no"
+    },
+    {
+      "label": "match",
+      "file_type": "code",
+      "source_file": "evaluation_report.json",
+      "source_location": "L11",
+      "id": "ocr_evaluation_report_booth_no_match",
+      "community": 0,
+      "norm_label": "match"
+    },
+    {
+      "label": "cer",
+      "file_type": "code",
+      "source_file": "evaluation_report.json",
+      "source_location": "L12",
+      "id": "ocr_evaluation_report_booth_no_cer",
+      "community": 0,
+      "norm_label": "cer"
+    },
+    {
+      "label": "expected",
+      "file_type": "code",
+      "source_file": "evaluation_report.json",
+      "source_location": "L13",
+      "id": "ocr_evaluation_report_booth_no_expected",
+      "community": 0,
+      "norm_label": "expected"
+    },
+    {
+      "label": "actual",
+      "file_type": "code",
+      "source_file": "evaluation_report.json",
+      "source_location": "L14",
+      "id": "ocr_evaluation_report_booth_no_actual",
+      "community": 0,
+      "norm_label": "actual"
+    },
+    {
+      "label": "ac_name",
+      "file_type": "code",
+      "source_file": "evaluation_report.json",
+      "source_location": "L16",
+      "id": "ocr_evaluation_report_booth_accuracy_ac_name",
+      "community": 0,
+      "norm_label": "ac_name"
+    },
+    {
+      "label": "match",
+      "file_type": "code",
+      "source_file": "evaluation_report.json",
+      "source_location": "L17",
+      "id": "ocr_evaluation_report_ac_name_match",
+      "community": 0,
+      "norm_label": "match"
+    },
+    {
+      "label": "cer",
+      "file_type": "code",
+      "source_file": "evaluation_report.json",
+      "source_location": "L18",
+      "id": "ocr_evaluation_report_ac_name_cer",
+      "community": 0,
+      "norm_label": "cer"
+    },
+    {
+      "label": "expected",
+      "file_type": "code",
+      "source_file": "evaluation_report.json",
+      "source_location": "L19",
+      "id": "ocr_evaluation_report_ac_name_expected",
+      "community": 0,
+      "norm_label": "expected"
+    },
+    {
+      "label": "actual",
+      "file_type": "code",
+      "source_file": "evaluation_report.json",
+      "source_location": "L20",
+      "id": "ocr_evaluation_report_ac_name_actual",
+      "community": 0,
+      "norm_label": "actual"
+    },
+    {
+      "label": "ac_no",
+      "file_type": "code",
+      "source_file": "evaluation_report.json",
+      "source_location": "L22",
+      "id": "ocr_evaluation_report_booth_accuracy_ac_no",
+      "community": 0,
+      "norm_label": "ac_no"
+    },
+    {
+      "label": "match",
+      "file_type": "code",
+      "source_file": "evaluation_report.json",
+      "source_location": "L23",
+      "id": "ocr_evaluation_report_ac_no_match",
+      "community": 0,
+      "norm_label": "match"
+    },
+    {
+      "label": "cer",
+      "file_type": "code",
+      "source_file": "evaluation_report.json",
+      "source_location": "L24",
+      "id": "ocr_evaluation_report_ac_no_cer",
+      "community": 0,
+      "norm_label": "cer"
+    },
+    {
+      "label": "expected",
+      "file_type": "code",
+      "source_file": "evaluation_report.json",
+      "source_location": "L25",
+      "id": "ocr_evaluation_report_ac_no_expected",
+      "community": 0,
+      "norm_label": "expected"
+    },
+    {
+      "label": "actual",
+      "file_type": "code",
+      "source_file": "evaluation_report.json",
+      "source_location": "L26",
+      "id": "ocr_evaluation_report_ac_no_actual",
+      "community": 0,
+      "norm_label": "actual"
+    },
+    {
+      "label": "record_accuracy",
+      "file_type": "code",
+      "source_file": "evaluation_report.json",
+      "source_location": "L29",
+      "id": "ocr_evaluation_report_sample_1_json_record_accuracy",
+      "community": 0,
+      "norm_label": "record_accuracy"
+    },
+    {
+      "label": "total_expected",
+      "file_type": "code",
+      "source_file": "evaluation_report.json",
+      "source_location": "L30",
+      "id": "ocr_evaluation_report_record_accuracy_total_expected",
+      "community": 0,
+      "norm_label": "total_expected"
+    },
+    {
+      "label": "total_extracted",
+      "file_type": "code",
+      "source_file": "evaluation_report.json",
+      "source_location": "L31",
+      "id": "ocr_evaluation_report_record_accuracy_total_extracted",
+      "community": 0,
+      "norm_label": "total_extracted"
+    },
+    {
+      "label": "fully_correct",
+      "file_type": "code",
+      "source_file": "evaluation_report.json",
+      "source_location": "L32",
+      "id": "ocr_evaluation_report_record_accuracy_fully_correct",
+      "community": 0,
+      "norm_label": "fully_correct"
+    },
+    {
+      "label": "accuracy_rate",
+      "file_type": "code",
+      "source_file": "evaluation_report.json",
+      "source_location": "L33",
+      "id": "ocr_evaluation_report_record_accuracy_accuracy_rate",
+      "community": 0,
+      "norm_label": "accuracy_rate"
+    },
+    {
+      "label": "overall_avg_cer",
+      "file_type": "code",
+      "source_file": "evaluation_report.json",
+      "source_location": "L35",
+      "id": "ocr_evaluation_report_sample_1_json_overall_avg_cer",
+      "community": 0,
+      "norm_label": "overall_avg_cer"
+    },
+    {
+      "label": "details",
+      "file_type": "code",
+      "source_file": "evaluation_report.json",
+      "source_location": "L36",
+      "id": "ocr_evaluation_report_sample_1_json_details",
+      "community": 0,
+      "norm_label": "details"
+    },
+    {
+      "label": "sample_2.json",
+      "file_type": "code",
+      "source_file": "evaluation_report.json",
+      "source_location": "L109",
+      "id": "ocr_evaluation_report_sample_2_json",
+      "community": 0,
+      "norm_label": "sample_2.json"
+    },
+    {
+      "label": "booth_accuracy",
+      "file_type": "code",
+      "source_file": "evaluation_report.json",
+      "source_location": "L110",
+      "id": "ocr_evaluation_report_sample_2_json_booth_accuracy",
+      "community": 0,
+      "norm_label": "booth_accuracy"
+    },
+    {
+      "label": "record_accuracy",
+      "file_type": "code",
+      "source_file": "evaluation_report.json",
+      "source_location": "L136",
+      "id": "ocr_evaluation_report_sample_2_json_record_accuracy",
+      "community": 0,
+      "norm_label": "record_accuracy"
+    },
+    {
+      "label": "overall_avg_cer",
+      "file_type": "code",
+      "source_file": "evaluation_report.json",
+      "source_location": "L142",
+      "id": "ocr_evaluation_report_sample_2_json_overall_avg_cer",
+      "community": 0,
+      "norm_label": "overall_avg_cer"
+    },
+    {
+      "label": "details",
+      "file_type": "code",
+      "source_file": "evaluation_report.json",
+      "source_location": "L143",
+      "id": "ocr_evaluation_report_sample_2_json_details",
+      "community": 0,
+      "norm_label": "details"
+    },
+    {
+      "label": "graphify_ast_step.py",
+      "file_type": "code",
+      "source_file": "graphify_ast_step.py",
+      "source_location": "L1",
+      "id": "graphify_ast_step_py",
+      "community": 34,
+      "norm_label": "graphify_ast_step.py"
+    },
+    {
+      "label": "migrate_db.py",
+      "file_type": "code",
+      "source_file": "migrate_db.py",
+      "source_location": "L1",
+      "id": "migrate_db_py",
+      "community": 29,
+      "norm_label": "migrate_db.py"
+    },
+    {
+      "label": "migrate()",
+      "file_type": "code",
+      "source_file": "migrate_db.py",
+      "source_location": "L6",
+      "id": "ocr_migrate_db_migrate",
+      "community": 29,
+      "norm_label": "migrate()"
+    },
+    {
+      "label": "reset_jobs.py",
+      "file_type": "code",
+      "source_file": "reset_jobs.py",
+      "source_location": "L1",
+      "id": "reset_jobs_py",
+      "community": 1,
+      "norm_label": "reset_jobs.py"
+    },
+    {
+      "label": "reset_jobs()",
+      "file_type": "code",
+      "source_file": "reset_jobs.py",
+      "source_location": "L4",
+      "id": "ocr_reset_jobs_reset_jobs",
+      "community": 1,
+      "norm_label": "reset_jobs()"
+    },
+    {
+      "label": "run_ocr_batch.py",
+      "file_type": "code",
+      "source_file": "run_ocr_batch.py",
+      "source_location": "L1",
+      "id": "run_ocr_batch_py",
+      "community": 4,
+      "norm_label": "run_ocr_batch.py"
+    },
+    {
+      "label": "main()",
+      "file_type": "code",
+      "source_file": "run_ocr_batch.py",
+      "source_location": "L13",
+      "id": "ocr_run_ocr_batch_main",
+      "community": 4,
+      "norm_label": "main()"
+    },
+    {
+      "label": "test_timezone.py",
+      "file_type": "code",
+      "source_file": "test_timezone.py",
+      "source_location": "L1",
+      "id": "test_timezone_py",
+      "community": 35,
+      "norm_label": "test_timezone.py"
+    },
+    {
+      "label": "upload_benchmarks.py",
+      "file_type": "code",
+      "source_file": "upload_benchmarks.py",
+      "source_location": "L1",
+      "id": "upload_benchmarks_py",
+      "community": 20,
+      "norm_label": "upload_benchmarks.py"
+    },
+    {
+      "label": "get_token()",
+      "file_type": "code",
+      "source_file": "upload_benchmarks.py",
+      "source_location": "L10",
+      "id": "ocr_upload_benchmarks_get_token",
+      "community": 20,
+      "norm_label": "get_token()"
+    },
+    {
+      "label": "upload_file()",
+      "file_type": "code",
+      "source_file": "upload_benchmarks.py",
+      "source_location": "L19",
+      "id": "ocr_upload_benchmarks_upload_file",
+      "community": 20,
+      "norm_label": "upload_file()"
+    },
+    {
+      "label": "main()",
+      "file_type": "code",
+      "source_file": "upload_benchmarks.py",
+      "source_location": "L37",
+      "id": "ocr_upload_benchmarks_main",
+      "community": 20,
+      "norm_label": "main()"
+    },
+    {
+      "label": "verify_templates.py",
+      "file_type": "code",
+      "source_file": "verify_templates.py",
+      "source_location": "L1",
+      "id": "verify_templates_py",
+      "community": 30,
+      "norm_label": "verify_templates.py"
+    },
+    {
+      "label": "test_template_loading()",
+      "file_type": "code",
+      "source_file": "verify_templates.py",
+      "source_location": "L9",
+      "id": "ocr_verify_templates_test_template_loading",
+      "community": 30,
+      "norm_label": "test_template_loading()"
+    },
+    {
+      "label": "celery_app.py",
+      "file_type": "code",
+      "source_file": "backend/celery_app.py",
+      "source_location": "L1",
+      "id": "backend_celery_app_py",
+      "community": 36,
+      "norm_label": "celery_app.py"
+    },
+    {
+      "label": "__init__.py",
+      "file_type": "code",
+      "source_file": "backend/app/__init__.py",
+      "source_location": "L1",
+      "id": "backend_app_init_py",
+      "community": 37,
+      "norm_label": "__init__.py"
+    },
+    {
+      "label": "dashboard.py",
+      "file_type": "code",
+      "source_file": "backend/app/admin/dashboard.py",
+      "source_location": "L1",
+      "id": "backend_app_admin_dashboard_py",
+      "community": 14,
+      "norm_label": "dashboard.py"
+    },
+    {
+      "label": "check_password()",
+      "file_type": "code",
+      "source_file": "backend/app/admin/dashboard.py",
+      "source_location": "L15",
+      "id": "admin_dashboard_check_password",
+      "community": 14,
+      "norm_label": "check_password()"
+    },
+    {
+      "label": "get_auth_headers()",
+      "file_type": "code",
+      "source_file": "backend/app/admin/dashboard.py",
+      "source_location": "L51",
+      "id": "admin_dashboard_get_auth_headers",
+      "community": 14,
+      "norm_label": "get_auth_headers()"
+    },
+    {
+      "label": "get_db()",
+      "file_type": "code",
+      "source_file": "backend/app/admin/dashboard.py",
+      "source_location": "L57",
+      "id": "admin_dashboard_get_db",
+      "community": 14,
+      "norm_label": "get_db()"
+    },
+    {
+      "label": "Returns `True` if the user had the correct password.",
+      "file_type": "rationale",
+      "source_file": "backend/app/admin/dashboard.py",
+      "source_location": "L16",
+      "id": "admin_dashboard_rationale_16",
+      "community": 14,
+      "norm_label": "returns `true` if the user had the correct password."
+    },
+    {
+      "label": "main.py",
+      "file_type": "code",
+      "source_file": "backend/app/api/main.py",
+      "source_location": "L1",
+      "id": "backend_app_api_main_py",
+      "community": 4,
+      "norm_label": "main.py"
+    },
+    {
+      "label": "startup_event()",
+      "file_type": "code",
+      "source_file": "backend/app/api/main.py",
+      "source_location": "L30",
+      "id": "api_main_startup_event",
+      "community": 1,
+      "norm_label": "startup_event()"
+    },
+    {
+      "label": "login_for_access_token()",
+      "file_type": "code",
+      "source_file": "backend/app/api/main.py",
+      "source_location": "L79",
+      "id": "api_main_login_for_access_token",
+      "community": 11,
+      "norm_label": "login_for_access_token()"
+    },
+    {
+      "label": "root()",
+      "file_type": "code",
+      "source_file": "backend/app/api/main.py",
+      "source_location": "L94",
+      "id": "api_main_root",
+      "community": 4,
+      "norm_label": "root()"
+    },
+    {
+      "label": "upload_document()",
+      "file_type": "code",
+      "source_file": "backend/app/api/main.py",
+      "source_location": "L98",
+      "id": "api_main_upload_document",
+      "community": 4,
+      "norm_label": "upload_document()"
+    },
+    {
+      "label": "search()",
+      "file_type": "code",
+      "source_file": "backend/app/api/main.py",
+      "source_location": "L124",
+      "id": "api_main_search",
+      "community": 4,
+      "norm_label": "search()"
+    },
+    {
+      "label": "list_voters()",
+      "file_type": "code",
+      "source_file": "backend/app/api/main.py",
+      "source_location": "L136",
+      "id": "api_main_list_voters",
+      "community": 4,
+      "norm_label": "list_voters()"
+    },
+    {
+      "label": "sync_voters()",
+      "file_type": "code",
+      "source_file": "backend/app/api/main.py",
+      "source_location": "L143",
+      "id": "api_main_sync_voters",
+      "community": 4,
+      "norm_label": "sync_voters()"
+    },
+    {
+      "label": "__init__.py",
+      "file_type": "code",
+      "source_file": "backend/app/api/__init__.py",
+      "source_location": "L1",
+      "id": "backend_app_api_init_py",
+      "community": 38,
+      "norm_label": "__init__.py"
+    },
+    {
+      "label": "audit.py",
+      "file_type": "code",
+      "source_file": "backend/app/core/audit.py",
+      "source_location": "L1",
+      "id": "backend_app_core_audit_py",
+      "community": 1,
+      "norm_label": "audit.py"
+    },
+    {
+      "label": "log_action()",
+      "file_type": "code",
+      "source_file": "backend/app/core/audit.py",
+      "source_location": "L5",
+      "id": "core_audit_log_action",
+      "community": 1,
+      "norm_label": "log_action()"
+    },
+    {
+      "label": "Logs an action to the audit_logs table.",
+      "file_type": "rationale",
+      "source_file": "backend/app/core/audit.py",
+      "source_location": "L14",
+      "id": "core_audit_rationale_14",
+      "community": 1,
+      "norm_label": "logs an action to the audit_logs table."
+    },
+    {
+      "label": "auth.py",
+      "file_type": "code",
+      "source_file": "backend/app/core/auth.py",
+      "source_location": "L1",
+      "id": "backend_app_core_auth_py",
+      "community": 11,
+      "norm_label": "auth.py"
+    },
+    {
+      "label": "verify_password()",
+      "file_type": "code",
+      "source_file": "backend/app/core/auth.py",
+      "source_location": "L30",
+      "id": "core_auth_verify_password",
+      "community": 11,
+      "norm_label": "verify_password()"
+    },
+    {
+      "label": "get_password_hash()",
+      "file_type": "code",
+      "source_file": "backend/app/core/auth.py",
+      "source_location": "L33",
+      "id": "core_auth_get_password_hash",
+      "community": 1,
+      "norm_label": "get_password_hash()"
+    },
+    {
+      "label": "create_access_token()",
+      "file_type": "code",
+      "source_file": "backend/app/core/auth.py",
+      "source_location": "L36",
+      "id": "core_auth_create_access_token",
+      "community": 11,
+      "norm_label": "create_access_token()"
+    },
+    {
+      "label": "get_current_user()",
+      "file_type": "code",
+      "source_file": "backend/app/core/auth.py",
+      "source_location": "L46",
+      "id": "core_auth_get_current_user",
+      "community": 11,
+      "norm_label": "get_current_user()"
+    },
+    {
+      "label": "get_current_active_user()",
+      "file_type": "code",
+      "source_file": "backend/app/core/auth.py",
+      "source_location": "L65",
+      "id": "core_auth_get_current_active_user",
+      "community": 11,
+      "norm_label": "get_current_active_user()"
+    },
+    {
+      "label": "require_role()",
+      "file_type": "code",
+      "source_file": "backend/app/core/auth.py",
+      "source_location": "L70",
+      "id": "core_auth_require_role",
+      "community": 11,
+      "norm_label": "require_role()"
+    },
+    {
+      "label": "extractor.py",
+      "file_type": "code",
+      "source_file": "backend/app/core/extractor.py",
+      "source_location": "L1",
+      "id": "backend_app_core_extractor_py",
+      "community": 2,
+      "norm_label": "extractor.py"
+    },
+    {
+      "label": "FieldExtractor",
+      "file_type": "code",
+      "source_file": "backend/app/core/extractor.py",
+      "source_location": "L9",
+      "id": "core_extractor_fieldextractor",
+      "community": 2,
+      "norm_label": "fieldextractor"
+    },
+    {
+      "label": ".__init__()",
+      "file_type": "code",
+      "source_file": "backend/app/core/extractor.py",
+      "source_location": "L10",
+      "id": "core_extractor_fieldextractor_init",
+      "community": 2,
+      "norm_label": ".__init__()"
+    },
+    {
+      "label": "._clean_text()",
+      "file_type": "code",
+      "source_file": "backend/app/core/extractor.py",
+      "source_location": "L17",
+      "id": "core_extractor_fieldextractor_clean_text",
+      "community": 2,
+      "norm_label": "._clean_text()"
+    },
+    {
+      "label": ".extract()",
+      "file_type": "code",
+      "source_file": "backend/app/core/extractor.py",
+      "source_location": "L23",
+      "id": "core_extractor_fieldextractor_extract",
+      "community": 2,
+      "norm_label": ".extract()"
+    },
+    {
+      "label": "extract_fields()",
+      "file_type": "code",
+      "source_file": "backend/app/core/extractor.py",
+      "source_location": "L89",
+      "id": "core_extractor_extract_fields",
+      "community": 2,
+      "norm_label": "extract_fields()"
+    },
+    {
+      "label": "search.py",
+      "file_type": "code",
+      "source_file": "backend/app/core/search.py",
+      "source_location": "L1",
+      "id": "backend_app_core_search_py",
+      "community": 1,
+      "norm_label": "search.py"
+    },
+    {
+      "label": "create_index()",
+      "file_type": "code",
+      "source_file": "backend/app/core/search.py",
+      "source_location": "L10",
+      "id": "core_search_create_index",
+      "community": 1,
+      "norm_label": "create_index()"
+    },
+    {
+      "label": "index_voter()",
+      "file_type": "code",
+      "source_file": "backend/app/core/search.py",
+      "source_location": "L31",
+      "id": "core_search_index_voter",
+      "community": 1,
+      "norm_label": "index_voter()"
+    },
+    {
+      "label": "search_voters()",
+      "file_type": "code",
+      "source_file": "backend/app/core/search.py",
+      "source_location": "L42",
+      "id": "core_search_search_voters",
+      "community": 4,
+      "norm_label": "search_voters()"
+    },
+    {
+      "label": "Creates the voter index.",
+      "file_type": "rationale",
+      "source_file": "backend/app/core/search.py",
+      "source_location": "L11",
+      "id": "core_search_rationale_11",
+      "community": 1,
+      "norm_label": "creates the voter index."
+    },
+    {
+      "label": "Indexes a single voter record.",
+      "file_type": "rationale",
+      "source_file": "backend/app/core/search.py",
+      "source_location": "L32",
+      "id": "core_search_rationale_32",
+      "community": 1,
+      "norm_label": "indexes a single voter record."
+    },
+    {
+      "label": "Searches for voters using fuzzy matching on full_name or voter_id.",
+      "file_type": "rationale",
+      "source_file": "backend/app/core/search.py",
+      "source_location": "L43",
+      "id": "core_search_rationale_43",
+      "community": 4,
+      "norm_label": "searches for voters using fuzzy matching on full_name or voter_id."
+    },
+    {
+      "label": "templates.py",
+      "file_type": "code",
+      "source_file": "backend/app/core/templates.py",
+      "source_location": "L1",
+      "id": "backend_app_core_templates_py",
+      "community": 2,
+      "norm_label": "templates.py"
+    },
+    {
+      "label": "FieldConfig",
+      "file_type": "code",
+      "source_file": "backend/app/core/templates.py",
+      "source_location": "L6",
+      "id": "core_templates_fieldconfig",
+      "community": 2,
+      "norm_label": "fieldconfig"
+    },
+    {
+      "label": "BaseModel",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "id": "basemodel",
+      "community": 2,
+      "norm_label": "basemodel"
+    },
+    {
+      "label": "TemplateConfig",
+      "file_type": "code",
+      "source_file": "backend/app/core/templates.py",
+      "source_location": "L12",
+      "id": "core_templates_templateconfig",
+      "community": 2,
+      "norm_label": "templateconfig"
+    },
+    {
+      "label": "TemplateEngine",
+      "file_type": "code",
+      "source_file": "backend/app/core/templates.py",
+      "source_location": "L19",
+      "id": "core_templates_templateengine",
+      "community": 2,
+      "norm_label": "templateengine"
+    },
+    {
+      "label": ".__init__()",
+      "file_type": "code",
+      "source_file": "backend/app/core/templates.py",
+      "source_location": "L20",
+      "id": "core_templates_templateengine_init",
+      "community": 2,
+      "norm_label": ".__init__()"
+    },
+    {
+      "label": "._load_templates()",
+      "file_type": "code",
+      "source_file": "backend/app/core/templates.py",
+      "source_location": "L25",
+      "id": "core_templates_templateengine_load_templates",
+      "community": 2,
+      "norm_label": "._load_templates()"
+    },
+    {
+      "label": ".get_template()",
+      "file_type": "code",
+      "source_file": "backend/app/core/templates.py",
+      "source_location": "L40",
+      "id": "core_templates_templateengine_get_template",
+      "community": 2,
+      "norm_label": ".get_template()"
+    },
+    {
+      "label": ".list_templates()",
+      "file_type": "code",
+      "source_file": "backend/app/core/templates.py",
+      "source_location": "L43",
+      "id": "core_templates_templateengine_list_templates",
+      "community": 2,
+      "norm_label": ".list_templates()"
+    },
+    {
+      "label": "__init__.py",
+      "file_type": "code",
+      "source_file": "backend/app/core/__init__.py",
+      "source_location": "L1",
+      "id": "backend_app_core_init_py",
+      "community": 39,
+      "norm_label": "__init__.py"
+    },
+    {
+      "label": "models.py",
+      "file_type": "code",
+      "source_file": "backend/app/db/models.py",
+      "source_location": "L1",
+      "id": "backend_app_db_models_py",
+      "community": 1,
+      "norm_label": "models.py"
+    },
+    {
+      "label": "UserRole",
+      "file_type": "code",
+      "source_file": "backend/app/db/models.py",
+      "source_location": "L9",
+      "id": "db_models_userrole",
+      "community": 4,
+      "norm_label": "userrole"
+    },
+    {
+      "label": "str",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "id": "str",
+      "community": 4,
+      "norm_label": "str"
+    },
+    {
+      "label": "User",
+      "file_type": "code",
+      "source_file": "backend/app/db/models.py",
+      "source_location": "L15",
+      "id": "db_models_user",
+      "community": 1,
+      "norm_label": "user"
+    },
+    {
+      "label": "Base",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "id": "base",
+      "community": 1,
+      "norm_label": "base"
+    },
+    {
+      "label": "JobStatus",
+      "file_type": "code",
+      "source_file": "backend/app/db/models.py",
+      "source_location": "L24",
+      "id": "db_models_jobstatus",
+      "community": 1,
+      "norm_label": "jobstatus"
+    },
+    {
+      "label": "ExtractionJob",
+      "file_type": "code",
+      "source_file": "backend/app/db/models.py",
+      "source_location": "L32",
+      "id": "db_models_extractionjob",
+      "community": 1,
+      "norm_label": "extractionjob"
+    },
+    {
+      "label": "Voter",
+      "file_type": "code",
+      "source_file": "backend/app/db/models.py",
+      "source_location": "L44",
+      "id": "db_models_voter",
+      "community": 1,
+      "norm_label": "voter"
+    },
+    {
+      "label": "AuditLog",
+      "file_type": "code",
+      "source_file": "backend/app/db/models.py",
+      "source_location": "L63",
+      "id": "db_models_auditlog",
+      "community": 1,
+      "norm_label": "auditlog"
+    },
+    {
+      "label": "session.py",
+      "file_type": "code",
+      "source_file": "backend/app/db/session.py",
+      "source_location": "L1",
+      "id": "backend_app_db_session_py",
+      "community": 1,
+      "norm_label": "session.py"
+    },
+    {
+      "label": "get_db()",
+      "file_type": "code",
+      "source_file": "backend/app/db/session.py",
+      "source_location": "L10",
+      "id": "db_session_get_db",
+      "community": 1,
+      "norm_label": "get_db()"
+    },
+    {
+      "label": "__init__.py",
+      "file_type": "code",
+      "source_file": "backend/app/db/__init__.py",
+      "source_location": "L1",
+      "id": "backend_app_db_init_py",
+      "community": 40,
+      "norm_label": "__init__.py"
+    },
+    {
+      "label": "extraction.py",
+      "file_type": "code",
+      "source_file": "backend/app/schemas/extraction.py",
+      "source_location": "L1",
+      "id": "backend_app_schemas_extraction_py",
+      "community": 2,
+      "norm_label": "extraction.py"
+    },
+    {
+      "label": "VoterBase",
+      "file_type": "code",
+      "source_file": "backend/app/schemas/extraction.py",
+      "source_location": "L5",
+      "id": "schemas_extraction_voterbase",
+      "community": 2,
+      "norm_label": "voterbase"
+    },
+    {
+      "label": "VoterSyncUpdate",
+      "file_type": "code",
+      "source_file": "backend/app/schemas/extraction.py",
+      "source_location": "L15",
+      "id": "schemas_extraction_votersyncupdate",
+      "community": 2,
+      "norm_label": "votersyncupdate"
+    },
+    {
+      "label": "VoterCreate",
+      "file_type": "code",
+      "source_file": "backend/app/schemas/extraction.py",
+      "source_location": "L24",
+      "id": "schemas_extraction_votercreate",
+      "community": 2,
+      "norm_label": "votercreate"
+    },
+    {
+      "label": "VoterResponse",
+      "file_type": "code",
+      "source_file": "backend/app/schemas/extraction.py",
+      "source_location": "L28",
+      "id": "schemas_extraction_voterresponse",
+      "community": 2,
+      "norm_label": "voterresponse"
+    },
+    {
+      "label": "Config",
+      "file_type": "code",
+      "source_file": "backend/app/schemas/extraction.py",
+      "source_location": "L37",
+      "id": "schemas_extraction_config",
+      "community": 2,
+      "norm_label": "config"
+    },
+    {
+      "label": "ExtractionJobBase",
+      "file_type": "code",
+      "source_file": "backend/app/schemas/extraction.py",
+      "source_location": "L40",
+      "id": "schemas_extraction_extractionjobbase",
+      "community": 2,
+      "norm_label": "extractionjobbase"
+    },
+    {
+      "label": "ExtractionJobResponse",
+      "file_type": "code",
+      "source_file": "backend/app/schemas/extraction.py",
+      "source_location": "L44",
+      "id": "schemas_extraction_extractionjobresponse",
+      "community": 2,
+      "norm_label": "extractionjobresponse"
+    },
+    {
+      "label": "__init__.py",
+      "file_type": "code",
+      "source_file": "backend/app/schemas/__init__.py",
+      "source_location": "L1",
+      "id": "backend_app_schemas_init_py",
+      "community": 41,
+      "norm_label": "__init__.py"
+    },
+    {
+      "label": "tasks.py",
+      "file_type": "code",
+      "source_file": "backend/app/worker/tasks.py",
+      "source_location": "L1",
+      "id": "backend_app_worker_tasks_py",
+      "community": 1,
+      "norm_label": "tasks.py"
+    },
+    {
+      "label": "process_document()",
+      "file_type": "code",
+      "source_file": "backend/app/worker/tasks.py",
+      "source_location": "L32",
+      "id": "worker_tasks_process_document",
+      "community": 1,
+      "norm_label": "process_document()"
+    },
+    {
+      "label": "__init__.py",
+      "file_type": "code",
+      "source_file": "backend/app/worker/__init__.py",
+      "source_location": "L1",
+      "id": "backend_app_worker_init_py",
+      "community": 42,
+      "norm_label": "__init__.py"
+    },
+    {
+      "label": "base.py",
+      "file_type": "code",
+      "source_file": "backend/app/worker/ocr/base.py",
+      "source_location": "L1",
+      "id": "backend_app_worker_ocr_base_py",
+      "community": 5,
+      "norm_label": "base.py"
+    },
+    {
+      "label": "OCRResult",
+      "file_type": "code",
+      "source_file": "backend/app/worker/ocr/base.py",
+      "source_location": "L5",
+      "id": "ocr_base_ocrresult",
+      "community": 5,
+      "norm_label": "ocrresult"
+    },
+    {
+      "label": "OCREngine",
+      "file_type": "code",
+      "source_file": "backend/app/worker/ocr/base.py",
+      "source_location": "L11",
+      "id": "ocr_base_ocrengine",
+      "community": 5,
+      "norm_label": "ocrengine"
+    },
+    {
+      "label": "ABC",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "id": "abc",
+      "community": 5,
+      "norm_label": "abc"
+    },
+    {
+      "label": "extract_text()",
+      "file_type": "code",
+      "source_file": "backend/app/worker/ocr/base.py",
+      "source_location": "L13",
+      "id": "ocr_base_extract_text",
+      "community": 5,
+      "norm_label": "extract_text()"
+    },
+    {
+      "label": "get_name()",
+      "file_type": "code",
+      "source_file": "backend/app/worker/ocr/base.py",
+      "source_location": "L18",
+      "id": "ocr_base_get_name",
+      "community": 5,
+      "norm_label": "get_name()"
+    },
+    {
+      "label": "Extract text from an image.",
+      "file_type": "rationale",
+      "source_file": "backend/app/worker/ocr/base.py",
+      "source_location": "L14",
+      "id": "ocr_base_rationale_14",
+      "community": 43,
+      "norm_label": "extract text from an image."
+    },
+    {
+      "label": "Return the name of the engine.",
+      "file_type": "rationale",
+      "source_file": "backend/app/worker/ocr/base.py",
+      "source_location": "L19",
+      "id": "ocr_base_rationale_19",
+      "community": 44,
+      "norm_label": "return the name of the engine."
+    },
+    {
+      "label": "doctr_engine.py",
+      "file_type": "code",
+      "source_file": "backend/app/worker/ocr/doctr_engine.py",
+      "source_location": "L1",
+      "id": "backend_app_worker_ocr_doctr_engine_py",
+      "community": 5,
+      "norm_label": "doctr_engine.py"
+    },
+    {
+      "label": "DocTREngine",
+      "file_type": "code",
+      "source_file": "backend/app/worker/ocr/doctr_engine.py",
+      "source_location": "L9",
+      "id": "ocr_doctr_engine_doctrengine",
+      "community": 5,
+      "norm_label": "doctrengine"
+    },
+    {
+      "label": ".__init__()",
+      "file_type": "code",
+      "source_file": "backend/app/worker/ocr/doctr_engine.py",
+      "source_location": "L10",
+      "id": "ocr_doctr_engine_doctrengine_init",
+      "community": 5,
+      "norm_label": ".__init__()"
+    },
+    {
+      "label": ".extract_text()",
+      "file_type": "code",
+      "source_file": "backend/app/worker/ocr/doctr_engine.py",
+      "source_location": "L23",
+      "id": "ocr_doctr_engine_doctrengine_extract_text",
+      "community": 5,
+      "norm_label": ".extract_text()"
+    },
+    {
+      "label": ".get_name()",
+      "file_type": "code",
+      "source_file": "backend/app/worker/ocr/doctr_engine.py",
+      "source_location": "L59",
+      "id": "ocr_doctr_engine_doctrengine_get_name",
+      "community": 5,
+      "norm_label": ".get_name()"
+    },
+    {
+      "label": "pipeline.py",
+      "file_type": "code",
+      "source_file": "backend/app/worker/ocr/pipeline.py",
+      "source_location": "L1",
+      "id": "backend_app_worker_ocr_pipeline_py",
+      "community": 5,
+      "norm_label": "pipeline.py"
+    },
+    {
+      "label": "OCRPipeline",
+      "file_type": "code",
+      "source_file": "backend/app/worker/ocr/pipeline.py",
+      "source_location": "L8",
+      "id": "ocr_pipeline_ocrpipeline",
+      "community": 5,
+      "norm_label": "ocrpipeline"
+    },
+    {
+      "label": ".__init__()",
+      "file_type": "code",
+      "source_file": "backend/app/worker/ocr/pipeline.py",
+      "source_location": "L9",
+      "id": "ocr_pipeline_ocrpipeline_init",
+      "community": 5,
+      "norm_label": ".__init__()"
+    },
+    {
+      "label": "engine()",
+      "file_type": "code",
+      "source_file": "backend/app/worker/ocr/pipeline.py",
+      "source_location": "L14",
+      "id": "ocr_pipeline_engine",
+      "community": 5,
+      "norm_label": "engine()"
+    },
+    {
+      "label": ".process()",
+      "file_type": "code",
+      "source_file": "backend/app/worker/ocr/pipeline.py",
+      "source_location": "L19",
+      "id": "ocr_pipeline_ocrpipeline_process",
+      "community": 5,
+      "norm_label": ".process()"
+    },
+    {
+      "label": "__init__.py",
+      "file_type": "code",
+      "source_file": "backend/app/worker/ocr/__init__.py",
+      "source_location": "L1",
+      "id": "backend_app_worker_ocr_init_py",
+      "community": 45,
+      "norm_label": "__init__.py"
+    },
+    {
+      "label": "upload_file.py",
+      "file_type": "code",
+      "source_file": "backend/scripts/upload_file.py",
+      "source_location": "L1",
+      "id": "backend_scripts_upload_file_py",
+      "community": 33,
+      "norm_label": "upload_file.py"
+    },
+    {
+      "label": "upload_file()",
+      "file_type": "code",
+      "source_file": "backend/scripts/upload_file.py",
+      "source_location": "L8",
+      "id": "scripts_upload_file_upload_file",
+      "community": 33,
+      "norm_label": "upload_file()"
+    },
+    {
+      "label": "evaluator.py",
+      "file_type": "code",
+      "source_file": "benchmarks/scripts/evaluator.py",
+      "source_location": "L1",
+      "id": "benchmarks_scripts_evaluator_py",
+      "community": 4,
+      "norm_label": "evaluator.py"
+    },
+    {
+      "label": "calculate_cer()",
+      "file_type": "code",
+      "source_file": "benchmarks/scripts/evaluator.py",
+      "source_location": "L6",
+      "id": "scripts_evaluator_calculate_cer",
+      "community": 4,
+      "norm_label": "calculate_cer()"
+    },
+    {
+      "label": "evaluate_fields()",
+      "file_type": "code",
+      "source_file": "benchmarks/scripts/evaluator.py",
+      "source_location": "L33",
+      "id": "scripts_evaluator_evaluate_fields",
+      "community": 4,
+      "norm_label": "evaluate_fields()"
+    },
+    {
+      "label": "evaluate_file()",
+      "file_type": "code",
+      "source_file": "benchmarks/scripts/evaluator.py",
+      "source_location": "L53",
+      "id": "scripts_evaluator_evaluate_file",
+      "community": 4,
+      "norm_label": "evaluate_file()"
+    },
+    {
+      "label": "main()",
+      "file_type": "code",
+      "source_file": "benchmarks/scripts/evaluator.py",
+      "source_location": "L114",
+      "id": "scripts_evaluator_main",
+      "community": 4,
+      "norm_label": "main()"
+    },
+    {
+      "label": "Calculate Character Error Rate (CER).",
+      "file_type": "rationale",
+      "source_file": "benchmarks/scripts/evaluator.py",
+      "source_location": "L7",
+      "id": "scripts_evaluator_rationale_7",
+      "community": 4,
+      "norm_label": "calculate character error rate (cer)."
+    },
+    {
+      "label": "Evaluate specific fields for accuracy.",
+      "file_type": "rationale",
+      "source_file": "benchmarks/scripts/evaluator.py",
+      "source_location": "L34",
+      "id": "scripts_evaluator_rationale_34",
+      "community": 4,
+      "norm_label": "evaluate specific fields for accuracy."
+    },
+    {
+      "label": "package_config.json",
+      "file_type": "code",
+      "source_file": "mobile_app/.dart_tool/package_config.json",
+      "source_location": "L1",
+      "id": "mobile_app_dart_tool_package_config_json",
+      "community": 10,
+      "norm_label": "package_config.json"
+    },
+    {
+      "label": "configVersion",
+      "file_type": "code",
+      "source_file": "mobile_app/.dart_tool/package_config.json",
+      "source_location": "L2",
+      "id": "dart_tool_package_config_configversion",
+      "community": 10,
+      "norm_label": "configversion"
+    },
+    {
+      "label": "packages",
+      "file_type": "code",
+      "source_file": "mobile_app/.dart_tool/package_config.json",
+      "source_location": "L3",
+      "id": "dart_tool_package_config_packages",
+      "community": 10,
+      "norm_label": "packages"
+    },
+    {
+      "label": "generator",
+      "file_type": "code",
+      "source_file": "mobile_app/.dart_tool/package_config.json",
+      "source_location": "L419",
+      "id": "dart_tool_package_config_generator",
+      "community": 10,
+      "norm_label": "generator"
+    },
+    {
+      "label": "generatorVersion",
+      "file_type": "code",
+      "source_file": "mobile_app/.dart_tool/package_config.json",
+      "source_location": "L420",
+      "id": "dart_tool_package_config_generatorversion",
+      "community": 10,
+      "norm_label": "generatorversion"
+    },
+    {
+      "label": "flutterRoot",
+      "file_type": "code",
+      "source_file": "mobile_app/.dart_tool/package_config.json",
+      "source_location": "L421",
+      "id": "dart_tool_package_config_flutterroot",
+      "community": 10,
+      "norm_label": "flutterroot"
+    },
+    {
+      "label": "flutterVersion",
+      "file_type": "code",
+      "source_file": "mobile_app/.dart_tool/package_config.json",
+      "source_location": "L422",
+      "id": "dart_tool_package_config_flutterversion",
+      "community": 10,
+      "norm_label": "flutterversion"
+    },
+    {
+      "label": "pubCache",
+      "file_type": "code",
+      "source_file": "mobile_app/.dart_tool/package_config.json",
+      "source_location": "L423",
+      "id": "dart_tool_package_config_pubcache",
+      "community": 10,
+      "norm_label": "pubcache"
+    },
+    {
+      "label": "package_graph.json",
+      "file_type": "code",
+      "source_file": "mobile_app/.dart_tool/package_graph.json",
+      "source_location": "L1",
+      "id": "mobile_app_dart_tool_package_graph_json",
+      "community": 19,
+      "norm_label": "package_graph.json"
+    },
+    {
+      "label": "roots",
+      "file_type": "code",
+      "source_file": "mobile_app/.dart_tool/package_graph.json",
+      "source_location": "L2",
+      "id": "dart_tool_package_graph_roots",
+      "community": 19,
+      "norm_label": "roots"
+    },
+    {
+      "label": "packages",
+      "file_type": "code",
+      "source_file": "mobile_app/.dart_tool/package_graph.json",
+      "source_location": "L5",
+      "id": "dart_tool_package_graph_packages",
+      "community": 19,
+      "norm_label": "packages"
+    },
+    {
+      "label": "configVersion",
+      "file_type": "code",
+      "source_file": "mobile_app/.dart_tool/package_graph.json",
+      "source_location": "L597",
+      "id": "dart_tool_package_graph_configversion",
+      "community": 19,
+      "norm_label": "configversion"
+    },
+    {
+      "label": "web_plugin_registrant.dart",
+      "file_type": "code",
+      "source_file": "mobile_app/.dart_tool/dartpad/web_plugin_registrant.dart",
+      "source_location": null,
+      "id": "mobile_app_dart_tool_dartpad_web_plugin_registrant_dart",
+      "community": 18,
+      "norm_label": "web_plugin_registrant.dart"
+    },
+    {
+      "label": "registerPlugins",
+      "file_type": "code",
+      "source_file": "mobile_app/.dart_tool/dartpad/web_plugin_registrant.dart",
+      "source_location": null,
+      "id": "d_project_2026_ocr_mobile_app_dart_tool_dartpad_web_plugin_registrant_dart_registerplugins",
+      "community": 18,
+      "norm_label": "registerplugins"
+    },
+    {
+      "label": "package:geolocator_web/geolocator_web.dart",
+      "file_type": "code",
+      "source_file": "mobile_app/.dart_tool/dartpad/web_plugin_registrant.dart",
+      "source_location": null,
+      "id": "package_geolocator_web_geolocator_web_dart",
+      "community": 18,
+      "norm_label": "package:geolocator_web/geolocator_web.dart"
+    },
+    {
+      "label": "package:flutter_web_plugins/flutter_web_plugins.dart",
+      "file_type": "code",
+      "source_file": "mobile_app/.dart_tool/dartpad/web_plugin_registrant.dart",
+      "source_location": null,
+      "id": "package_flutter_web_plugins_flutter_web_plugins_dart",
+      "community": 18,
+      "norm_label": "package:flutter_web_plugins/flutter_web_plugins.dart"
+    },
+    {
+      "label": "vs_code.json",
+      "file_type": "code",
+      "source_file": "mobile_app/.dart_tool/extension_discovery/vs_code.json",
+      "source_location": "L1",
+      "id": "mobile_app_dart_tool_extension_discovery_vs_code_json",
+      "community": 23,
+      "norm_label": "vs_code.json"
+    },
+    {
+      "label": "version",
+      "file_type": "code",
+      "source_file": "mobile_app/.dart_tool/extension_discovery/vs_code.json",
+      "source_location": "L1",
+      "id": "extension_discovery_vs_code_version",
+      "community": 23,
+      "norm_label": "version"
+    },
+    {
+      "label": "entries",
+      "file_type": "code",
+      "source_file": "mobile_app/.dart_tool/extension_discovery/vs_code.json",
+      "source_location": "L1",
+      "id": "extension_discovery_vs_code_entries",
+      "community": 23,
+      "norm_label": "entries"
+    },
+    {
+      "label": "dart_plugin_registrant.dart",
+      "file_type": "code",
+      "source_file": "mobile_app/.dart_tool/flutter_build/dart_plugin_registrant.dart",
+      "source_location": null,
+      "id": "mobile_app_dart_tool_flutter_build_dart_plugin_registrant_dart",
+      "community": 7,
+      "norm_label": "dart_plugin_registrant.dart"
+    },
+    {
+      "label": "_PluginRegistrant",
+      "file_type": "code",
+      "source_file": "mobile_app/.dart_tool/flutter_build/dart_plugin_registrant.dart",
+      "source_location": null,
+      "id": "d_project_2026_ocr_mobile_app_dart_tool_flutter_build_dart_plugin_registrant_dart_pluginregistrant",
+      "community": 7,
+      "norm_label": "_pluginregistrant"
+    },
+    {
+      "label": "register",
+      "file_type": "code",
+      "source_file": "mobile_app/.dart_tool/flutter_build/dart_plugin_registrant.dart",
+      "source_location": null,
+      "id": "d_project_2026_ocr_mobile_app_dart_tool_flutter_build_dart_plugin_registrant_dart_register",
+      "community": 7,
+      "norm_label": "register"
+    },
+    {
+      "label": "dart:io",
+      "file_type": "code",
+      "source_file": "mobile_app/.dart_tool/flutter_build/dart_plugin_registrant.dart",
+      "source_location": null,
+      "id": "dart_io",
+      "community": 7,
+      "norm_label": "dart:io"
+    },
+    {
+      "label": "package:geolocator_android/geolocator_android.dart",
+      "file_type": "code",
+      "source_file": "mobile_app/.dart_tool/flutter_build/dart_plugin_registrant.dart",
+      "source_location": null,
+      "id": "package_geolocator_android_geolocator_android_dart",
+      "community": 7,
+      "norm_label": "package:geolocator_android/geolocator_android.dart"
+    },
+    {
+      "label": "package:path_provider_android/path_provider_android.dart",
+      "file_type": "code",
+      "source_file": "mobile_app/.dart_tool/flutter_build/dart_plugin_registrant.dart",
+      "source_location": null,
+      "id": "package_path_provider_android_path_provider_android_dart",
+      "community": 7,
+      "norm_label": "package:path_provider_android/path_provider_android.dart"
+    },
+    {
+      "label": "package:sqflite_android/sqflite_android.dart",
+      "file_type": "code",
+      "source_file": "mobile_app/.dart_tool/flutter_build/dart_plugin_registrant.dart",
+      "source_location": null,
+      "id": "package_sqflite_android_sqflite_android_dart",
+      "community": 7,
+      "norm_label": "package:sqflite_android/sqflite_android.dart"
+    },
+    {
+      "label": "package:geolocator_apple/geolocator_apple.dart",
+      "file_type": "code",
+      "source_file": "mobile_app/.dart_tool/flutter_build/dart_plugin_registrant.dart",
+      "source_location": null,
+      "id": "package_geolocator_apple_geolocator_apple_dart",
+      "community": 7,
+      "norm_label": "package:geolocator_apple/geolocator_apple.dart"
+    },
+    {
+      "label": "package:path_provider_foundation/path_provider_foundation.dart",
+      "file_type": "code",
+      "source_file": "mobile_app/.dart_tool/flutter_build/dart_plugin_registrant.dart",
+      "source_location": null,
+      "id": "package_path_provider_foundation_path_provider_foundation_dart",
+      "community": 7,
+      "norm_label": "package:path_provider_foundation/path_provider_foundation.dart"
+    },
+    {
+      "label": "package:sqflite_darwin/sqflite_darwin.dart",
+      "file_type": "code",
+      "source_file": "mobile_app/.dart_tool/flutter_build/dart_plugin_registrant.dart",
+      "source_location": null,
+      "id": "package_sqflite_darwin_sqflite_darwin_dart",
+      "community": 7,
+      "norm_label": "package:sqflite_darwin/sqflite_darwin.dart"
+    },
+    {
+      "label": "package:path_provider_linux/path_provider_linux.dart",
+      "file_type": "code",
+      "source_file": "mobile_app/.dart_tool/flutter_build/dart_plugin_registrant.dart",
+      "source_location": null,
+      "id": "package_path_provider_linux_path_provider_linux_dart",
+      "community": 7,
+      "norm_label": "package:path_provider_linux/path_provider_linux.dart"
+    },
+    {
+      "label": "package:path_provider_windows/path_provider_windows.dart",
+      "file_type": "code",
+      "source_file": "mobile_app/.dart_tool/flutter_build/dart_plugin_registrant.dart",
+      "source_location": null,
+      "id": "package_path_provider_windows_path_provider_windows_dart",
+      "community": 7,
+      "norm_label": "package:path_provider_windows/path_provider_windows.dart"
+    },
+    {
+      "label": "dart_build_result.json",
+      "file_type": "code",
+      "source_file": "mobile_app/.dart_tool/flutter_build/34a8251cb3bd348f2a67bb95d8f918ae/dart_build_result.json",
+      "source_location": "L1",
+      "id": "mobile_app_dart_tool_flutter_build_34a8251cb3bd348f2a67bb95d8f918ae_dart_build_result_json",
+      "community": 12,
+      "norm_label": "dart_build_result.json"
+    },
+    {
+      "label": "build_start",
+      "file_type": "code",
+      "source_file": "mobile_app/.dart_tool/flutter_build/34a8251cb3bd348f2a67bb95d8f918ae/dart_build_result.json",
+      "source_location": "L1",
+      "id": "34a8251cb3bd348f2a67bb95d8f918ae_dart_build_result_build_start",
+      "community": 12,
+      "norm_label": "build_start"
+    },
+    {
+      "label": "build_end",
+      "file_type": "code",
+      "source_file": "mobile_app/.dart_tool/flutter_build/34a8251cb3bd348f2a67bb95d8f918ae/dart_build_result.json",
+      "source_location": "L1",
+      "id": "34a8251cb3bd348f2a67bb95d8f918ae_dart_build_result_build_end",
+      "community": 12,
+      "norm_label": "build_end"
+    },
+    {
+      "label": "dependencies",
+      "file_type": "code",
+      "source_file": "mobile_app/.dart_tool/flutter_build/34a8251cb3bd348f2a67bb95d8f918ae/dart_build_result.json",
+      "source_location": "L1",
+      "id": "34a8251cb3bd348f2a67bb95d8f918ae_dart_build_result_dependencies",
+      "community": 12,
+      "norm_label": "dependencies"
+    },
+    {
+      "label": "code_assets",
+      "file_type": "code",
+      "source_file": "mobile_app/.dart_tool/flutter_build/34a8251cb3bd348f2a67bb95d8f918ae/dart_build_result.json",
+      "source_location": "L1",
+      "id": "34a8251cb3bd348f2a67bb95d8f918ae_dart_build_result_code_assets",
+      "community": 12,
+      "norm_label": "code_assets"
+    },
+    {
+      "label": "data_assets",
+      "file_type": "code",
+      "source_file": "mobile_app/.dart_tool/flutter_build/34a8251cb3bd348f2a67bb95d8f918ae/dart_build_result.json",
+      "source_location": "L1",
+      "id": "34a8251cb3bd348f2a67bb95d8f918ae_dart_build_result_data_assets",
+      "community": 12,
+      "norm_label": "data_assets"
+    },
+    {
+      "label": "native_assets.json",
+      "file_type": "code",
+      "source_file": "mobile_app/.dart_tool/flutter_build/34a8251cb3bd348f2a67bb95d8f918ae/native_assets.json",
+      "source_location": "L1",
+      "id": "mobile_app_dart_tool_flutter_build_34a8251cb3bd348f2a67bb95d8f918ae_native_assets_json",
+      "community": 24,
+      "norm_label": "native_assets.json"
+    },
+    {
+      "label": "format-version",
+      "file_type": "code",
+      "source_file": "mobile_app/.dart_tool/flutter_build/34a8251cb3bd348f2a67bb95d8f918ae/native_assets.json",
+      "source_location": "L1",
+      "id": "34a8251cb3bd348f2a67bb95d8f918ae_native_assets_format_version",
+      "community": 24,
+      "norm_label": "format-version"
+    },
+    {
+      "label": "native-assets",
+      "file_type": "code",
+      "source_file": "mobile_app/.dart_tool/flutter_build/34a8251cb3bd348f2a67bb95d8f918ae/native_assets.json",
+      "source_location": "L1",
+      "id": "34a8251cb3bd348f2a67bb95d8f918ae_native_assets_native_assets",
+      "community": 24,
+      "norm_label": "native-assets"
+    },
+    {
+      "label": "outputs.json",
+      "file_type": "code",
+      "source_file": "mobile_app/.dart_tool/flutter_build/34a8251cb3bd348f2a67bb95d8f918ae/outputs.json",
+      "source_location": "L1",
+      "id": "mobile_app_dart_tool_flutter_build_34a8251cb3bd348f2a67bb95d8f918ae_outputs_json",
+      "community": 46,
+      "norm_label": "outputs.json"
+    },
+    {
+      "label": "dependencies.dependencies_hash_file.json",
+      "file_type": "code",
+      "source_file": "mobile_app/.dart_tool/hooks_runner/objective_c/337ce265dc/dependencies.dependencies_hash_file.json",
+      "source_location": "L1",
+      "id": "mobile_app_dart_tool_hooks_runner_objective_c_337ce265dc_dependencies_dependencies_hash_file_json",
+      "community": 25,
+      "norm_label": "dependencies.dependencies_hash_file.json"
+    },
+    {
+      "label": "file_system",
+      "file_type": "code",
+      "source_file": "mobile_app/.dart_tool/hooks_runner/objective_c/337ce265dc/dependencies.dependencies_hash_file.json",
+      "source_location": "L1",
+      "id": "337ce265dc_dependencies_dependencies_hash_file_file_system",
+      "community": 25,
+      "norm_label": "file_system"
+    },
+    {
+      "label": "environment",
+      "file_type": "code",
+      "source_file": "mobile_app/.dart_tool/hooks_runner/objective_c/337ce265dc/dependencies.dependencies_hash_file.json",
+      "source_location": "L1",
+      "id": "337ce265dc_dependencies_dependencies_hash_file_environment",
+      "community": 25,
+      "norm_label": "environment"
+    },
+    {
+      "label": "hook.dependencies_hash_file.json",
+      "file_type": "code",
+      "source_file": "mobile_app/.dart_tool/hooks_runner/objective_c/337ce265dc/hook.dependencies_hash_file.json",
+      "source_location": "L1",
+      "id": "mobile_app_dart_tool_hooks_runner_objective_c_337ce265dc_hook_dependencies_hash_file_json",
+      "community": 26,
+      "norm_label": "hook.dependencies_hash_file.json"
+    },
+    {
+      "label": "file_system",
+      "file_type": "code",
+      "source_file": "mobile_app/.dart_tool/hooks_runner/objective_c/337ce265dc/hook.dependencies_hash_file.json",
+      "source_location": "L1",
+      "id": "337ce265dc_hook_dependencies_hash_file_file_system",
+      "community": 26,
+      "norm_label": "file_system"
+    },
+    {
+      "label": "environment",
+      "file_type": "code",
+      "source_file": "mobile_app/.dart_tool/hooks_runner/objective_c/337ce265dc/hook.dependencies_hash_file.json",
+      "source_location": "L1",
+      "id": "337ce265dc_hook_dependencies_hash_file_environment",
+      "community": 26,
+      "norm_label": "environment"
+    },
+    {
+      "label": "input.json",
+      "file_type": "code",
+      "source_file": "mobile_app/.dart_tool/hooks_runner/objective_c/337ce265dc/input.json",
+      "source_location": "L1",
+      "id": "mobile_app_dart_tool_hooks_runner_objective_c_337ce265dc_input_json",
+      "community": 9,
+      "norm_label": "input.json"
+    },
+    {
+      "label": "assets",
+      "file_type": "code",
+      "source_file": "mobile_app/.dart_tool/hooks_runner/objective_c/337ce265dc/input.json",
+      "source_location": "L2",
+      "id": "337ce265dc_input_assets",
+      "community": 9,
+      "norm_label": "assets"
+    },
+    {
+      "label": "config",
+      "file_type": "code",
+      "source_file": "mobile_app/.dart_tool/hooks_runner/objective_c/337ce265dc/input.json",
+      "source_location": "L3",
+      "id": "337ce265dc_input_config",
+      "community": 9,
+      "norm_label": "config"
+    },
+    {
+      "label": "build_asset_types",
+      "file_type": "code",
+      "source_file": "mobile_app/.dart_tool/hooks_runner/objective_c/337ce265dc/input.json",
+      "source_location": "L4",
+      "id": "337ce265dc_input_config_build_asset_types",
+      "community": 9,
+      "norm_label": "build_asset_types"
+    },
+    {
+      "label": "linking_enabled",
+      "file_type": "code",
+      "source_file": "mobile_app/.dart_tool/hooks_runner/objective_c/337ce265dc/input.json",
+      "source_location": "L5",
+      "id": "337ce265dc_input_config_linking_enabled",
+      "community": 9,
+      "norm_label": "linking_enabled"
+    },
+    {
+      "label": "out_dir_shared",
+      "file_type": "code",
+      "source_file": "mobile_app/.dart_tool/hooks_runner/objective_c/337ce265dc/input.json",
+      "source_location": "L7",
+      "id": "337ce265dc_input_out_dir_shared",
+      "community": 9,
+      "norm_label": "out_dir_shared"
+    },
+    {
+      "label": "out_file",
+      "file_type": "code",
+      "source_file": "mobile_app/.dart_tool/hooks_runner/objective_c/337ce265dc/input.json",
+      "source_location": "L8",
+      "id": "337ce265dc_input_out_file",
+      "community": 9,
+      "norm_label": "out_file"
+    },
+    {
+      "label": "package_name",
+      "file_type": "code",
+      "source_file": "mobile_app/.dart_tool/hooks_runner/objective_c/337ce265dc/input.json",
+      "source_location": "L9",
+      "id": "337ce265dc_input_package_name",
+      "community": 9,
+      "norm_label": "package_name"
+    },
+    {
+      "label": "package_root",
+      "file_type": "code",
+      "source_file": "mobile_app/.dart_tool/hooks_runner/objective_c/337ce265dc/input.json",
+      "source_location": "L10",
+      "id": "337ce265dc_input_package_root",
+      "community": 9,
+      "norm_label": "package_root"
+    },
+    {
+      "label": "user_defines",
+      "file_type": "code",
+      "source_file": "mobile_app/.dart_tool/hooks_runner/objective_c/337ce265dc/input.json",
+      "source_location": "L11",
+      "id": "337ce265dc_input_user_defines",
+      "community": 9,
+      "norm_label": "user_defines"
+    },
+    {
+      "label": "output.json",
+      "file_type": "code",
+      "source_file": "mobile_app/.dart_tool/hooks_runner/objective_c/337ce265dc/output.json",
+      "source_location": "L1",
+      "id": "mobile_app_dart_tool_hooks_runner_objective_c_337ce265dc_output_json",
+      "community": 16,
+      "norm_label": "output.json"
+    },
+    {
+      "label": "assets_for_linking",
+      "file_type": "code",
+      "source_file": "mobile_app/.dart_tool/hooks_runner/objective_c/337ce265dc/output.json",
+      "source_location": "L2",
+      "id": "337ce265dc_output_assets_for_linking",
+      "community": 16,
+      "norm_label": "assets_for_linking"
+    },
+    {
+      "label": "status",
+      "file_type": "code",
+      "source_file": "mobile_app/.dart_tool/hooks_runner/objective_c/337ce265dc/output.json",
+      "source_location": "L3",
+      "id": "337ce265dc_output_status",
+      "community": 16,
+      "norm_label": "status"
+    },
+    {
+      "label": "timestamp",
+      "file_type": "code",
+      "source_file": "mobile_app/.dart_tool/hooks_runner/objective_c/337ce265dc/output.json",
+      "source_location": "L4",
+      "id": "337ce265dc_output_timestamp",
+      "community": 16,
+      "norm_label": "timestamp"
+    },
+    {
+      "label": "dependencies.dependencies_hash_file.json",
+      "file_type": "code",
+      "source_file": "mobile_app/.dart_tool/hooks_runner/objective_c/7345e848bc/dependencies.dependencies_hash_file.json",
+      "source_location": "L1",
+      "id": "mobile_app_dart_tool_hooks_runner_objective_c_7345e848bc_dependencies_dependencies_hash_file_json",
+      "community": 21,
+      "norm_label": "dependencies.dependencies_hash_file.json"
+    },
+    {
+      "label": "file_system",
+      "file_type": "code",
+      "source_file": "mobile_app/.dart_tool/hooks_runner/objective_c/7345e848bc/dependencies.dependencies_hash_file.json",
+      "source_location": "L1",
+      "id": "7345e848bc_dependencies_dependencies_hash_file_file_system",
+      "community": 21,
+      "norm_label": "file_system"
+    },
+    {
+      "label": "environment",
+      "file_type": "code",
+      "source_file": "mobile_app/.dart_tool/hooks_runner/objective_c/7345e848bc/dependencies.dependencies_hash_file.json",
+      "source_location": "L1",
+      "id": "7345e848bc_dependencies_dependencies_hash_file_environment",
+      "community": 21,
+      "norm_label": "environment"
+    },
+    {
+      "label": "hook.dependencies_hash_file.json",
+      "file_type": "code",
+      "source_file": "mobile_app/.dart_tool/hooks_runner/objective_c/7345e848bc/hook.dependencies_hash_file.json",
+      "source_location": "L1",
+      "id": "mobile_app_dart_tool_hooks_runner_objective_c_7345e848bc_hook_dependencies_hash_file_json",
+      "community": 22,
+      "norm_label": "hook.dependencies_hash_file.json"
+    },
+    {
+      "label": "file_system",
+      "file_type": "code",
+      "source_file": "mobile_app/.dart_tool/hooks_runner/objective_c/7345e848bc/hook.dependencies_hash_file.json",
+      "source_location": "L1",
+      "id": "7345e848bc_hook_dependencies_hash_file_file_system",
+      "community": 22,
+      "norm_label": "file_system"
+    },
+    {
+      "label": "environment",
+      "file_type": "code",
+      "source_file": "mobile_app/.dart_tool/hooks_runner/objective_c/7345e848bc/hook.dependencies_hash_file.json",
+      "source_location": "L1",
+      "id": "7345e848bc_hook_dependencies_hash_file_environment",
+      "community": 22,
+      "norm_label": "environment"
+    },
+    {
+      "label": "input.json",
+      "file_type": "code",
+      "source_file": "mobile_app/.dart_tool/hooks_runner/objective_c/7345e848bc/input.json",
+      "source_location": "L1",
+      "id": "mobile_app_dart_tool_hooks_runner_objective_c_7345e848bc_input_json",
+      "community": 3,
+      "norm_label": "input.json"
+    },
+    {
+      "label": "assets",
+      "file_type": "code",
+      "source_file": "mobile_app/.dart_tool/hooks_runner/objective_c/7345e848bc/input.json",
+      "source_location": "L2",
+      "id": "7345e848bc_input_assets",
+      "community": 3,
+      "norm_label": "assets"
+    },
+    {
+      "label": "config",
+      "file_type": "code",
+      "source_file": "mobile_app/.dart_tool/hooks_runner/objective_c/7345e848bc/input.json",
+      "source_location": "L3",
+      "id": "7345e848bc_input_config",
+      "community": 3,
+      "norm_label": "config"
+    },
+    {
+      "label": "build_asset_types",
+      "file_type": "code",
+      "source_file": "mobile_app/.dart_tool/hooks_runner/objective_c/7345e848bc/input.json",
+      "source_location": "L4",
+      "id": "7345e848bc_input_config_build_asset_types",
+      "community": 3,
+      "norm_label": "build_asset_types"
+    },
+    {
+      "label": "extensions",
+      "file_type": "code",
+      "source_file": "mobile_app/.dart_tool/hooks_runner/objective_c/7345e848bc/input.json",
+      "source_location": "L7",
+      "id": "7345e848bc_input_config_extensions",
+      "community": 3,
+      "norm_label": "extensions"
+    },
+    {
+      "label": "code_assets",
+      "file_type": "code",
+      "source_file": "mobile_app/.dart_tool/hooks_runner/objective_c/7345e848bc/input.json",
+      "source_location": "L8",
+      "id": "7345e848bc_input_extensions_code_assets",
+      "community": 3,
+      "norm_label": "code_assets"
+    },
+    {
+      "label": "android",
+      "file_type": "code",
+      "source_file": "mobile_app/.dart_tool/hooks_runner/objective_c/7345e848bc/input.json",
+      "source_location": "L9",
+      "id": "7345e848bc_input_code_assets_android",
+      "community": 3,
+      "norm_label": "android"
+    },
+    {
+      "label": "target_ndk_api",
+      "file_type": "code",
+      "source_file": "mobile_app/.dart_tool/hooks_runner/objective_c/7345e848bc/input.json",
+      "source_location": "L10",
+      "id": "7345e848bc_input_android_target_ndk_api",
+      "community": 3,
+      "norm_label": "target_ndk_api"
+    },
+    {
+      "label": "c_compiler",
+      "file_type": "code",
+      "source_file": "mobile_app/.dart_tool/hooks_runner/objective_c/7345e848bc/input.json",
+      "source_location": "L12",
+      "id": "7345e848bc_input_code_assets_c_compiler",
+      "community": 3,
+      "norm_label": "c_compiler"
+    },
+    {
+      "label": "ar",
+      "file_type": "code",
+      "source_file": "mobile_app/.dart_tool/hooks_runner/objective_c/7345e848bc/input.json",
+      "source_location": "L13",
+      "id": "7345e848bc_input_c_compiler_ar",
+      "community": 3,
+      "norm_label": "ar"
+    },
+    {
+      "label": "cc",
+      "file_type": "code",
+      "source_file": "mobile_app/.dart_tool/hooks_runner/objective_c/7345e848bc/input.json",
+      "source_location": "L14",
+      "id": "7345e848bc_input_c_compiler_cc",
+      "community": 3,
+      "norm_label": "cc"
+    },
+    {
+      "label": "ld",
+      "file_type": "code",
+      "source_file": "mobile_app/.dart_tool/hooks_runner/objective_c/7345e848bc/input.json",
+      "source_location": "L15",
+      "id": "7345e848bc_input_c_compiler_ld",
+      "community": 3,
+      "norm_label": "ld"
+    },
+    {
+      "label": "link_mode_preference",
+      "file_type": "code",
+      "source_file": "mobile_app/.dart_tool/hooks_runner/objective_c/7345e848bc/input.json",
+      "source_location": "L17",
+      "id": "7345e848bc_input_code_assets_link_mode_preference",
+      "community": 3,
+      "norm_label": "link_mode_preference"
+    },
+    {
+      "label": "target_architecture",
+      "file_type": "code",
+      "source_file": "mobile_app/.dart_tool/hooks_runner/objective_c/7345e848bc/input.json",
+      "source_location": "L18",
+      "id": "7345e848bc_input_code_assets_target_architecture",
+      "community": 3,
+      "norm_label": "target_architecture"
+    },
+    {
+      "label": "target_os",
+      "file_type": "code",
+      "source_file": "mobile_app/.dart_tool/hooks_runner/objective_c/7345e848bc/input.json",
+      "source_location": "L19",
+      "id": "7345e848bc_input_code_assets_target_os",
+      "community": 3,
+      "norm_label": "target_os"
+    },
+    {
+      "label": "linking_enabled",
+      "file_type": "code",
+      "source_file": "mobile_app/.dart_tool/hooks_runner/objective_c/7345e848bc/input.json",
+      "source_location": "L22",
+      "id": "7345e848bc_input_config_linking_enabled",
+      "community": 3,
+      "norm_label": "linking_enabled"
+    },
+    {
+      "label": "out_dir_shared",
+      "file_type": "code",
+      "source_file": "mobile_app/.dart_tool/hooks_runner/objective_c/7345e848bc/input.json",
+      "source_location": "L24",
+      "id": "7345e848bc_input_out_dir_shared",
+      "community": 3,
+      "norm_label": "out_dir_shared"
+    },
+    {
+      "label": "out_file",
+      "file_type": "code",
+      "source_file": "mobile_app/.dart_tool/hooks_runner/objective_c/7345e848bc/input.json",
+      "source_location": "L25",
+      "id": "7345e848bc_input_out_file",
+      "community": 3,
+      "norm_label": "out_file"
+    },
+    {
+      "label": "package_name",
+      "file_type": "code",
+      "source_file": "mobile_app/.dart_tool/hooks_runner/objective_c/7345e848bc/input.json",
+      "source_location": "L26",
+      "id": "7345e848bc_input_package_name",
+      "community": 3,
+      "norm_label": "package_name"
+    },
+    {
+      "label": "package_root",
+      "file_type": "code",
+      "source_file": "mobile_app/.dart_tool/hooks_runner/objective_c/7345e848bc/input.json",
+      "source_location": "L27",
+      "id": "7345e848bc_input_package_root",
+      "community": 3,
+      "norm_label": "package_root"
+    },
+    {
+      "label": "user_defines",
+      "file_type": "code",
+      "source_file": "mobile_app/.dart_tool/hooks_runner/objective_c/7345e848bc/input.json",
+      "source_location": "L28",
+      "id": "7345e848bc_input_user_defines",
+      "community": 3,
+      "norm_label": "user_defines"
+    },
+    {
+      "label": "output.json",
+      "file_type": "code",
+      "source_file": "mobile_app/.dart_tool/hooks_runner/objective_c/7345e848bc/output.json",
+      "source_location": "L1",
+      "id": "mobile_app_dart_tool_hooks_runner_objective_c_7345e848bc_output_json",
+      "community": 17,
+      "norm_label": "output.json"
+    },
+    {
+      "label": "assets_for_linking",
+      "file_type": "code",
+      "source_file": "mobile_app/.dart_tool/hooks_runner/objective_c/7345e848bc/output.json",
+      "source_location": "L2",
+      "id": "7345e848bc_output_assets_for_linking",
+      "community": 17,
+      "norm_label": "assets_for_linking"
+    },
+    {
+      "label": "status",
+      "file_type": "code",
+      "source_file": "mobile_app/.dart_tool/hooks_runner/objective_c/7345e848bc/output.json",
+      "source_location": "L3",
+      "id": "7345e848bc_output_status",
+      "community": 17,
+      "norm_label": "status"
+    },
+    {
+      "label": "timestamp",
+      "file_type": "code",
+      "source_file": "mobile_app/.dart_tool/hooks_runner/objective_c/7345e848bc/output.json",
+      "source_location": "L4",
+      "id": "7345e848bc_output_timestamp",
+      "community": 17,
+      "norm_label": "timestamp"
+    },
+    {
+      "label": "build.gradle.kts",
+      "file_type": "code",
+      "source_file": "mobile_app/android/build.gradle.kts",
+      "source_location": "L1",
+      "id": "mobile_app_android_build_gradle_kts",
+      "community": 47,
+      "norm_label": "build.gradle.kts"
+    },
+    {
+      "label": "settings.gradle.kts",
+      "file_type": "code",
+      "source_file": "mobile_app/android/settings.gradle.kts",
+      "source_location": "L1",
+      "id": "mobile_app_android_settings_gradle_kts",
+      "community": 48,
+      "norm_label": "settings.gradle.kts"
+    },
+    {
+      "label": "build.gradle.kts",
+      "file_type": "code",
+      "source_file": "mobile_app/android/app/build.gradle.kts",
+      "source_location": "L1",
+      "id": "mobile_app_android_app_build_gradle_kts",
+      "community": 49,
+      "norm_label": "build.gradle.kts"
+    },
+    {
+      "label": "GeneratedPluginRegistrant.java",
+      "file_type": "code",
+      "source_file": "mobile_app/android/app/src/main/java/io/flutter/plugins/GeneratedPluginRegistrant.java",
+      "source_location": "L1",
+      "id": "mobile_app_android_app_src_main_java_io_flutter_plugins_generatedpluginregistrant_java",
+      "community": 27,
+      "norm_label": "generatedpluginregistrant.java"
+    },
+    {
+      "label": "GeneratedPluginRegistrant",
+      "file_type": "code",
+      "source_file": "mobile_app/android/app/src/main/java/io/flutter/plugins/GeneratedPluginRegistrant.java",
+      "source_location": "L14",
+      "id": "plugins_generatedpluginregistrant_generatedpluginregistrant",
+      "community": 27,
+      "norm_label": "generatedpluginregistrant"
+    },
+    {
+      "label": ".registerWith()",
+      "file_type": "code",
+      "source_file": "mobile_app/android/app/src/main/java/io/flutter/plugins/GeneratedPluginRegistrant.java",
+      "source_location": "L17",
+      "id": "plugins_generatedpluginregistrant_generatedpluginregistrant_registerwith",
+      "community": 27,
+      "norm_label": ".registerwith()"
+    },
+    {
+      "label": "MainActivity.kt",
+      "file_type": "code",
+      "source_file": "mobile_app/android/app/src/main/kotlin/com/example/campaign_app/MainActivity.kt",
+      "source_location": "L1",
+      "id": "mobile_app_android_app_src_main_kotlin_com_example_campaign_app_mainactivity_kt",
+      "community": 28,
+      "norm_label": "mainactivity.kt"
+    },
+    {
+      "label": "MainActivity",
+      "file_type": "code",
+      "source_file": "mobile_app/android/app/src/main/kotlin/com/example/campaign_app/MainActivity.kt",
+      "source_location": "L5",
+      "id": "campaign_app_mainactivity_mainactivity",
+      "community": 28,
+      "norm_label": "mainactivity"
+    },
+    {
+      "label": "widget_test.dart",
+      "file_type": "code",
+      "source_file": "mobile_app/test/widget_test.dart",
+      "source_location": null,
+      "id": "mobile_app_test_widget_test_dart",
+      "community": 15,
+      "norm_label": "widget_test.dart"
+    },
+    {
+      "label": "main",
+      "file_type": "code",
+      "source_file": "mobile_app/test/widget_test.dart",
+      "source_location": null,
+      "id": "d_project_2026_ocr_mobile_app_test_widget_test_dart_main",
+      "community": 15,
+      "norm_label": "main"
+    },
+    {
+      "label": "package:flutter/material.dart",
+      "file_type": "code",
+      "source_file": "mobile_app/test/widget_test.dart",
+      "source_location": null,
+      "id": "package_flutter_material_dart",
+      "community": 15,
+      "norm_label": "package:flutter/material.dart"
+    },
+    {
+      "label": "package:flutter_test/flutter_test.dart",
+      "file_type": "code",
+      "source_file": "mobile_app/test/widget_test.dart",
+      "source_location": null,
+      "id": "package_flutter_test_flutter_test_dart",
+      "community": 15,
+      "norm_label": "package:flutter_test/flutter_test.dart"
+    },
+    {
+      "label": "package:campaign_app/main.dart",
+      "file_type": "code",
+      "source_file": "mobile_app/test/widget_test.dart",
+      "source_location": null,
+      "id": "package_campaign_app_main_dart",
+      "community": 15,
+      "norm_label": "package:campaign_app/main.dart"
+    },
+    {
+      "label": "manifest.json",
+      "file_type": "code",
+      "source_file": "mobile_app/web/manifest.json",
+      "source_location": "L1",
+      "id": "mobile_app_web_manifest_json",
+      "community": 8,
+      "norm_label": "manifest.json"
+    },
+    {
+      "label": "name",
+      "file_type": "code",
+      "source_file": "mobile_app/web/manifest.json",
+      "source_location": "L2",
+      "id": "web_manifest_name",
+      "community": 8,
+      "norm_label": "name"
+    },
+    {
+      "label": "short_name",
+      "file_type": "code",
+      "source_file": "mobile_app/web/manifest.json",
+      "source_location": "L3",
+      "id": "web_manifest_short_name",
+      "community": 8,
+      "norm_label": "short_name"
+    },
+    {
+      "label": "start_url",
+      "file_type": "code",
+      "source_file": "mobile_app/web/manifest.json",
+      "source_location": "L4",
+      "id": "web_manifest_start_url",
+      "community": 8,
+      "norm_label": "start_url"
+    },
+    {
+      "label": "display",
+      "file_type": "code",
+      "source_file": "mobile_app/web/manifest.json",
+      "source_location": "L5",
+      "id": "web_manifest_display",
+      "community": 8,
+      "norm_label": "display"
+    },
+    {
+      "label": "background_color",
+      "file_type": "code",
+      "source_file": "mobile_app/web/manifest.json",
+      "source_location": "L6",
+      "id": "web_manifest_background_color",
+      "community": 8,
+      "norm_label": "background_color"
+    },
+    {
+      "label": "theme_color",
+      "file_type": "code",
+      "source_file": "mobile_app/web/manifest.json",
+      "source_location": "L7",
+      "id": "web_manifest_theme_color",
+      "community": 8,
+      "norm_label": "theme_color"
+    },
+    {
+      "label": "description",
+      "file_type": "code",
+      "source_file": "mobile_app/web/manifest.json",
+      "source_location": "L8",
+      "id": "web_manifest_description",
+      "community": 8,
+      "norm_label": "description"
+    },
+    {
+      "label": "orientation",
+      "file_type": "code",
+      "source_file": "mobile_app/web/manifest.json",
+      "source_location": "L9",
+      "id": "web_manifest_orientation",
+      "community": 8,
+      "norm_label": "orientation"
+    },
+    {
+      "label": "prefer_related_applications",
+      "file_type": "code",
+      "source_file": "mobile_app/web/manifest.json",
+      "source_location": "L10",
+      "id": "web_manifest_prefer_related_applications",
+      "community": 8,
+      "norm_label": "prefer_related_applications"
+    },
+    {
+      "label": "icons",
+      "file_type": "code",
+      "source_file": "mobile_app/web/manifest.json",
+      "source_location": "L11",
+      "id": "web_manifest_icons",
+      "community": 8,
+      "norm_label": "icons"
+    },
+    {
+      "label": "config.json",
+      "file_type": "code",
+      "source_file": "scraper/config.json",
+      "source_location": "L1",
+      "id": "scraper_config_json",
+      "community": 6,
+      "norm_label": "config.json"
+    },
+    {
+      "label": "base_url",
+      "file_type": "code",
+      "source_file": "scraper/config.json",
+      "source_location": "L2",
+      "id": "scraper_config_base_url",
+      "community": 6,
+      "norm_label": "base_url"
+    },
+    {
+      "label": "output_dir",
+      "file_type": "code",
+      "source_file": "scraper/config.json",
+      "source_location": "L3",
+      "id": "scraper_config_output_dir",
+      "community": 6,
+      "norm_label": "output_dir"
+    },
+    {
+      "label": "delay",
+      "file_type": "code",
+      "source_file": "scraper/config.json",
+      "source_location": "L4",
+      "id": "scraper_config_delay",
+      "community": 6,
+      "norm_label": "delay"
+    },
+    {
+      "label": "districts",
+      "file_type": "code",
+      "source_file": "scraper/config.json",
+      "source_location": "L5",
+      "id": "scraper_config_districts",
+      "community": 6,
+      "norm_label": "districts"
+    },
+    {
+      "label": "509",
+      "file_type": "code",
+      "source_file": "scraper/config.json",
+      "source_location": "L6",
+      "id": "scraper_config_districts_509",
+      "community": 6,
+      "norm_label": "509"
+    },
+    {
+      "label": "508",
+      "file_type": "code",
+      "source_file": "scraper/config.json",
+      "source_location": "L7",
+      "id": "scraper_config_districts_508",
+      "community": 6,
+      "norm_label": "508"
+    },
+    {
+      "label": "507",
+      "file_type": "code",
+      "source_file": "scraper/config.json",
+      "source_location": "L8",
+      "id": "scraper_config_districts_507",
+      "community": 6,
+      "norm_label": "507"
+    },
+    {
+      "label": "514",
+      "file_type": "code",
+      "source_file": "scraper/config.json",
+      "source_location": "L9",
+      "id": "scraper_config_districts_514",
+      "community": 6,
+      "norm_label": "514"
+    },
+    {
+      "label": "505",
+      "file_type": "code",
+      "source_file": "scraper/config.json",
+      "source_location": "L10",
+      "id": "scraper_config_districts_505",
+      "community": 6,
+      "norm_label": "505"
+    },
+    {
+      "label": "516",
+      "file_type": "code",
+      "source_file": "scraper/config.json",
+      "source_location": "L11",
+      "id": "scraper_config_districts_516",
+      "community": 6,
+      "norm_label": "516"
+    },
+    {
+      "label": "520",
+      "file_type": "code",
+      "source_file": "scraper/config.json",
+      "source_location": "L12",
+      "id": "scraper_config_districts_520",
+      "community": 6,
+      "norm_label": "520"
+    },
+    {
+      "label": "526",
+      "file_type": "code",
+      "source_file": "scraper/config.json",
+      "source_location": "L13",
+      "id": "scraper_config_districts_526",
+      "community": 6,
+      "norm_label": "526"
+    },
+    {
+      "label": "504",
+      "file_type": "code",
+      "source_file": "scraper/config.json",
+      "source_location": "L14",
+      "id": "scraper_config_districts_504",
+      "community": 6,
+      "norm_label": "504"
+    },
+    {
+      "label": "502",
+      "file_type": "code",
+      "source_file": "scraper/config.json",
+      "source_location": "L15",
+      "id": "scraper_config_districts_502",
+      "community": 6,
+      "norm_label": "502"
+    },
+    {
+      "label": "main.py",
+      "file_type": "code",
+      "source_file": "scraper/main.py",
+      "source_location": "L1",
+      "id": "scraper_main_py",
+      "community": 13,
+      "norm_label": "main.py"
+    },
+    {
+      "label": "VoterScraper",
+      "file_type": "code",
+      "source_file": "scraper/main.py",
+      "source_location": "L11",
+      "id": "scraper_main_voterscraper",
+      "community": 13,
+      "norm_label": "voterscraper"
+    },
+    {
+      "label": ".__init__()",
+      "file_type": "code",
+      "source_file": "scraper/main.py",
+      "source_location": "L12",
+      "id": "scraper_main_voterscraper_init",
+      "community": 13,
+      "norm_label": ".__init__()"
+    },
+    {
+      "label": ".get_initial_token()",
+      "file_type": "code",
+      "source_file": "scraper/main.py",
+      "source_location": "L26",
+      "id": "scraper_main_voterscraper_get_initial_token",
+      "community": 13,
+      "norm_label": ".get_initial_token()"
+    },
+    {
+      "label": ".download_pdf()",
+      "file_type": "code",
+      "source_file": "scraper/main.py",
+      "source_location": "L33",
+      "id": "scraper_main_voterscraper_download_pdf",
+      "community": 13,
+      "norm_label": ".download_pdf()"
+    },
+    {
+      "label": ".run()",
+      "file_type": "code",
+      "source_file": "scraper/main.py",
+      "source_location": "L48",
+      "id": "scraper_main_voterscraper_run",
+      "community": 13,
+      "norm_label": ".run()"
+    },
+    {
+      "label": "batch_upload.py",
+      "file_type": "code",
+      "source_file": "scripts/batch_upload.py",
+      "source_location": "L1",
+      "id": "scripts_batch_upload_py",
+      "community": 31,
+      "norm_label": "batch_upload.py"
+    },
+    {
+      "label": "main()",
+      "file_type": "code",
+      "source_file": "scripts/batch_upload.py",
+      "source_location": "L10",
+      "id": "scripts_batch_upload_main",
+      "community": 31,
+      "norm_label": "main()"
+    },
+    {
+      "label": "full_reset.py",
+      "file_type": "code",
+      "source_file": "scripts/full_reset.py",
+      "source_location": "L1",
+      "id": "scripts_full_reset_py",
+      "community": 32,
+      "norm_label": "full_reset.py"
+    },
+    {
+      "label": "full_reset()",
+      "file_type": "code",
+      "source_file": "scripts/full_reset.py",
+      "source_location": "L10",
+      "id": "scripts_full_reset_full_reset",
+      "community": 32,
+      "norm_label": "full_reset()"
+    },
+    {
+      "label": "upload_all.ps1",
+      "file_type": "code",
+      "source_file": "scripts/upload_all.ps1",
+      "source_location": "L1",
+      "id": "scripts_upload_all_ps1",
+      "community": 50,
+      "norm_label": "upload_all.ps1"
+    }
+  ],
+  "links": [
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "debug_db.py",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "debug_db_py",
+      "target": "ocr_debug_db_check_db",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "debug_db.py",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "debug_db_py",
+      "target": "db_models_extractionjob",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "debug_db.py",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "debug_db_py",
+      "target": "db_models_voter",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "debug_db.py",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "debug_db_py",
+      "target": "db_models_jobstatus",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "evaluation_report.json",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "evaluation_report_json",
+      "target": "ocr_evaluation_report_sample_1_json",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "evaluation_report.json",
+      "source_location": "L109",
+      "weight": 1.0,
+      "source": "evaluation_report_json",
+      "target": "ocr_evaluation_report_sample_2_json",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "evaluation_report.json",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "ocr_evaluation_report_sample_1_json",
+      "target": "ocr_evaluation_report_sample_1_json_booth_accuracy",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "evaluation_report.json",
+      "source_location": "L29",
+      "weight": 1.0,
+      "source": "ocr_evaluation_report_sample_1_json",
+      "target": "ocr_evaluation_report_sample_1_json_record_accuracy",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "evaluation_report.json",
+      "source_location": "L35",
+      "weight": 1.0,
+      "source": "ocr_evaluation_report_sample_1_json",
+      "target": "ocr_evaluation_report_sample_1_json_overall_avg_cer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "evaluation_report.json",
+      "source_location": "L36",
+      "weight": 1.0,
+      "source": "ocr_evaluation_report_sample_1_json",
+      "target": "ocr_evaluation_report_sample_1_json_details",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "evaluation_report.json",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "ocr_evaluation_report_sample_1_json_booth_accuracy",
+      "target": "ocr_evaluation_report_booth_accuracy_booth_name",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "evaluation_report.json",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "ocr_evaluation_report_sample_1_json_booth_accuracy",
+      "target": "ocr_evaluation_report_booth_accuracy_booth_no",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "evaluation_report.json",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "ocr_evaluation_report_sample_1_json_booth_accuracy",
+      "target": "ocr_evaluation_report_booth_accuracy_ac_name",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "evaluation_report.json",
+      "source_location": "L22",
+      "weight": 1.0,
+      "source": "ocr_evaluation_report_sample_1_json_booth_accuracy",
+      "target": "ocr_evaluation_report_booth_accuracy_ac_no",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "evaluation_report.json",
+      "source_location": "L112",
+      "weight": 1.0,
+      "source": "ocr_evaluation_report_booth_accuracy_booth_name",
+      "target": "ocr_evaluation_report_booth_name_match",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "evaluation_report.json",
+      "source_location": "L113",
+      "weight": 1.0,
+      "source": "ocr_evaluation_report_booth_accuracy_booth_name",
+      "target": "ocr_evaluation_report_booth_name_cer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "evaluation_report.json",
+      "source_location": "L114",
+      "weight": 1.0,
+      "source": "ocr_evaluation_report_booth_accuracy_booth_name",
+      "target": "ocr_evaluation_report_booth_name_expected",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "evaluation_report.json",
+      "source_location": "L115",
+      "weight": 1.0,
+      "source": "ocr_evaluation_report_booth_accuracy_booth_name",
+      "target": "ocr_evaluation_report_booth_name_actual",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "evaluation_report.json",
+      "source_location": "L111",
+      "weight": 1.0,
+      "source": "ocr_evaluation_report_sample_2_json_booth_accuracy",
+      "target": "ocr_evaluation_report_booth_accuracy_booth_name",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "evaluation_report.json",
+      "source_location": "L118",
+      "weight": 1.0,
+      "source": "ocr_evaluation_report_booth_accuracy_booth_no",
+      "target": "ocr_evaluation_report_booth_no_match",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "evaluation_report.json",
+      "source_location": "L119",
+      "weight": 1.0,
+      "source": "ocr_evaluation_report_booth_accuracy_booth_no",
+      "target": "ocr_evaluation_report_booth_no_cer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "evaluation_report.json",
+      "source_location": "L120",
+      "weight": 1.0,
+      "source": "ocr_evaluation_report_booth_accuracy_booth_no",
+      "target": "ocr_evaluation_report_booth_no_expected",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "evaluation_report.json",
+      "source_location": "L121",
+      "weight": 1.0,
+      "source": "ocr_evaluation_report_booth_accuracy_booth_no",
+      "target": "ocr_evaluation_report_booth_no_actual",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "evaluation_report.json",
+      "source_location": "L117",
+      "weight": 1.0,
+      "source": "ocr_evaluation_report_sample_2_json_booth_accuracy",
+      "target": "ocr_evaluation_report_booth_accuracy_booth_no",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "evaluation_report.json",
+      "source_location": "L124",
+      "weight": 1.0,
+      "source": "ocr_evaluation_report_booth_accuracy_ac_name",
+      "target": "ocr_evaluation_report_ac_name_match",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "evaluation_report.json",
+      "source_location": "L125",
+      "weight": 1.0,
+      "source": "ocr_evaluation_report_booth_accuracy_ac_name",
+      "target": "ocr_evaluation_report_ac_name_cer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "evaluation_report.json",
+      "source_location": "L126",
+      "weight": 1.0,
+      "source": "ocr_evaluation_report_booth_accuracy_ac_name",
+      "target": "ocr_evaluation_report_ac_name_expected",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "evaluation_report.json",
+      "source_location": "L127",
+      "weight": 1.0,
+      "source": "ocr_evaluation_report_booth_accuracy_ac_name",
+      "target": "ocr_evaluation_report_ac_name_actual",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "evaluation_report.json",
+      "source_location": "L123",
+      "weight": 1.0,
+      "source": "ocr_evaluation_report_sample_2_json_booth_accuracy",
+      "target": "ocr_evaluation_report_booth_accuracy_ac_name",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "evaluation_report.json",
+      "source_location": "L130",
+      "weight": 1.0,
+      "source": "ocr_evaluation_report_booth_accuracy_ac_no",
+      "target": "ocr_evaluation_report_ac_no_match",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "evaluation_report.json",
+      "source_location": "L131",
+      "weight": 1.0,
+      "source": "ocr_evaluation_report_booth_accuracy_ac_no",
+      "target": "ocr_evaluation_report_ac_no_cer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "evaluation_report.json",
+      "source_location": "L132",
+      "weight": 1.0,
+      "source": "ocr_evaluation_report_booth_accuracy_ac_no",
+      "target": "ocr_evaluation_report_ac_no_expected",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "evaluation_report.json",
+      "source_location": "L133",
+      "weight": 1.0,
+      "source": "ocr_evaluation_report_booth_accuracy_ac_no",
+      "target": "ocr_evaluation_report_ac_no_actual",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "evaluation_report.json",
+      "source_location": "L129",
+      "weight": 1.0,
+      "source": "ocr_evaluation_report_sample_2_json_booth_accuracy",
+      "target": "ocr_evaluation_report_booth_accuracy_ac_no",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "evaluation_report.json",
+      "source_location": "L30",
+      "weight": 1.0,
+      "source": "ocr_evaluation_report_sample_1_json_record_accuracy",
+      "target": "ocr_evaluation_report_record_accuracy_total_expected",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "evaluation_report.json",
+      "source_location": "L31",
+      "weight": 1.0,
+      "source": "ocr_evaluation_report_sample_1_json_record_accuracy",
+      "target": "ocr_evaluation_report_record_accuracy_total_extracted",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "evaluation_report.json",
+      "source_location": "L32",
+      "weight": 1.0,
+      "source": "ocr_evaluation_report_sample_1_json_record_accuracy",
+      "target": "ocr_evaluation_report_record_accuracy_fully_correct",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "evaluation_report.json",
+      "source_location": "L33",
+      "weight": 1.0,
+      "source": "ocr_evaluation_report_sample_1_json_record_accuracy",
+      "target": "ocr_evaluation_report_record_accuracy_accuracy_rate",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "evaluation_report.json",
+      "source_location": "L137",
+      "weight": 1.0,
+      "source": "ocr_evaluation_report_sample_2_json_record_accuracy",
+      "target": "ocr_evaluation_report_record_accuracy_total_expected",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "evaluation_report.json",
+      "source_location": "L138",
+      "weight": 1.0,
+      "source": "ocr_evaluation_report_sample_2_json_record_accuracy",
+      "target": "ocr_evaluation_report_record_accuracy_total_extracted",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "evaluation_report.json",
+      "source_location": "L139",
+      "weight": 1.0,
+      "source": "ocr_evaluation_report_sample_2_json_record_accuracy",
+      "target": "ocr_evaluation_report_record_accuracy_fully_correct",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "evaluation_report.json",
+      "source_location": "L140",
+      "weight": 1.0,
+      "source": "ocr_evaluation_report_sample_2_json_record_accuracy",
+      "target": "ocr_evaluation_report_record_accuracy_accuracy_rate",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "evaluation_report.json",
+      "source_location": "L110",
+      "weight": 1.0,
+      "source": "ocr_evaluation_report_sample_2_json",
+      "target": "ocr_evaluation_report_sample_2_json_booth_accuracy",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "evaluation_report.json",
+      "source_location": "L136",
+      "weight": 1.0,
+      "source": "ocr_evaluation_report_sample_2_json",
+      "target": "ocr_evaluation_report_sample_2_json_record_accuracy",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "evaluation_report.json",
+      "source_location": "L142",
+      "weight": 1.0,
+      "source": "ocr_evaluation_report_sample_2_json",
+      "target": "ocr_evaluation_report_sample_2_json_overall_avg_cer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "evaluation_report.json",
+      "source_location": "L143",
+      "weight": 1.0,
+      "source": "ocr_evaluation_report_sample_2_json",
+      "target": "ocr_evaluation_report_sample_2_json_details",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "migrate_db.py",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "migrate_db_py",
+      "target": "ocr_migrate_db_migrate",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "reset_jobs.py",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "reset_jobs_py",
+      "target": "ocr_reset_jobs_reset_jobs",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "reset_jobs.py",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "reset_jobs_py",
+      "target": "db_models_extractionjob",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "reset_jobs.py",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "reset_jobs_py",
+      "target": "db_models_jobstatus",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "run_ocr_batch.py",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "run_ocr_batch_py",
+      "target": "ocr_run_ocr_batch_main",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "run_ocr_batch.py",
+      "source_location": "L48",
+      "weight": 1.0,
+      "source": "ocr_run_ocr_batch_main",
+      "target": "str"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "upload_benchmarks.py",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "upload_benchmarks_py",
+      "target": "ocr_upload_benchmarks_get_token",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "upload_benchmarks.py",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "upload_benchmarks_py",
+      "target": "ocr_upload_benchmarks_upload_file",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "upload_benchmarks.py",
+      "source_location": "L37",
+      "weight": 1.0,
+      "source": "upload_benchmarks_py",
+      "target": "ocr_upload_benchmarks_main",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "upload_benchmarks.py",
+      "source_location": "L39",
+      "weight": 1.0,
+      "source": "ocr_upload_benchmarks_main",
+      "target": "ocr_upload_benchmarks_get_token",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "upload_benchmarks.py",
+      "source_location": "L45",
+      "weight": 1.0,
+      "source": "ocr_upload_benchmarks_main",
+      "target": "ocr_upload_benchmarks_upload_file",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "verify_templates.py",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "verify_templates_py",
+      "target": "ocr_verify_templates_test_template_loading",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/admin/dashboard.py",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "backend_app_admin_dashboard_py",
+      "target": "admin_dashboard_check_password",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/admin/dashboard.py",
+      "source_location": "L51",
+      "weight": 1.0,
+      "source": "backend_app_admin_dashboard_py",
+      "target": "admin_dashboard_get_auth_headers",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/admin/dashboard.py",
+      "source_location": "L57",
+      "weight": 1.0,
+      "source": "backend_app_admin_dashboard_py",
+      "target": "admin_dashboard_get_db",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/admin/dashboard.py",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "admin_dashboard_rationale_16",
+      "target": "admin_dashboard_check_password",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/api/main.py",
+      "source_location": "L30",
+      "weight": 1.0,
+      "source": "backend_app_api_main_py",
+      "target": "api_main_startup_event",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/api/main.py",
+      "source_location": "L79",
+      "weight": 1.0,
+      "source": "backend_app_api_main_py",
+      "target": "api_main_login_for_access_token",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/api/main.py",
+      "source_location": "L94",
+      "weight": 1.0,
+      "source": "backend_app_api_main_py",
+      "target": "api_main_root",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/api/main.py",
+      "source_location": "L98",
+      "weight": 1.0,
+      "source": "backend_app_api_main_py",
+      "target": "api_main_upload_document",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/api/main.py",
+      "source_location": "L124",
+      "weight": 1.0,
+      "source": "backend_app_api_main_py",
+      "target": "api_main_search",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/api/main.py",
+      "source_location": "L136",
+      "weight": 1.0,
+      "source": "backend_app_api_main_py",
+      "target": "api_main_list_voters",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/api/main.py",
+      "source_location": "L143",
+      "weight": 1.0,
+      "source": "backend_app_api_main_py",
+      "target": "api_main_sync_voters",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "backend/app/api/main.py",
+      "source_location": "L41",
+      "weight": 1.0,
+      "source": "api_main_startup_event",
+      "target": "db_models_user"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "backend/app/api/main.py",
+      "source_location": "L43",
+      "weight": 1.0,
+      "source": "api_main_startup_event",
+      "target": "core_auth_get_password_hash"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "backend/app/api/main.py",
+      "source_location": "L54",
+      "weight": 1.0,
+      "source": "api_main_startup_event",
+      "target": "core_search_create_index"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "backend/app/api/main.py",
+      "source_location": "L81",
+      "weight": 1.0,
+      "source": "api_main_login_for_access_token",
+      "target": "core_auth_verify_password"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "backend/app/api/main.py",
+      "source_location": "L88",
+      "weight": 1.0,
+      "source": "api_main_login_for_access_token",
+      "target": "core_auth_create_access_token"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "backend/app/api/main.py",
+      "source_location": "L105",
+      "weight": 1.0,
+      "source": "api_main_upload_document",
+      "target": "str"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "backend/app/api/main.py",
+      "source_location": "L130",
+      "weight": 1.0,
+      "source": "api_main_search",
+      "target": "core_search_search_voters"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "backend/app/api/main.py",
+      "source_location": "L133",
+      "weight": 1.0,
+      "source": "api_main_search",
+      "target": "str"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/core/audit.py",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "backend_app_core_audit_py",
+      "target": "core_audit_log_action",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/core/audit.py",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "core_audit_rationale_14",
+      "target": "core_audit_log_action",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "backend/app/core/audit.py",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "core_audit_log_action",
+      "target": "db_models_auditlog"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/core/auth.py",
+      "source_location": "L30",
+      "weight": 1.0,
+      "source": "backend_app_core_auth_py",
+      "target": "core_auth_verify_password",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/core/auth.py",
+      "source_location": "L33",
+      "weight": 1.0,
+      "source": "backend_app_core_auth_py",
+      "target": "core_auth_get_password_hash",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/core/auth.py",
+      "source_location": "L36",
+      "weight": 1.0,
+      "source": "backend_app_core_auth_py",
+      "target": "core_auth_create_access_token",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/core/auth.py",
+      "source_location": "L46",
+      "weight": 1.0,
+      "source": "backend_app_core_auth_py",
+      "target": "core_auth_get_current_user",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/core/auth.py",
+      "source_location": "L65",
+      "weight": 1.0,
+      "source": "backend_app_core_auth_py",
+      "target": "core_auth_get_current_active_user",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/core/auth.py",
+      "source_location": "L70",
+      "weight": 1.0,
+      "source": "backend_app_core_auth_py",
+      "target": "core_auth_require_role",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/core/extractor.py",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "backend_app_core_extractor_py",
+      "target": "core_extractor_fieldextractor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/core/extractor.py",
+      "source_location": "L89",
+      "weight": 1.0,
+      "source": "backend_app_core_extractor_py",
+      "target": "core_extractor_extract_fields",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/core/extractor.py",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "core_extractor_fieldextractor",
+      "target": "core_extractor_fieldextractor_init",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/core/extractor.py",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "core_extractor_fieldextractor",
+      "target": "core_extractor_fieldextractor_clean_text",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/core/extractor.py",
+      "source_location": "L23",
+      "weight": 1.0,
+      "source": "core_extractor_fieldextractor",
+      "target": "core_extractor_fieldextractor_extract",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/core/extractor.py",
+      "source_location": "L90",
+      "weight": 1.0,
+      "source": "core_extractor_extract_fields",
+      "target": "core_extractor_fieldextractor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "backend/app/core/extractor.py",
+      "source_location": "L4",
+      "weight": 0.8,
+      "source": "core_extractor_fieldextractor",
+      "target": "ocr_base_ocrresult",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "backend/app/core/extractor.py",
+      "source_location": "L5",
+      "weight": 0.8,
+      "source": "core_extractor_fieldextractor",
+      "target": "core_templates_templateconfig",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/core/extractor.py",
+      "source_location": "L29",
+      "weight": 1.0,
+      "source": "core_extractor_fieldextractor_extract",
+      "target": "core_extractor_fieldextractor_clean_text",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/core/extractor.py",
+      "source_location": "L91",
+      "weight": 1.0,
+      "source": "core_extractor_extract_fields",
+      "target": "core_extractor_fieldextractor_extract",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/worker/tasks.py",
+      "source_location": "L71",
+      "weight": 1.0,
+      "source": "backend_app_worker_tasks_py",
+      "target": "core_extractor_extract_fields",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "backend/app/worker/tasks.py",
+      "source_location": "L72",
+      "weight": 1.0,
+      "source": "worker_tasks_process_document",
+      "target": "core_extractor_extract_fields"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/core/search.py",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "backend_app_core_search_py",
+      "target": "core_search_create_index",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/core/search.py",
+      "source_location": "L31",
+      "weight": 1.0,
+      "source": "backend_app_core_search_py",
+      "target": "core_search_index_voter",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/core/search.py",
+      "source_location": "L42",
+      "weight": 1.0,
+      "source": "backend_app_core_search_py",
+      "target": "core_search_search_voters",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/worker/tasks.py",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "backend_app_worker_tasks_py",
+      "target": "backend_app_core_search_py",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/core/search.py",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "core_search_rationale_11",
+      "target": "core_search_create_index",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/core/search.py",
+      "source_location": "L32",
+      "weight": 1.0,
+      "source": "core_search_rationale_32",
+      "target": "core_search_index_voter",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/worker/tasks.py",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "backend_app_worker_tasks_py",
+      "target": "core_search_index_voter",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "backend/app/worker/tasks.py",
+      "source_location": "L111",
+      "weight": 1.0,
+      "source": "worker_tasks_process_document",
+      "target": "core_search_index_voter"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/core/search.py",
+      "source_location": "L43",
+      "weight": 1.0,
+      "source": "core_search_rationale_43",
+      "target": "core_search_search_voters",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/core/templates.py",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "backend_app_core_templates_py",
+      "target": "core_templates_fieldconfig",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/core/templates.py",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "backend_app_core_templates_py",
+      "target": "core_templates_templateconfig",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/core/templates.py",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "backend_app_core_templates_py",
+      "target": "core_templates_templateengine",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/worker/tasks.py",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "backend_app_worker_tasks_py",
+      "target": "backend_app_core_templates_py",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/core/templates.py",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "core_templates_fieldconfig",
+      "target": "basemodel",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/core/templates.py",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "core_templates_templateconfig",
+      "target": "basemodel",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/schemas/extraction.py",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "schemas_extraction_voterbase",
+      "target": "basemodel",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/schemas/extraction.py",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "schemas_extraction_votersyncupdate",
+      "target": "basemodel",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/schemas/extraction.py",
+      "source_location": "L40",
+      "weight": 1.0,
+      "source": "schemas_extraction_extractionjobbase",
+      "target": "basemodel",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/worker/ocr/base.py",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "ocr_base_ocrresult",
+      "target": "basemodel",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/core/templates.py",
+      "source_location": "L35",
+      "weight": 1.0,
+      "source": "core_templates_templateengine_load_templates",
+      "target": "core_templates_templateconfig",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/core/templates.py",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "core_templates_templateengine",
+      "target": "core_templates_templateengine_init",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/core/templates.py",
+      "source_location": "L25",
+      "weight": 1.0,
+      "source": "core_templates_templateengine",
+      "target": "core_templates_templateengine_load_templates",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/core/templates.py",
+      "source_location": "L40",
+      "weight": 1.0,
+      "source": "core_templates_templateengine",
+      "target": "core_templates_templateengine_get_template",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/core/templates.py",
+      "source_location": "L43",
+      "weight": 1.0,
+      "source": "core_templates_templateengine",
+      "target": "core_templates_templateengine_list_templates",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/core/templates.py",
+      "source_location": "L23",
+      "weight": 1.0,
+      "source": "core_templates_templateengine_init",
+      "target": "core_templates_templateengine_load_templates",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/db/models.py",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "backend_app_db_models_py",
+      "target": "db_models_userrole",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/db/models.py",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "backend_app_db_models_py",
+      "target": "db_models_user",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/db/models.py",
+      "source_location": "L24",
+      "weight": 1.0,
+      "source": "backend_app_db_models_py",
+      "target": "db_models_jobstatus",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/db/models.py",
+      "source_location": "L32",
+      "weight": 1.0,
+      "source": "backend_app_db_models_py",
+      "target": "db_models_extractionjob",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/db/models.py",
+      "source_location": "L44",
+      "weight": 1.0,
+      "source": "backend_app_db_models_py",
+      "target": "db_models_voter",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/db/models.py",
+      "source_location": "L63",
+      "weight": 1.0,
+      "source": "backend_app_db_models_py",
+      "target": "db_models_auditlog",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/worker/tasks.py",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "backend_app_worker_tasks_py",
+      "target": "backend_app_db_models_py",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/db/models.py",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "db_models_userrole",
+      "target": "str",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "backend/app/worker/tasks.py",
+      "source_location": "L33",
+      "weight": 1.0,
+      "source": "worker_tasks_process_document",
+      "target": "str"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "benchmarks/scripts/evaluator.py",
+      "source_location": "L39",
+      "weight": 1.0,
+      "source": "scripts_evaluator_evaluate_fields",
+      "target": "str"
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/db/models.py",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "db_models_user",
+      "target": "base",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/db/models.py",
+      "source_location": "L32",
+      "weight": 1.0,
+      "source": "db_models_extractionjob",
+      "target": "base",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/db/models.py",
+      "source_location": "L44",
+      "weight": 1.0,
+      "source": "db_models_voter",
+      "target": "base",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/db/models.py",
+      "source_location": "L63",
+      "weight": 1.0,
+      "source": "db_models_auditlog",
+      "target": "base",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/worker/tasks.py",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "backend_app_worker_tasks_py",
+      "target": "db_models_jobstatus",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/worker/tasks.py",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "backend_app_worker_tasks_py",
+      "target": "db_models_extractionjob",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "backend/app/worker/tasks.py",
+      "source_location": "L37",
+      "weight": 1.0,
+      "source": "worker_tasks_process_document",
+      "target": "db_models_extractionjob"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/worker/tasks.py",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "backend_app_worker_tasks_py",
+      "target": "db_models_voter",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "backend/app/worker/tasks.py",
+      "source_location": "L90",
+      "weight": 1.0,
+      "source": "worker_tasks_process_document",
+      "target": "db_models_voter"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/db/session.py",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "backend_app_db_session_py",
+      "target": "db_session_get_db",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/worker/tasks.py",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "backend_app_worker_tasks_py",
+      "target": "backend_app_db_session_py",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/schemas/extraction.py",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "backend_app_schemas_extraction_py",
+      "target": "schemas_extraction_voterbase",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/schemas/extraction.py",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "backend_app_schemas_extraction_py",
+      "target": "schemas_extraction_votersyncupdate",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/schemas/extraction.py",
+      "source_location": "L24",
+      "weight": 1.0,
+      "source": "backend_app_schemas_extraction_py",
+      "target": "schemas_extraction_votercreate",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/schemas/extraction.py",
+      "source_location": "L28",
+      "weight": 1.0,
+      "source": "backend_app_schemas_extraction_py",
+      "target": "schemas_extraction_voterresponse",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/schemas/extraction.py",
+      "source_location": "L48",
+      "weight": 1.0,
+      "source": "backend_app_schemas_extraction_py",
+      "target": "schemas_extraction_config",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/schemas/extraction.py",
+      "source_location": "L40",
+      "weight": 1.0,
+      "source": "backend_app_schemas_extraction_py",
+      "target": "schemas_extraction_extractionjobbase",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/schemas/extraction.py",
+      "source_location": "L44",
+      "weight": 1.0,
+      "source": "backend_app_schemas_extraction_py",
+      "target": "schemas_extraction_extractionjobresponse",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/schemas/extraction.py",
+      "source_location": "L24",
+      "weight": 1.0,
+      "source": "schemas_extraction_votercreate",
+      "target": "schemas_extraction_voterbase",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/schemas/extraction.py",
+      "source_location": "L28",
+      "weight": 1.0,
+      "source": "schemas_extraction_voterresponse",
+      "target": "schemas_extraction_voterbase",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/schemas/extraction.py",
+      "source_location": "L44",
+      "weight": 1.0,
+      "source": "schemas_extraction_extractionjobresponse",
+      "target": "schemas_extraction_extractionjobbase",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/worker/tasks.py",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "backend_app_worker_tasks_py",
+      "target": "backend_app_worker_ocr_pipeline_py",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/worker/tasks.py",
+      "source_location": "L32",
+      "weight": 1.0,
+      "source": "backend_app_worker_tasks_py",
+      "target": "worker_tasks_process_document",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/worker/ocr/base.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "backend_app_worker_ocr_base_py",
+      "target": "abc",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/worker/ocr/base.py",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "backend_app_worker_ocr_base_py",
+      "target": "ocr_base_ocrresult",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/worker/ocr/base.py",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "backend_app_worker_ocr_base_py",
+      "target": "ocr_base_ocrengine",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/worker/ocr/base.py",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "backend_app_worker_ocr_base_py",
+      "target": "ocr_base_extract_text",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/worker/ocr/base.py",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "backend_app_worker_ocr_base_py",
+      "target": "ocr_base_get_name",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/worker/ocr/doctr_engine.py",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "backend_app_worker_ocr_doctr_engine_py",
+      "target": "backend_app_worker_ocr_base_py",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/worker/ocr/pipeline.py",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "backend_app_worker_ocr_pipeline_py",
+      "target": "backend_app_worker_ocr_base_py",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/worker/ocr/doctr_engine.py",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "backend_app_worker_ocr_doctr_engine_py",
+      "target": "ocr_base_ocrresult",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/worker/ocr/pipeline.py",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "backend_app_worker_ocr_pipeline_py",
+      "target": "ocr_base_ocrresult",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "backend/app/worker/ocr/doctr_engine.py",
+      "source_location": "L5",
+      "weight": 0.8,
+      "source": "ocr_doctr_engine_doctrengine",
+      "target": "ocr_base_ocrresult",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "backend/app/worker/ocr/pipeline.py",
+      "source_location": "L3",
+      "weight": 0.8,
+      "source": "ocr_pipeline_ocrpipeline",
+      "target": "ocr_base_ocrresult",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "backend/app/worker/ocr/doctr_engine.py",
+      "source_location": "L51",
+      "weight": 1.0,
+      "source": "ocr_doctr_engine_doctrengine_extract_text",
+      "target": "ocr_base_ocrresult"
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/worker/ocr/base.py",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "ocr_base_ocrengine",
+      "target": "abc",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "backend/app/worker/ocr/doctr_engine.py",
+      "source_location": "L5",
+      "weight": 0.8,
+      "source": "ocr_doctr_engine_doctrengine",
+      "target": "ocr_base_ocrengine",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/worker/ocr/doctr_engine.py",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "backend_app_worker_ocr_doctr_engine_py",
+      "target": "ocr_base_ocrengine",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/worker/ocr/doctr_engine.py",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "backend_app_worker_ocr_doctr_engine_py",
+      "target": "ocr_doctr_engine_doctrengine",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/worker/ocr/pipeline.py",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "backend_app_worker_ocr_pipeline_py",
+      "target": "backend_app_worker_ocr_doctr_engine_py",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/worker/ocr/doctr_engine.py",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "ocr_doctr_engine_doctrengine",
+      "target": "ocr_doctr_engine_doctrengine_init",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/worker/ocr/doctr_engine.py",
+      "source_location": "L23",
+      "weight": 1.0,
+      "source": "ocr_doctr_engine_doctrengine",
+      "target": "ocr_doctr_engine_doctrengine_extract_text",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/worker/ocr/doctr_engine.py",
+      "source_location": "L59",
+      "weight": 1.0,
+      "source": "ocr_doctr_engine_doctrengine",
+      "target": "ocr_doctr_engine_doctrengine_get_name",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/worker/ocr/pipeline.py",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "backend_app_worker_ocr_pipeline_py",
+      "target": "ocr_doctr_engine_doctrengine",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "backend/app/worker/ocr/pipeline.py",
+      "source_location": "L4",
+      "weight": 0.8,
+      "source": "ocr_pipeline_ocrpipeline",
+      "target": "ocr_doctr_engine_doctrengine",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "backend/app/worker/ocr/pipeline.py",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "ocr_pipeline_engine",
+      "target": "ocr_doctr_engine_doctrengine"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/worker/ocr/pipeline.py",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "backend_app_worker_ocr_pipeline_py",
+      "target": "ocr_pipeline_ocrpipeline",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/worker/ocr/pipeline.py",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "backend_app_worker_ocr_pipeline_py",
+      "target": "ocr_pipeline_engine",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/worker/ocr/pipeline.py",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "ocr_pipeline_ocrpipeline",
+      "target": "ocr_pipeline_ocrpipeline_init",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/worker/ocr/pipeline.py",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "ocr_pipeline_ocrpipeline",
+      "target": "ocr_pipeline_ocrpipeline_process",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/scripts/upload_file.py",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "backend_scripts_upload_file_py",
+      "target": "scripts_upload_file_upload_file",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/scripts/evaluator.py",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "benchmarks_scripts_evaluator_py",
+      "target": "scripts_evaluator_calculate_cer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/scripts/evaluator.py",
+      "source_location": "L33",
+      "weight": 1.0,
+      "source": "benchmarks_scripts_evaluator_py",
+      "target": "scripts_evaluator_evaluate_fields",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/scripts/evaluator.py",
+      "source_location": "L53",
+      "weight": 1.0,
+      "source": "benchmarks_scripts_evaluator_py",
+      "target": "scripts_evaluator_evaluate_file",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/scripts/evaluator.py",
+      "source_location": "L114",
+      "weight": 1.0,
+      "source": "benchmarks_scripts_evaluator_py",
+      "target": "scripts_evaluator_main",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/scripts/evaluator.py",
+      "source_location": "L43",
+      "weight": 1.0,
+      "source": "scripts_evaluator_evaluate_fields",
+      "target": "scripts_evaluator_calculate_cer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/scripts/evaluator.py",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "scripts_evaluator_rationale_7",
+      "target": "scripts_evaluator_calculate_cer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/scripts/evaluator.py",
+      "source_location": "L70",
+      "weight": 1.0,
+      "source": "scripts_evaluator_evaluate_file",
+      "target": "scripts_evaluator_evaluate_fields",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/scripts/evaluator.py",
+      "source_location": "L34",
+      "weight": 1.0,
+      "source": "scripts_evaluator_rationale_34",
+      "target": "scripts_evaluator_evaluate_fields",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/scripts/evaluator.py",
+      "source_location": "L132",
+      "weight": 1.0,
+      "source": "scripts_evaluator_main",
+      "target": "scripts_evaluator_evaluate_file",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile_app/.dart_tool/package_config.json",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "mobile_app_dart_tool_package_config_json",
+      "target": "dart_tool_package_config_configversion",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile_app/.dart_tool/package_config.json",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "mobile_app_dart_tool_package_config_json",
+      "target": "dart_tool_package_config_packages",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile_app/.dart_tool/package_config.json",
+      "source_location": "L419",
+      "weight": 1.0,
+      "source": "mobile_app_dart_tool_package_config_json",
+      "target": "dart_tool_package_config_generator",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile_app/.dart_tool/package_config.json",
+      "source_location": "L420",
+      "weight": 1.0,
+      "source": "mobile_app_dart_tool_package_config_json",
+      "target": "dart_tool_package_config_generatorversion",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile_app/.dart_tool/package_config.json",
+      "source_location": "L421",
+      "weight": 1.0,
+      "source": "mobile_app_dart_tool_package_config_json",
+      "target": "dart_tool_package_config_flutterroot",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile_app/.dart_tool/package_config.json",
+      "source_location": "L422",
+      "weight": 1.0,
+      "source": "mobile_app_dart_tool_package_config_json",
+      "target": "dart_tool_package_config_flutterversion",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile_app/.dart_tool/package_config.json",
+      "source_location": "L423",
+      "weight": 1.0,
+      "source": "mobile_app_dart_tool_package_config_json",
+      "target": "dart_tool_package_config_pubcache",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile_app/.dart_tool/package_graph.json",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "mobile_app_dart_tool_package_graph_json",
+      "target": "dart_tool_package_graph_roots",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile_app/.dart_tool/package_graph.json",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "mobile_app_dart_tool_package_graph_json",
+      "target": "dart_tool_package_graph_packages",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile_app/.dart_tool/package_graph.json",
+      "source_location": "L597",
+      "weight": 1.0,
+      "source": "mobile_app_dart_tool_package_graph_json",
+      "target": "dart_tool_package_graph_configversion",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "mobile_app/.dart_tool/dartpad/web_plugin_registrant.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "mobile_app_dart_tool_dartpad_web_plugin_registrant_dart",
+      "target": "d_project_2026_ocr_mobile_app_dart_tool_dartpad_web_plugin_registrant_dart_registerplugins"
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "mobile_app/.dart_tool/dartpad/web_plugin_registrant.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "mobile_app_dart_tool_dartpad_web_plugin_registrant_dart",
+      "target": "package_geolocator_web_geolocator_web_dart"
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "mobile_app/.dart_tool/dartpad/web_plugin_registrant.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "mobile_app_dart_tool_dartpad_web_plugin_registrant_dart",
+      "target": "package_flutter_web_plugins_flutter_web_plugins_dart"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile_app/.dart_tool/extension_discovery/vs_code.json",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "mobile_app_dart_tool_extension_discovery_vs_code_json",
+      "target": "extension_discovery_vs_code_version",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile_app/.dart_tool/extension_discovery/vs_code.json",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "mobile_app_dart_tool_extension_discovery_vs_code_json",
+      "target": "extension_discovery_vs_code_entries",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "mobile_app/.dart_tool/flutter_build/dart_plugin_registrant.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "mobile_app_dart_tool_flutter_build_dart_plugin_registrant_dart",
+      "target": "d_project_2026_ocr_mobile_app_dart_tool_flutter_build_dart_plugin_registrant_dart_pluginregistrant"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "mobile_app/.dart_tool/flutter_build/dart_plugin_registrant.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "mobile_app_dart_tool_flutter_build_dart_plugin_registrant_dart",
+      "target": "d_project_2026_ocr_mobile_app_dart_tool_flutter_build_dart_plugin_registrant_dart_register"
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "mobile_app/.dart_tool/flutter_build/dart_plugin_registrant.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "mobile_app_dart_tool_flutter_build_dart_plugin_registrant_dart",
+      "target": "dart_io"
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "mobile_app/.dart_tool/flutter_build/dart_plugin_registrant.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "mobile_app_dart_tool_flutter_build_dart_plugin_registrant_dart",
+      "target": "package_geolocator_android_geolocator_android_dart"
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "mobile_app/.dart_tool/flutter_build/dart_plugin_registrant.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "mobile_app_dart_tool_flutter_build_dart_plugin_registrant_dart",
+      "target": "package_path_provider_android_path_provider_android_dart"
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "mobile_app/.dart_tool/flutter_build/dart_plugin_registrant.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "mobile_app_dart_tool_flutter_build_dart_plugin_registrant_dart",
+      "target": "package_sqflite_android_sqflite_android_dart"
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "mobile_app/.dart_tool/flutter_build/dart_plugin_registrant.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "mobile_app_dart_tool_flutter_build_dart_plugin_registrant_dart",
+      "target": "package_geolocator_apple_geolocator_apple_dart"
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "mobile_app/.dart_tool/flutter_build/dart_plugin_registrant.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "mobile_app_dart_tool_flutter_build_dart_plugin_registrant_dart",
+      "target": "package_path_provider_foundation_path_provider_foundation_dart"
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "mobile_app/.dart_tool/flutter_build/dart_plugin_registrant.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "mobile_app_dart_tool_flutter_build_dart_plugin_registrant_dart",
+      "target": "package_sqflite_darwin_sqflite_darwin_dart"
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "mobile_app/.dart_tool/flutter_build/dart_plugin_registrant.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "mobile_app_dart_tool_flutter_build_dart_plugin_registrant_dart",
+      "target": "package_path_provider_linux_path_provider_linux_dart"
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "mobile_app/.dart_tool/flutter_build/dart_plugin_registrant.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "mobile_app_dart_tool_flutter_build_dart_plugin_registrant_dart",
+      "target": "package_path_provider_windows_path_provider_windows_dart"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile_app/.dart_tool/flutter_build/34a8251cb3bd348f2a67bb95d8f918ae/dart_build_result.json",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "mobile_app_dart_tool_flutter_build_34a8251cb3bd348f2a67bb95d8f918ae_dart_build_result_json",
+      "target": "34a8251cb3bd348f2a67bb95d8f918ae_dart_build_result_build_start",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile_app/.dart_tool/flutter_build/34a8251cb3bd348f2a67bb95d8f918ae/dart_build_result.json",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "mobile_app_dart_tool_flutter_build_34a8251cb3bd348f2a67bb95d8f918ae_dart_build_result_json",
+      "target": "34a8251cb3bd348f2a67bb95d8f918ae_dart_build_result_build_end",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile_app/.dart_tool/flutter_build/34a8251cb3bd348f2a67bb95d8f918ae/dart_build_result.json",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "mobile_app_dart_tool_flutter_build_34a8251cb3bd348f2a67bb95d8f918ae_dart_build_result_json",
+      "target": "34a8251cb3bd348f2a67bb95d8f918ae_dart_build_result_dependencies",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile_app/.dart_tool/flutter_build/34a8251cb3bd348f2a67bb95d8f918ae/dart_build_result.json",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "mobile_app_dart_tool_flutter_build_34a8251cb3bd348f2a67bb95d8f918ae_dart_build_result_json",
+      "target": "34a8251cb3bd348f2a67bb95d8f918ae_dart_build_result_code_assets",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile_app/.dart_tool/flutter_build/34a8251cb3bd348f2a67bb95d8f918ae/dart_build_result.json",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "mobile_app_dart_tool_flutter_build_34a8251cb3bd348f2a67bb95d8f918ae_dart_build_result_json",
+      "target": "34a8251cb3bd348f2a67bb95d8f918ae_dart_build_result_data_assets",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile_app/.dart_tool/flutter_build/34a8251cb3bd348f2a67bb95d8f918ae/native_assets.json",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "mobile_app_dart_tool_flutter_build_34a8251cb3bd348f2a67bb95d8f918ae_native_assets_json",
+      "target": "34a8251cb3bd348f2a67bb95d8f918ae_native_assets_format_version",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile_app/.dart_tool/flutter_build/34a8251cb3bd348f2a67bb95d8f918ae/native_assets.json",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "mobile_app_dart_tool_flutter_build_34a8251cb3bd348f2a67bb95d8f918ae_native_assets_json",
+      "target": "34a8251cb3bd348f2a67bb95d8f918ae_native_assets_native_assets",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile_app/.dart_tool/hooks_runner/objective_c/337ce265dc/dependencies.dependencies_hash_file.json",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "mobile_app_dart_tool_hooks_runner_objective_c_337ce265dc_dependencies_dependencies_hash_file_json",
+      "target": "337ce265dc_dependencies_dependencies_hash_file_file_system",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile_app/.dart_tool/hooks_runner/objective_c/337ce265dc/dependencies.dependencies_hash_file.json",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "mobile_app_dart_tool_hooks_runner_objective_c_337ce265dc_dependencies_dependencies_hash_file_json",
+      "target": "337ce265dc_dependencies_dependencies_hash_file_environment",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile_app/.dart_tool/hooks_runner/objective_c/337ce265dc/hook.dependencies_hash_file.json",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "mobile_app_dart_tool_hooks_runner_objective_c_337ce265dc_hook_dependencies_hash_file_json",
+      "target": "337ce265dc_hook_dependencies_hash_file_file_system",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile_app/.dart_tool/hooks_runner/objective_c/337ce265dc/hook.dependencies_hash_file.json",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "mobile_app_dart_tool_hooks_runner_objective_c_337ce265dc_hook_dependencies_hash_file_json",
+      "target": "337ce265dc_hook_dependencies_hash_file_environment",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile_app/.dart_tool/hooks_runner/objective_c/337ce265dc/input.json",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "mobile_app_dart_tool_hooks_runner_objective_c_337ce265dc_input_json",
+      "target": "337ce265dc_input_assets",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile_app/.dart_tool/hooks_runner/objective_c/337ce265dc/input.json",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "mobile_app_dart_tool_hooks_runner_objective_c_337ce265dc_input_json",
+      "target": "337ce265dc_input_config",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile_app/.dart_tool/hooks_runner/objective_c/337ce265dc/input.json",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "mobile_app_dart_tool_hooks_runner_objective_c_337ce265dc_input_json",
+      "target": "337ce265dc_input_out_dir_shared",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile_app/.dart_tool/hooks_runner/objective_c/337ce265dc/input.json",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "mobile_app_dart_tool_hooks_runner_objective_c_337ce265dc_input_json",
+      "target": "337ce265dc_input_out_file",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile_app/.dart_tool/hooks_runner/objective_c/337ce265dc/input.json",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "mobile_app_dart_tool_hooks_runner_objective_c_337ce265dc_input_json",
+      "target": "337ce265dc_input_package_name",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile_app/.dart_tool/hooks_runner/objective_c/337ce265dc/input.json",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "mobile_app_dart_tool_hooks_runner_objective_c_337ce265dc_input_json",
+      "target": "337ce265dc_input_package_root",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile_app/.dart_tool/hooks_runner/objective_c/337ce265dc/input.json",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "mobile_app_dart_tool_hooks_runner_objective_c_337ce265dc_input_json",
+      "target": "337ce265dc_input_user_defines",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile_app/.dart_tool/hooks_runner/objective_c/337ce265dc/input.json",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "337ce265dc_input_config",
+      "target": "337ce265dc_input_config_build_asset_types",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile_app/.dart_tool/hooks_runner/objective_c/337ce265dc/input.json",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "337ce265dc_input_config",
+      "target": "337ce265dc_input_config_linking_enabled",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile_app/.dart_tool/hooks_runner/objective_c/337ce265dc/output.json",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "mobile_app_dart_tool_hooks_runner_objective_c_337ce265dc_output_json",
+      "target": "337ce265dc_output_assets_for_linking",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile_app/.dart_tool/hooks_runner/objective_c/337ce265dc/output.json",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "mobile_app_dart_tool_hooks_runner_objective_c_337ce265dc_output_json",
+      "target": "337ce265dc_output_status",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile_app/.dart_tool/hooks_runner/objective_c/337ce265dc/output.json",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "mobile_app_dart_tool_hooks_runner_objective_c_337ce265dc_output_json",
+      "target": "337ce265dc_output_timestamp",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile_app/.dart_tool/hooks_runner/objective_c/7345e848bc/dependencies.dependencies_hash_file.json",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "mobile_app_dart_tool_hooks_runner_objective_c_7345e848bc_dependencies_dependencies_hash_file_json",
+      "target": "7345e848bc_dependencies_dependencies_hash_file_file_system",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile_app/.dart_tool/hooks_runner/objective_c/7345e848bc/dependencies.dependencies_hash_file.json",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "mobile_app_dart_tool_hooks_runner_objective_c_7345e848bc_dependencies_dependencies_hash_file_json",
+      "target": "7345e848bc_dependencies_dependencies_hash_file_environment",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile_app/.dart_tool/hooks_runner/objective_c/7345e848bc/hook.dependencies_hash_file.json",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "mobile_app_dart_tool_hooks_runner_objective_c_7345e848bc_hook_dependencies_hash_file_json",
+      "target": "7345e848bc_hook_dependencies_hash_file_file_system",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile_app/.dart_tool/hooks_runner/objective_c/7345e848bc/hook.dependencies_hash_file.json",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "mobile_app_dart_tool_hooks_runner_objective_c_7345e848bc_hook_dependencies_hash_file_json",
+      "target": "7345e848bc_hook_dependencies_hash_file_environment",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile_app/.dart_tool/hooks_runner/objective_c/7345e848bc/input.json",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "mobile_app_dart_tool_hooks_runner_objective_c_7345e848bc_input_json",
+      "target": "7345e848bc_input_assets",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile_app/.dart_tool/hooks_runner/objective_c/7345e848bc/input.json",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "mobile_app_dart_tool_hooks_runner_objective_c_7345e848bc_input_json",
+      "target": "7345e848bc_input_config",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile_app/.dart_tool/hooks_runner/objective_c/7345e848bc/input.json",
+      "source_location": "L24",
+      "weight": 1.0,
+      "source": "mobile_app_dart_tool_hooks_runner_objective_c_7345e848bc_input_json",
+      "target": "7345e848bc_input_out_dir_shared",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile_app/.dart_tool/hooks_runner/objective_c/7345e848bc/input.json",
+      "source_location": "L25",
+      "weight": 1.0,
+      "source": "mobile_app_dart_tool_hooks_runner_objective_c_7345e848bc_input_json",
+      "target": "7345e848bc_input_out_file",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile_app/.dart_tool/hooks_runner/objective_c/7345e848bc/input.json",
+      "source_location": "L26",
+      "weight": 1.0,
+      "source": "mobile_app_dart_tool_hooks_runner_objective_c_7345e848bc_input_json",
+      "target": "7345e848bc_input_package_name",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile_app/.dart_tool/hooks_runner/objective_c/7345e848bc/input.json",
+      "source_location": "L27",
+      "weight": 1.0,
+      "source": "mobile_app_dart_tool_hooks_runner_objective_c_7345e848bc_input_json",
+      "target": "7345e848bc_input_package_root",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile_app/.dart_tool/hooks_runner/objective_c/7345e848bc/input.json",
+      "source_location": "L28",
+      "weight": 1.0,
+      "source": "mobile_app_dart_tool_hooks_runner_objective_c_7345e848bc_input_json",
+      "target": "7345e848bc_input_user_defines",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile_app/.dart_tool/hooks_runner/objective_c/7345e848bc/input.json",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "7345e848bc_input_config",
+      "target": "7345e848bc_input_config_build_asset_types",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile_app/.dart_tool/hooks_runner/objective_c/7345e848bc/input.json",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "7345e848bc_input_config",
+      "target": "7345e848bc_input_config_extensions",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile_app/.dart_tool/hooks_runner/objective_c/7345e848bc/input.json",
+      "source_location": "L22",
+      "weight": 1.0,
+      "source": "7345e848bc_input_config",
+      "target": "7345e848bc_input_config_linking_enabled",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile_app/.dart_tool/hooks_runner/objective_c/7345e848bc/input.json",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "7345e848bc_input_config_extensions",
+      "target": "7345e848bc_input_extensions_code_assets",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile_app/.dart_tool/hooks_runner/objective_c/7345e848bc/input.json",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "7345e848bc_input_extensions_code_assets",
+      "target": "7345e848bc_input_code_assets_android",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile_app/.dart_tool/hooks_runner/objective_c/7345e848bc/input.json",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "7345e848bc_input_extensions_code_assets",
+      "target": "7345e848bc_input_code_assets_c_compiler",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile_app/.dart_tool/hooks_runner/objective_c/7345e848bc/input.json",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "7345e848bc_input_extensions_code_assets",
+      "target": "7345e848bc_input_code_assets_link_mode_preference",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile_app/.dart_tool/hooks_runner/objective_c/7345e848bc/input.json",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "7345e848bc_input_extensions_code_assets",
+      "target": "7345e848bc_input_code_assets_target_architecture",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile_app/.dart_tool/hooks_runner/objective_c/7345e848bc/input.json",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "7345e848bc_input_extensions_code_assets",
+      "target": "7345e848bc_input_code_assets_target_os",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile_app/.dart_tool/hooks_runner/objective_c/7345e848bc/input.json",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "7345e848bc_input_code_assets_android",
+      "target": "7345e848bc_input_android_target_ndk_api",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile_app/.dart_tool/hooks_runner/objective_c/7345e848bc/input.json",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "7345e848bc_input_code_assets_c_compiler",
+      "target": "7345e848bc_input_c_compiler_ar",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile_app/.dart_tool/hooks_runner/objective_c/7345e848bc/input.json",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "7345e848bc_input_code_assets_c_compiler",
+      "target": "7345e848bc_input_c_compiler_cc",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile_app/.dart_tool/hooks_runner/objective_c/7345e848bc/input.json",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "7345e848bc_input_code_assets_c_compiler",
+      "target": "7345e848bc_input_c_compiler_ld",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile_app/.dart_tool/hooks_runner/objective_c/7345e848bc/output.json",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "mobile_app_dart_tool_hooks_runner_objective_c_7345e848bc_output_json",
+      "target": "7345e848bc_output_assets_for_linking",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile_app/.dart_tool/hooks_runner/objective_c/7345e848bc/output.json",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "mobile_app_dart_tool_hooks_runner_objective_c_7345e848bc_output_json",
+      "target": "7345e848bc_output_status",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile_app/.dart_tool/hooks_runner/objective_c/7345e848bc/output.json",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "mobile_app_dart_tool_hooks_runner_objective_c_7345e848bc_output_json",
+      "target": "7345e848bc_output_timestamp",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile_app/android/app/src/main/java/io/flutter/plugins/GeneratedPluginRegistrant.java",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "mobile_app_android_app_src_main_java_io_flutter_plugins_generatedpluginregistrant_java",
+      "target": "plugins_generatedpluginregistrant_generatedpluginregistrant",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile_app/android/app/src/main/java/io/flutter/plugins/GeneratedPluginRegistrant.java",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "plugins_generatedpluginregistrant_generatedpluginregistrant",
+      "target": "plugins_generatedpluginregistrant_generatedpluginregistrant_registerwith",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile_app/android/app/src/main/kotlin/com/example/campaign_app/MainActivity.kt",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "mobile_app_android_app_src_main_kotlin_com_example_campaign_app_mainactivity_kt",
+      "target": "campaign_app_mainactivity_mainactivity",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "mobile_app/test/widget_test.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "mobile_app_test_widget_test_dart",
+      "target": "d_project_2026_ocr_mobile_app_test_widget_test_dart_main"
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "mobile_app/test/widget_test.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "mobile_app_test_widget_test_dart",
+      "target": "package_flutter_material_dart"
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "mobile_app/test/widget_test.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "mobile_app_test_widget_test_dart",
+      "target": "package_flutter_test_flutter_test_dart"
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "mobile_app/test/widget_test.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "mobile_app_test_widget_test_dart",
+      "target": "package_campaign_app_main_dart"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile_app/web/manifest.json",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "mobile_app_web_manifest_json",
+      "target": "web_manifest_name",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile_app/web/manifest.json",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "mobile_app_web_manifest_json",
+      "target": "web_manifest_short_name",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile_app/web/manifest.json",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "mobile_app_web_manifest_json",
+      "target": "web_manifest_start_url",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile_app/web/manifest.json",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "mobile_app_web_manifest_json",
+      "target": "web_manifest_display",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile_app/web/manifest.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "mobile_app_web_manifest_json",
+      "target": "web_manifest_background_color",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile_app/web/manifest.json",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "mobile_app_web_manifest_json",
+      "target": "web_manifest_theme_color",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile_app/web/manifest.json",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "mobile_app_web_manifest_json",
+      "target": "web_manifest_description",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile_app/web/manifest.json",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "mobile_app_web_manifest_json",
+      "target": "web_manifest_orientation",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile_app/web/manifest.json",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "mobile_app_web_manifest_json",
+      "target": "web_manifest_prefer_related_applications",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile_app/web/manifest.json",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "mobile_app_web_manifest_json",
+      "target": "web_manifest_icons",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scraper/config.json",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "scraper_config_json",
+      "target": "scraper_config_base_url",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scraper/config.json",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "scraper_config_json",
+      "target": "scraper_config_output_dir",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scraper/config.json",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "scraper_config_json",
+      "target": "scraper_config_delay",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scraper/config.json",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "scraper_config_json",
+      "target": "scraper_config_districts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scraper/config.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "scraper_config_districts",
+      "target": "scraper_config_districts_509",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scraper/config.json",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "scraper_config_districts",
+      "target": "scraper_config_districts_508",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scraper/config.json",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "scraper_config_districts",
+      "target": "scraper_config_districts_507",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scraper/config.json",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "scraper_config_districts",
+      "target": "scraper_config_districts_514",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scraper/config.json",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "scraper_config_districts",
+      "target": "scraper_config_districts_505",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scraper/config.json",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "scraper_config_districts",
+      "target": "scraper_config_districts_516",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scraper/config.json",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "scraper_config_districts",
+      "target": "scraper_config_districts_520",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scraper/config.json",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "scraper_config_districts",
+      "target": "scraper_config_districts_526",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scraper/config.json",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "scraper_config_districts",
+      "target": "scraper_config_districts_504",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scraper/config.json",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "scraper_config_districts",
+      "target": "scraper_config_districts_502",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scraper/main.py",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "scraper_main_py",
+      "target": "scraper_main_voterscraper",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "scraper/main.py",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "scraper_main_voterscraper",
+      "target": "scraper_main_voterscraper_init",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "scraper/main.py",
+      "source_location": "L26",
+      "weight": 1.0,
+      "source": "scraper_main_voterscraper",
+      "target": "scraper_main_voterscraper_get_initial_token",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "scraper/main.py",
+      "source_location": "L33",
+      "weight": 1.0,
+      "source": "scraper_main_voterscraper",
+      "target": "scraper_main_voterscraper_download_pdf",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "scraper/main.py",
+      "source_location": "L48",
+      "weight": 1.0,
+      "source": "scraper_main_voterscraper",
+      "target": "scraper_main_voterscraper_run",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scraper/main.py",
+      "source_location": "L49",
+      "weight": 1.0,
+      "source": "scraper_main_voterscraper_run",
+      "target": "scraper_main_voterscraper_get_initial_token",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scraper/main.py",
+      "source_location": "L86",
+      "weight": 1.0,
+      "source": "scraper_main_voterscraper_run",
+      "target": "scraper_main_voterscraper_download_pdf",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/batch_upload.py",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "scripts_batch_upload_py",
+      "target": "scripts_batch_upload_main",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/full_reset.py",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "scripts_full_reset_py",
+      "target": "scripts_full_reset_full_reset",
+      "confidence_score": 1.0
+    }
+  ],
+  "hyperedges": [],
+  "built_at_commit": "42dbc82358e6cf6eb030eea6165daacbc2f57de9"
+}

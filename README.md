@@ -1,64 +1,88 @@
-# OCR Data Factory & Voter Management System
+# Voter Tracking & OCR Campaign App
 
-This project is a comprehensive system designed to extract, process, and serve electoral data (voter rolls) for mobile applications. It specializes in parsing dense PDF voter lists (e.g., Maharashtra Voter Rolls) and transforming them into structured data.
+[![Python](https://img.shields.io/badge/Python-3.10+-blue?logo=python&logoColor=white)](https://www.python.org/)
+[![FastAPI](https://img.shields.io/badge/FastAPI-Framework-009688?logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
+[![React](https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=white)](https://react.dev/)
+[![Flutter](https://img.shields.io/badge/Flutter-SDK-02569B?logo=flutter&logoColor=white)](https://flutter.dev/)
+[![Docker](https://img.shields.io/badge/Docker-Containerized-2496ED?logo=docker&logoColor=white)](https://www.docker.com/)
 
-## Project Structure
+A professional, high-performance platform designed for political candidates and campaign teams. It transforms raw electoral data into actionable intelligence through specialized OCR pipelines, multi-lingual search, and real-time field tracking.
 
-- **`/backend` (Data Factory):** A Python/FastAPI application that handles the heavy lifting of OCR and data extraction.
-  - **OCR Pipeline:** Uses specialized ML models (migrating to docTR) to process dense document images.
-  - **Worker:** Celery-based background processing for PDF-to-Image conversion and OCR.
-  - **API:** Serves job status and search functionality.
-- **`/ocr-v2-staging` (Mobile Backend/Storefront):** A lightweight, read-only API built with Hono and Cloudflare Workers. It serves the processed data from Cloudflare D1 (SQLite) to mobile apps with sub-50ms latency.
-- **`/mobile_app`:** The Android and iOS client applications (Flutter) that consume the electoral data.
-- **`/scraper`:** Automation scripts for gathering raw PDF voter rolls.
-- **`/benchmarks`:** Tools for evaluating OCR accuracy against ground-truth data.
+## 🌟 Project Evolution
+Originally conceived as a general OCR tool for dense documents, this project has pivoted into a specialized **Election Campaign Application**. It solves the critical challenge of digitizing massive, fragmented voter lists and turning them into a searchable, actionable database for ground-level operations.
 
-## Architecture & Data Flow
+## ✨ Key Features
 
-1. **Extraction:** Raw PDFs are gathered and uploaded to MinIO storage.
-2. **Processing:** The `backend` worker picks up jobs, converts PDFs to images, and runs the OCR pipeline.
-3. **Structuring:** The `FieldExtractor` applies templates (YAML) to the raw OCR text to extract structured voter records (Name, ID, Age, Gender).
-4. **Handoff:** Structured data is exported (typically as SQLite) and imported into the `ocr-v2` Storefront's Cloudflare D1 database.
-5. **Consumption:** Mobile applications query the Storefront API for voter information.
+### 🔍 Precision OCR & Extraction
+- **DocTR Integration:** Utilizes [Mindee/docTR](https://github.com/mindee/doctr) with PyTorch for high-fidelity OCR on dense PDF voter rolls.
+- **Marathi (Devanagari) Support:** Specialized models from [IIT Bombay Indic-docTR](https://github.com/iitb-research-code/indic-doctr) ensure accurate parsing of regional language lists.
+- **Spatial Layout Sensitivity:** Preserves the structural integrity of voter list tables during extraction.
 
-## Tech Stack
+### 🗳️ Campaign Operations
+- **Multi-lingual Fuzzy Search:** Instant search across English and Marathi scripts using **Elasticsearch**, handling common misspellings and regional variations.
+- **Sentiment Tracking:** Real-time logging of voter sentiment (Supportive, Neutral, Opposed) during door-to-door visits.
+- **Household Mapping:** Automatically group voters by residence to optimize field worker routes.
+- **Human-in-the-Loop Review:** A dedicated admin interface for side-by-side verification of OCR results with spatial highlighting.
 
-- **Languages:** Python (Backend), TypeScript (Storefront/Mobile), Dart (Flutter).
-- **Frameworks:** FastAPI, Celery, Hono (Cloudflare Workers).
-- **Databases:** PostgreSQL (Backend metadata), Elasticsearch (Search), Cloudflare D1 (Storefront).
-- **Storage:** MinIO (S3-compatible).
-- **OCR:** docTR (Hugging Face / PyTorch).
+### 📱 Performance & Scale
+- **GPU Acceleration:** Optimized for **NVIDIA CUDA 12.1**, providing 10x-20x speedup in OCR inference.
+- **Edge API (v2):** A lightweight storefront built with **Hono** and **Cloudflare Workers** for sub-50ms search latency on mobile devices.
+- **Offline Capability:** Flutter mobile application with local SQLite storage for reliable field use in low-connectivity areas.
 
-## GPU Acceleration & Performance
+## 🏗️ Architecture
 
-The backend is optimized for **NVIDIA GPU** acceleration using CUDA 12.1. This provides a 10x-20x speedup in OCR inference, essential for processing dense voter lists.
+- **`/backend`**: Python/FastAPI "Data Factory" handling OCR, Celery task queues, and data structuring.
+- **`/frontend`**: React/Vite/TypeScript dashboard for managers and OCR verification.
+- **`/mobile_app`**: Flutter client for field workers.
+- **`/ocr-v2-staging`**: Cloudflare Workers + D1 (SQLite) for ultra-fast voter data serving.
+- **`/scraper`**: Modular suite for automating voter roll retrieval.
+- **`/benchmarks`**: Accuracy evaluation framework to prevent model regressions.
 
-### Requirements
-- Host machine with NVIDIA GPU and drivers.
-- **nvidia-container-toolkit** installed on the host.
+## 🛠️ Tech Stack
 
-### Setup & Run
-```powershell
-docker-compose up --build -d
-```
+| Layer | Technologies |
+| :--- | :--- |
+| **Backend** | Python, FastAPI, Celery, Redis, PostgreSQL |
+| **OCR Engine** | docTR (PyTorch), OpenCV, Indic-docTR |
+| **Search** | Elasticsearch |
+| **Frontend** | React 19, Vite, TypeScript, Zustand, TanStack Query |
+| **Mobile** | Flutter, SQLite (sqflite) |
+| **Edge API** | Hono, Cloudflare Workers, D1 |
+| **Infrastructure** | Docker, Nginx, Prometheus, MinIO |
 
-## Marathi (Devanagari) OCR Support
+## 🚀 Getting Started
 
-The system uses a specialized Devanagari recognition model for Marathi voter lists.
+### Prerequisites
+- Docker & Docker Compose
+- NVIDIA GPU + [nvidia-container-toolkit](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/install-guide.html) (for OCR acceleration)
 
-### Manual Model Integration
-To support Marathi-only documents, you must manually download the model weights:
+### Quick Start
+1. Clone the repository.
+2. Build and start the infrastructure:
+   ```bash
+   docker-compose up --build -d
+   ```
+3. Access the services:
+   - Backend API: `http://localhost:8000`
+   - Frontend Dashboard: `http://localhost:5173`
+   - Monitoring: `http://localhost:9090` (Prometheus)
+
+## 🇮🇳 Marathi (Devanagari) Setup
+For Marathi voter list support, you must manually integrate the specialized recognition model:
 1. Download `crnn_vgg16_bn_hindi.pt` from [IIT Bombay Indic-docTR](https://github.com/iitb-research-code/indic-doctr/releases/tag/model2).
 2. Create the directory: `backend/.cache/doctr/models/`.
 3. Place the file there and rename it to `devanagari_reco.pt`.
 4. Restart the worker: `docker-compose restart worker`.
 
-### Verification
-Check the logs to confirm the model is loaded correctly:
-```powershell
-docker-compose logs -f worker
-```
+## 📚 Attributions & References
+We leverage several world-class open-source projects:
+- **[Mindee/docTR](https://github.com/mindee/doctr)** - The core engine for our OCR pipeline.
+- **[IIT Bombay Indic-docTR](https://github.com/iitb-research-code/indic-doctr)** - Specialized Devanagari models.
+- **[FastAPI](https://fastapi.tiangolo.com/)** - High-performance Python API framework.
+- **[Flutter](https://flutter.dev/)** - Multi-platform mobile development.
 
-## Getting Started
+## ⚖️ License
+This project is licensed under the MIT License - see the LICENSE file for details.
 
-Refer to the `README.md` in each subdirectory for specific setup and deployment instructions.
+---
+*Empowering campaigns with data-driven precision.*

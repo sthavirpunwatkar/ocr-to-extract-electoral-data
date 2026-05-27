@@ -1,0 +1,29 @@
+{
+  "booth_info": {},
+  "records": [
+    {
+      "epic": "",
+      "name": "",
+      "relation_name": "बांजएजे",
+      "house_no": "णण",
+      "age": "485",
+      "gender": "थी"
+    },
+    {
+      "epic": "",
+      "name": "नाष",
+      "relation_name": "मतीचे",
+      "house_no": "",
+      "age": "45",
+      "gender": "थी"
+    },
+    {
+      "epic": "",
+      "name": "नाव",
+      "relation_name": "पतीचे",
+      "house_no": "मतदााचे",
+      "age": "15",
+      "gender": "धी"
+    }
+  ]
+}

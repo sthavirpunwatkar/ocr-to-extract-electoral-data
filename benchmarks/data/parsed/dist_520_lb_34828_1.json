@@ -1,0 +1,29 @@
+{
+  "booth_info": {},
+  "records": [
+    {
+      "epic": "",
+      "name": "",
+      "relation_name": "वठिलांचे",
+      "house_no": "एशबाविजेटि",
+      "age": "45",
+      "gender": "लिंग"
+    },
+    {
+      "epic": "",
+      "name": "गंतजुमाः",
+      "relation_name": "गिंदे",
+      "house_no": "",
+      "age": "48",
+      "gender": "बीं"
+    },
+    {
+      "epic": "",
+      "name": "नाव",
+      "relation_name": "जजींज",
+      "house_no": "",
+      "age": "38",
+      "gender": "धी"
+    }
+  ]
+}

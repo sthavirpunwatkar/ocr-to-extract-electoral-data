@@ -1,0 +1,29 @@
+{
+  "booth_info": {},
+  "records": [
+    {
+      "epic": "URC8120693",
+      "name": "ाईड",
+      "relation_name": "गाएंजेज",
+      "house_no": "",
+      "age": "45",
+      "gender": "थी"
+    },
+    {
+      "epic": "FHF1104694",
+      "name": "नष",
+      "relation_name": "गब्ोषा",
+      "house_no": "",
+      "age": "50",
+      "gender": "बीं"
+    },
+    {
+      "epic": "URC7651904",
+      "name": "नाव",
+      "relation_name": "वछिलांचे",
+      "house_no": "",
+      "age": "50",
+      "gender": "धी"
+    }
+  ]
+}
