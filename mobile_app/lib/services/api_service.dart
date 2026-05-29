@@ -3,6 +3,7 @@ import 'package:http/http.dart' as http;
 import '../models/voter.dart';
 
 class APIService {
+  static const String serverUrl = 'http://10.0.2.2:8000';
   final String baseUrl;
   static String? authToken; // Made static to persist across screen transitions if needed
 
@@ -20,16 +21,31 @@ class APIService {
     return headers;
   }
 
-  Future<List<Voter>> fetchVoters() async {
-    final response = await http.get(
-      Uri.parse('$baseUrl/voters'),
-      headers: _getHeaders(),
-    );
+  Future<List<Voter>> fetchVoters(int candidateId) async {
+    final uri = Uri.parse('$baseUrl/voters').replace(queryParameters: {
+      'candidate_id': candidateId.toString(),
+    });
+    final response = await http.get(uri, headers: _getHeaders());
     if (response.statusCode == 200) {
-      List jsonResponse = json.decode(response.body);
+      List jsonResponse = json.decode(utf8.decode(response.bodyBytes));
       return jsonResponse.map((voter) => Voter.fromJson(voter)).toList();
     } else {
       throw Exception('Failed to load voters');
+    }
+  }
+
+  Future<List<Voter>> searchVoters(String query, int candidateId) async {
+    final uri = Uri.parse('$baseUrl/search').replace(queryParameters: {
+      'q': query,
+      'candidate_id': candidateId.toString(),
+    });
+    final response = await http.get(uri, headers: _getHeaders());
+    if (response.statusCode == 200) {
+      final Map<String, dynamic> data = json.decode(utf8.decode(response.bodyBytes));
+      final List results = data['results'];
+      return results.map((voter) => Voter.fromJson(voter)).toList();
+    } else {
+      throw Exception('Failed to search voters');
     }
   }
 
@@ -53,7 +69,7 @@ class APIService {
     );
 
     if (response.statusCode == 200) {
-      return json.decode(response.body);
+      return json.decode(utf8.decode(response.bodyBytes));
     } else {
       throw Exception('Failed to sync voters');
     }

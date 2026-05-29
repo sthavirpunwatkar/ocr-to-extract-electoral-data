@@ -10,8 +10,10 @@ psycopg2-binary
 elasticsearch<9
 streamlit
 pandas
+openpyxl
 python-jose[cryptography]
-passlib[bcrypt]
+passlib
+bcrypt==3.2.2
 prometheus-fastapi-instrumentator
 prometheus-client
 PyYAML==6.0.2
@@ -24,3 +26,5 @@ opencv-python-headless==4.9.0.80
 pdf2image
 pillow
 indic-transliteration
+python-Levenshtein
+fuzzywuzzy

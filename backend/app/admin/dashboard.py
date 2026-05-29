@@ -162,7 +162,9 @@ else:
         # Index to Elasticsearch
         for voter in voters:
             index_voter(
+                id=voter.id,
                 voter_id=voter.voter_id,
+                candidate_id=job.candidate_id,
                 full_name=voter.full_name,
                 job_id=voter.job_id,
                 confidence=voter.confidence,

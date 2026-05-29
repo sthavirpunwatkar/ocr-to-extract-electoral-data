@@ -50,6 +50,7 @@ class _VoterDetailScreenState extends State<VoterDetailScreen> {
     }
 
     Position position = await Geolocator.getCurrentPosition();
+    if (!mounted) return;
     setState(() {
       _lat = position.latitude;
       _lng = position.longitude;
@@ -118,9 +119,9 @@ class _VoterDetailScreenState extends State<VoterDetailScreen> {
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceAround,
               children: [
-                _sentimentButton('Supportive', Colors.green, Icons.sentiment_very_satisfied),
-                _sentimentButton('Neutral', Colors.grey, Icons.sentiment_neutral),
-                _sentimentButton('Opposed', Colors.red, Icons.sentiment_very_dissatisfied),
+                Expanded(child: _sentimentButton('Supportive', Colors.green, Icons.sentiment_very_satisfied)),
+                Expanded(child: _sentimentButton('Neutral', Colors.grey, Icons.sentiment_neutral)),
+                Expanded(child: _sentimentButton('Opposed', Colors.red, Icons.sentiment_very_dissatisfied)),
               ],
             ),
             const SizedBox(height: 20),
@@ -176,7 +177,7 @@ class _VoterDetailScreenState extends State<VoterDetailScreen> {
           Container(
             padding: const EdgeInsets.all(12),
             decoration: BoxDecoration(
-              color: isSelected ? color : color.withOpacity(0.1),
+              color: isSelected ? color : color.withValues(alpha: 0.1),
               shape: BoxShape.circle,
               border: Border.all(color: color, width: 2),
             ),

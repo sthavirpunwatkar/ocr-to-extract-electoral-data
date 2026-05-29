@@ -1,4 +1,4 @@
-from sqlalchemy import Column, Integer, String, Float, DateTime, ForeignKey, Enum, Boolean
+from sqlalchemy import Column, Integer, String, Float, DateTime, ForeignKey, Enum, Boolean, Index
 from sqlalchemy.dialects.postgresql import JSONB
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.sql import func
@@ -19,7 +19,20 @@ class User(Base):
     username = Column(String, unique=True, index=True, nullable=False)
     hashed_password = Column(String, nullable=False)
     role = Column(Enum(UserRole), default=UserRole.FIELD_WORKER, nullable=False)
+    candidate_id = Column(Integer, ForeignKey("candidates.id"), nullable=True)
     is_active = Column(Boolean, default=True)
+
+class Candidate(Base):
+    __tablename__ = "candidates"
+    
+    id = Column(Integer, primary_key=True, index=True)
+    name = Column(String, nullable=False)
+    party_name = Column(String, nullable=True)
+    logo_url = Column(String, nullable=True)
+    profile_image_url = Column(String, nullable=True)
+    constituency_code = Column(String, unique=True, index=True, nullable=False)
+    created_at = Column(DateTime(timezone=True), server_default=func.now())
+    updated_at = Column(DateTime(timezone=True), onupdate=func.now())
 
 class JobStatus(enum.Enum):
     PENDING = "pending"
@@ -33,6 +46,7 @@ class ExtractionJob(Base):
     __tablename__ = "extraction_jobs"
 
     id = Column(String, primary_key=True)
+    candidate_id = Column(Integer, ForeignKey("candidates.id"), nullable=True)
     file_name = Column(String, nullable=False)
     status = Column(Enum(JobStatus), default=JobStatus.PENDING)
     confidence_score = Column(Float, nullable=True)
@@ -45,7 +59,8 @@ class Voter(Base):
     __tablename__ = "voters"
 
     id = Column(Integer, primary_key=True, index=True)
-    job_id = Column(String, ForeignKey("extraction_jobs.id"))
+    candidate_id = Column(Integer, ForeignKey("candidates.id"), nullable=True)
+    job_id = Column(String, ForeignKey("extraction_jobs.id"), index=True)
     voter_id = Column(String, index=True)
     full_name = Column(String)
     structured_data = Column(JSONB)  # Updated to JSONB
@@ -61,6 +76,10 @@ class Voter(Base):
     longitude = Column(Float, nullable=True)
     created_at = Column(DateTime(timezone=True), server_default=func.now())
     updated_at = Column(DateTime(timezone=True), server_default=func.now(), onupdate=func.now())
+
+    __table_args__ = (
+        Index('ix_voters_structured_data', 'structured_data', postgresql_using='gin'),
+    )
 
 class AuditLog(Base):
     __tablename__ = "audit_logs"

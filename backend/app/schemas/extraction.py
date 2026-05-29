@@ -2,11 +2,29 @@ from pydantic import BaseModel
 from typing import Optional, Dict, Any, List
 from datetime import datetime
 
+class CandidateBase(BaseModel):
+    name: str
+    party_name: Optional[str] = None
+    constituency_code: str
+
+class CandidateCreate(CandidateBase):
+    pass
+
+class CandidateResponse(CandidateBase):
+    id: int
+    logo_url: Optional[str] = None
+    profile_image_url: Optional[str] = None
+    created_at: datetime
+
+    class Config:
+        from_attributes = True
+
 class VoterBase(BaseModel):
     voter_id: str
     full_name: str
     structured_data: Dict[str, Any]
     confidence: float
+    image_url: Optional[str] = None
     status: Optional[str] = "Pending"
     sentiment: Optional[str] = None
     notes: Optional[str] = None

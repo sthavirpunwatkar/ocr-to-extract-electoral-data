@@ -5,7 +5,7 @@ import glob
 API_URL = "http://localhost:8000"
 USERNAME = "admin"
 PASSWORD = "admin123"
-FILES_PATTERN = "benchmarks/data/raw/*.pdf"
+FILES_PATTERN = "benchmarks/data/raw/**/*.pdf"
 
 def main():
     # Get token
@@ -21,7 +21,23 @@ def main():
     token = response.json()["access_token"]
     headers = {"Authorization": f"Bearer {token}"}
     
-    files = glob.glob(FILES_PATTERN)
+    # Get first candidate
+    candidates_response = requests.get(f"{API_URL}/candidates", headers=headers)
+    if candidates_response.status_code != 200 or not candidates_response.json():
+        # Create a default candidate if none exists
+        print("No candidates found, creating default...")
+        create_res = requests.post(
+            f"{API_URL}/candidates",
+            headers=headers,
+            json={"name": "Campaign 2026", "party_name": "Independent", "constituency_code": "MH01"}
+        )
+        candidate_id = create_res.json()["id"]
+    else:
+        candidate_id = candidates_response.json()[0]["id"]
+    
+    print(f"Using Candidate ID: {candidate_id}")
+    
+    files = glob.glob(FILES_PATTERN, recursive=True)
     print(f"Found {len(files)} files to upload.")
     
     for file_path in files:
@@ -31,6 +47,7 @@ def main():
             upload_response = requests.post(
                 f"{API_URL}/upload",
                 headers=headers,
+                params={"candidate_id": candidate_id},
                 files={"file": (file_name, f, "application/pdf")}
             )
         if upload_response.status_code == 200:

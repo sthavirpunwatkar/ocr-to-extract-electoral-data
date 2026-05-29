@@ -8,7 +8,7 @@ sys.path.append(os.path.join(os.getcwd(), 'backend'))
 
 # Set default cache dir for doctr if not set
 if not os.getenv("DOCTR_CACHE_DIR"):
-    os.environ["DOCTR_CACHE_DIR"] = os.path.join(os.getcwd(), 'backend', '.cache', 'doctr')
+    os.environ["DOCTR_CACHE_DIR"] = os.path.join(os.getcwd(), 'backend', 'doctr')
 
 from app.worker.ocr.pipeline import pipeline
 

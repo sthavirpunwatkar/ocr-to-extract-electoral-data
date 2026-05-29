@@ -6,6 +6,7 @@ class OCRResult(BaseModel):
     text: str
     confidence: float
     box: List[List[float]]  # [x, y] coordinates for 4 corners
+    page_num: int = 0
     metadata: Dict[str, Any] = {}
 
 class OCREngine(ABC):

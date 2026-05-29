@@ -27,15 +27,15 @@ class Voter {
 
   factory Voter.fromJson(Map<String, dynamic> json) {
     return Voter(
-      id: json['id'],
+      id: json['id'] ?? 0,
       voterId: json['voter_id'] ?? '',
       fullName: json['full_name'] ?? '',
       status: json['status'] ?? 'Pending',
       sentiment: json['sentiment'],
       notes: json['notes'],
       version: json['version'] ?? 1,
-      latitude: json['latitude'],
-      longitude: json['longitude'],
+      latitude: json['latitude']?.toDouble(),
+      longitude: json['longitude']?.toDouble(),
       updatedAt: json['updated_at'],
       isSynced: true,
     );
@@ -59,15 +59,15 @@ class Voter {
 
   factory Voter.fromMap(Map<String, dynamic> map) {
     return Voter(
-      id: map['id'],
-      voterId: map['voter_id'],
-      fullName: map['full_name'],
-      status: map['status'],
+      id: map['id'] ?? 0,
+      voterId: map['voter_id'] ?? '',
+      fullName: map['full_name'] ?? '',
+      status: map['status'] ?? 'Pending',
       sentiment: map['sentiment'],
       notes: map['notes'],
-      version: map['version'],
-      latitude: map['latitude'],
-      longitude: map['longitude'],
+      version: map['version'] ?? 1,
+      latitude: map['latitude']?.toDouble(),
+      longitude: map['longitude']?.toDouble(),
       updatedAt: map['updated_at'],
       isSynced: map['is_synced'] == 1,
     );

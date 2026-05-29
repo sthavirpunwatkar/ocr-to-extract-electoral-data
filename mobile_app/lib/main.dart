@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
 import 'screens/login_screen.dart';
 
+const String appTitle = String.fromEnvironment('APP_TITLE', defaultValue: 'Campaign Connect');
+const String primaryColorHex = String.fromEnvironment('PRIMARY_COLOR', defaultValue: '0xFF003366');
+
 void main() {
   runApp(const CampaignApp());
 }
@@ -10,15 +13,16 @@ class CampaignApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final int primaryColorInt = int.parse(primaryColorHex);
     return MaterialApp(
-      title: 'Campaign Connect',
+      title: appTitle,
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        primaryColor: const Color(0xFF003366),
+        primaryColor: Color(primaryColorInt),
         useMaterial3: true,
         colorScheme: ColorScheme.fromSeed(
-          seedColor: const Color(0xFF003366),
-          primary: const Color(0xFF003366),
+          seedColor: Color(primaryColorInt),
+          primary: Color(primaryColorInt),
           secondary: const Color(0xFFFF9933),
         ),
       ),
